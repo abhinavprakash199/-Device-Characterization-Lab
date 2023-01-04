@@ -67,7 +67,7 @@
 
 
 # <h1 id="header-6">References</h1>
-- [VLSI System Design](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
+- [**SMU** - Keithley SourceMeter 2636B Manuals](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
 - 
 # <h1 id="header-7">Acknowledgement</h1>
 - [](https://www.iith.ac.in/ee/naresh/)
