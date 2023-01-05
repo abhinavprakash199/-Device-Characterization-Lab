@@ -32,10 +32,11 @@
 
 ### How measurments are happening in  SMU
 
-### Why sometimes we get differnet output graphs even if we use same instrument and device.
+### Why sometimes we get differnet output graphs even if we use same instrument and same device.
 #### 1. Source/Measurment Function 
 #### 2. Range setting in SMU
 #### 3. Connection between SMU and Device
+#### NPCL/ Integration Time 
 - BNC Cable vs Triax Cable vs SMA Cable 
 
 | BNC Cable | Triax Cable | SMA Cable |
@@ -48,12 +49,29 @@
 ### Experiment when we use triax and BNC coverter in series.
 
 
+### Why sometimes we get differnet output graphs even if we use same instrument, same cable and same device.
+Reason behind this is **Charge trapping** - Charge trapping refers to the localization of the electron or hole at lattice defects within the crystal structure or at unsaturated bonds on the nanocrystal surface atoms. The charge can become stabilized in these sites, called trapping states, and, therefore, trapping reduces charge mobility in nanocrystal arrays.
+
+
 
  
 ### Measurment vs Accuracy
 ### Power line Cycle
+NPLC (Number of Power Line Cycles) NPLC stands for Number of Power Line Cycles. NPLC is a measurement term that indicates the accuracy with which a voltage or current is displayed on a device such as a digital multimeter. When determining the value of a DC signal, AC noise is often present by power lines.
+
+NPLC is number of power line cycles.  DC Voltage, DC Current, and Resistance measurement resolution, accuracy is reduced by power line induced AC noise.  Using NPLC of 1 or greater increases AC noise integration time, and increases measurement resolution and accuracy, however the trade-off is slower measurement rates.  For highest measurement accuracy NPLC of 100 is recommended.
 ### How to find standard deviation of output
+
 ### How to measure low resistance 
+To measure the low value resistance such as 1 milli-ohm the resistance of interconnects will create the problem.
+For the measurement of low resistances, the following methods are used :−
+
+- Ammeter-Voltmeter Method
+- Potentiometer Method
+- Kelvin Double Bridge Method
+
+[Refrence](https://www.tutorialspoint.com/how-to-measure-low-resistances-resistance-measurement-methods)
+
 
 
 
