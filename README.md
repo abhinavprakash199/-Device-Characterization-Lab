@@ -48,7 +48,6 @@ NPLC is number of power line cycles.  DC Voltage, DC Current, and Resistance mea
 |:----------:|:-------------------:|:---------------------:|
 | The BNC connector (initialism of "Bayonet Neill–Concelman") is a miniature quick connect/disconnect radio frequency connector used for coaxial cable. | Triaxial cable, often referred to as triax for short, is a type of electrical cable similar to coaxial cable, but with the addition of an extra layer of insulation and a second conducting sheath. It provides greater bandwidth and rejection of interference than coax, but is more expensive. | The abbreviation SMA stands for “Sub-Miniature Version A”. In order to maintain the transmission speed of coaxial cables, both versions of the corresponding connectors have a coaxial design. They therefore have good electrical shielding and low electromagnetic |
 |![download (89)](https://user-images.githubusercontent.com/120498080/210628269-9c35f866-2aaf-4dc9-9df3-059afdc9676e.jpeg)|![Belden-Triax-Cables-Family-Fanout](https://user-images.githubusercontent.com/120498080/210628528-e8cf3cb5-8a50-48e1-bc87-28370a057a6b.jpg)|![download (90)](https://user-images.githubusercontent.com/120498080/210628760-f5d77605-e7d7-4be8-bcf5-56107b89d6d6.jpeg)
-|
 
 <h1 id="header-1_2">Experiement 1 - Measurement of accuracy in low resistance measurement</h1>
 
