@@ -63,6 +63,7 @@ NPLC is number of power line cycles.  DC Voltage, DC Current, and Resistance mea
 4.	SMU (Keithley 2450)
 
 **Procedure:**
+
 Step 1: Identify the color codes and find out the resistance value.
 
 
@@ -125,7 +126,7 @@ end
 2.Faced error in measuring resistance using TRIAX cable to measure resistance.
 
 
-### Experiment when we use triax and BNC coverter in series.
+### Experiment when we use triax and BNC coverter.
 
 
 ## <h1 id="header-1_3">Familiarization to Oscilloscope</h1> 
