@@ -43,7 +43,7 @@ NPLC (Number of Power Line Cycles) NPLC stands for Number of Power Line Cycles. 
 
 NPLC is number of power line cycles.  DC Voltage, DC Current, and Resistance measurement resolution, accuracy is reduced by power line induced AC noise.  Using NPLC of 1 or greater increases AC noise integration time, and increases measurement resolution and accuracy, however the trade-off is slower measurement rates.  For highest measurement accuracy NPLC of 100 is recommended.
 
-
+### BNC Cable vs Triax Cable vs SMA Cable 
 | BNC Cable | Triax Cable | SMA Cable |
 |:----------:|:-------------------:|:---------------------:|
 | The BNC connector (initialism of "Bayonet Neill–Concelman") is a miniature quick connect/disconnect radio frequency connector used for coaxial cable. | Triaxial cable, often referred to as triax for short, is a type of electrical cable similar to coaxial cable, but with the addition of an extra layer of insulation and a second conducting sheath. It provides greater bandwidth and rejection of interference than coax, but is more expensive. | The abbreviation SMA stands for “Sub-Miniature Version A”. In order to maintain the transmission speed of coaxial cables, both versions of the corresponding connectors have a coaxial design. They therefore have good electrical shielding and low electromagnetic |
@@ -67,27 +67,58 @@ Step 1: Identify the color codes and find out the resistance value.
 
  ![image](https://user-images.githubusercontent.com/120498080/211479456-7f3024a3-a3fc-4f6d-8cdd-6abd2ec06ad8.png)
 
-As per the colour coding the value of resistance is 0 ohms.
+- As per the colour coding the value of resistance is 0 ohms.
+
 **Step2:** Use a multimeter and measure the resistance value 
-After measuring the value of resistance, we observe 0.1 ohm 
+
+- After measuring the value of resistance, we observe 0.1 ohm 
+
 **Step3:** Use 2 probe and 4probe methods and measure the resistance value using Keithley 2450 Source meter (Manually)
 1.Sourcing Voltage (Source = 50 mv), Limit to Current = 200 mA
+![image](https://user-images.githubusercontent.com/120498080/211482799-d4c8e27f-1887-404a-9fd0-16ccfba93c29.png)
 
+2. Sourcing Current (Source = 200 mA), Limit to Voltage = 50 mV
+![image](https://user-images.githubusercontent.com/120498080/211482972-cffd614c-41ea-4548-93b6-f76243942d19.png)
 
 ### Programme and SMU
+Step 4: Using 4probe method and measure the resistance value using Keithley 2450 
+Source meter (Remote control via USB)
+### TSP Codes :
+```verilog
+TSP Program: 
+--TODO Please insert code here.--Reset the instrument to the default settings
+reset()
+--Configure the Simple Loop trigger model template to make 100 readings.
+trigger.model.load("SimpleLoop", 100)
+--Change the view on the front panel to the GRAPH swipe screen.
+display.changescreen(display.SCREEN_GRAPH_SWIPE)
+--Set to measure resistance, use 4-wire sense,
+--and offset compensation.
+smu.measure.func = smu.FUNC_RESISTANCE
+smu.measure.sense = smu.SENSE_4WIRE
+smu.measure.offsetcompensation = smu.ON
+--Turn on the output
+smu.source.output = smu.ON
+--Initiate trigger model and wait until finished.
+trigger.model.initiate()
+waitcomplete()
+--Turn off output
+smu.source.output = smu.OFF
+--Read the resistance and time values from defbuffer1.
+print("Resistance:\tTime:")
+for i = 1, 100 do
+print(string.format("%f\t%f", defbuffer1[i], defbuffer1.relativetimestamps[i]))
+end
+```
 
-### How measurments are happening in  SMU
 
-### Why sometimes we get differnet output graphs even if we use same instrument and same device.
-#### 1. Source/Measurment Function 
-#### 2. Range setting in SMU
-#### 3. Connection between SMU and Device
-#### NPCL/ Integration Time 
-- BNC Cable vs Triax Cable vs SMA Cable 
 
 
 
 ### Experiment when we use triax and BNC coverter in series.
+
+
+
 
 
 ### Why sometimes we get differnet output graphs even if we use same instrument, same cable and same device.
