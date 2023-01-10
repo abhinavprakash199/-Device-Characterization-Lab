@@ -50,8 +50,10 @@ NPLC is number of power line cycles.  DC Voltage, DC Current, and Resistance mea
 |![download (89)](https://user-images.githubusercontent.com/120498080/210628269-9c35f866-2aaf-4dc9-9df3-059afdc9676e.jpeg)|![Belden-Triax-Cables-Family-Fanout](https://user-images.githubusercontent.com/120498080/210628528-e8cf3cb5-8a50-48e1-bc87-28370a057a6b.jpg)|![download (90)](https://user-images.githubusercontent.com/120498080/210628760-f5d77605-e7d7-4be8-bcf5-56107b89d6d6.jpeg)
 |
 
-<h1 id="header-1_2">Experiement1: Measurement of accuracy in low resistance measurement</h1> 
-**Equipments Required:**
+<h1 id="header-1_2">Experiement 1</h1>
+# Measurement of accuracy in low resistance measurement
+
+**EquipmentsRequired:**
 
 1.	Low Resistance (selected resistance = 0 ohms with precision of ±0.1 ohm)
 
@@ -119,7 +121,7 @@ end
 1.We tried to remotely control the SMU using TSB software and faced issues in auto run.
 
 ![image](https://user-images.githubusercontent.com/120498080/211484356-38fd3c98-b60e-4bbb-81bc-8bb161a292a2.png)
-2.	Faced error in measuring resistance using TRIAX cable to measure resistance
+2.Faced error in measuring resistance using TRIAX cable to measure resistance.
 
 
 ### Experiment when we use triax and BNC coverter in series.
