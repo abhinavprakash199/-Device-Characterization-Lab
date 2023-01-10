@@ -81,7 +81,7 @@ Step 1: Identify the color codes and find out the resistance value.
 ![image](https://user-images.githubusercontent.com/120498080/211482972-cffd614c-41ea-4548-93b6-f76243942d19.png)
 
 ### Programme and SMU
-Step 4: Using 4probe method and measure the resistance value using Keithley 2450 
+**Step 4:** Using 4probe method and measure the resistance value using Keithley 2450 
 Source meter (Remote control via USB)
 ### TSP Codes :
 ```verilog
@@ -110,43 +110,23 @@ for i = 1, 100 do
 print(string.format("%f\t%f", defbuffer1[i], defbuffer1.relativetimestamps[i]))
 end
 ```
+### Output Graph
+![image](https://user-images.githubusercontent.com/120498080/211484172-ae254d79-8b8a-4c48-88d8-2808c68da642.png)
 
+### SMU Output:
+![image](https://user-images.githubusercontent.com/120498080/211484239-3c1c6fb9-89ae-43d3-94f7-c75eaee280bf.png)
+### ERROR FACED:
+1.We tried to remotely control the SMU using TSB software and faced issues in auto run.
 
-
+![image](https://user-images.githubusercontent.com/120498080/211484356-38fd3c98-b60e-4bbb-81bc-8bb161a292a2.png)
+2.	Faced error in measuring resistance using TRIAX cable to measure resistance
 
 
 ### Experiment when we use triax and BNC coverter in series.
 
 
-
-
-
-### Why sometimes we get differnet output graphs even if we use same instrument, same cable and same device.
-Reason behind this is **Charge trapping** - Charge trapping refers to the localization of the electron or hole at lattice defects within the crystal structure or at unsaturated bonds on the nanocrystal surface atoms. The charge can become stabilized in these sites, called trapping states, and, therefore, trapping reduces charge mobility in nanocrystal arrays.
-
-//### Measurment vs Accuracy
-//Accuracy refers to how close a measurement is to the true or accepted value. Precision refers to how close measurements of the same item are to each other. Precision //is independent of accuracy.
-
-
-
-### How to measure low resistance 
-To measure the low value resistance such as 1 milli-ohm the resistance of interconnects will create the problem.
-For the measurement of low resistances, the following methods are used :−
-
-- Ammeter-Voltmeter Method
-- Potentiometer Method
-- Kelvin Double Bridge Method
-
-[Refrence](https://www.tutorialspoint.com/how-to-measure-low-resistances-resistance-measurement-methods)
-
-
-
-
-
 ## <h1 id="header-1_3">Familiarization to Oscilloscope</h1> 
 ### Oscilloscope
-
-
 
 
 
