@@ -68,6 +68,10 @@ Step 1: Identify the color codes and find out the resistance value.
  ![image](https://user-images.githubusercontent.com/120498080/211479456-7f3024a3-a3fc-4f6d-8cdd-6abd2ec06ad8.png)
 
 As per the colour coding the value of resistance is 0 ohms.
+**Step2:** Use a multimeter and measure the resistance value 
+After measuring the value of resistance, we observe 0.1 ohm 
+**Step3:** Use 2 probe and 4probe methods and measure the resistance value using Keithley 2450 Source meter (Manually)
+1.Sourcing Voltage (Source = 50 mv), Limit to Current = 200 mA
 
 
 ### Programme and SMU
