@@ -123,10 +123,10 @@ end
 
 ### Why sometimes we get differnet output graphs even if we use same instrument, same cable and same device.
 Reason behind this is **Charge trapping** - Charge trapping refers to the localization of the electron or hole at lattice defects within the crystal structure or at unsaturated bonds on the nanocrystal surface atoms. The charge can become stabilized in these sites, called trapping states, and, therefore, trapping reduces charge mobility in nanocrystal arrays.
-/*
-### Measurment vs Accuracy
-Accuracy refers to how close a measurement is to the true or accepted value. Precision refers to how close measurements of the same item are to each other. Precision is independent of accuracy.
-*/
+
+//### Measurment vs Accuracy
+//Accuracy refers to how close a measurement is to the true or accepted value. Precision refers to how close measurements of the same item are to each other. Precision //is independent of accuracy.
+
 
 
 ### How to measure low resistance 
