@@ -75,6 +75,7 @@ Step 1: Identify the color codes and find out the resistance value.
 - After measuring the value of resistance, we observe 0.1 ohm 
 
 **Step3:** Use 2 probe and 4probe methods and measure the resistance value using Keithley 2450 Source meter (Manually)
+
 1.Sourcing Voltage (Source = 50 mv), Limit to Current = 200 mA
 ![image](https://user-images.githubusercontent.com/120498080/211482799-d4c8e27f-1887-404a-9fd0-16ccfba93c29.png)
 
@@ -83,6 +84,7 @@ Step 1: Identify the color codes and find out the resistance value.
 
 ### Programme and SMU
 **Step 4:** Using 4probe method and measure the resistance value using Keithley 2450 
+
 Source meter (Remote control via USB)
 ### TSP Codes :
 ```verilog
