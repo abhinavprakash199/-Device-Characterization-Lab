@@ -50,8 +50,8 @@ NPLC is number of power line cycles.  DC Voltage, DC Current, and Resistance mea
 |![download (89)](https://user-images.githubusercontent.com/120498080/210628269-9c35f866-2aaf-4dc9-9df3-059afdc9676e.jpeg)|![Belden-Triax-Cables-Family-Fanout](https://user-images.githubusercontent.com/120498080/210628528-e8cf3cb5-8a50-48e1-bc87-28370a057a6b.jpg)|![download (90)](https://user-images.githubusercontent.com/120498080/210628760-f5d77605-e7d7-4be8-bcf5-56107b89d6d6.jpeg)
 |
 
-<h1 id="header-1_2">Experiement 1</h1>
-# Measurement of accuracy in low resistance measurement
+<h1 id="header-1_2">Experiement 1 - Measurement of accuracy in low resistance measurement</h1>
+
 
 **EquipmentsRequired:**
 
@@ -137,4 +137,4 @@ end
 - [**SMU** - Keithley SourceMeter 2636B Manuals](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
 - 
 # <h1 id="header-7">Acknowledgement</h1>
-- [](https://www.iith.ac.in/ee/naresh/)
+- [Dr. Naresh Kumar Emani](https://www.iith.ac.in/ee/naresh/)
