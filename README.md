@@ -17,17 +17,17 @@
     <li><a href="#header-2">Week 2. Familiarization with Instrumentation</a></li>
   </ul>
  <ul>
-        <li><a href="#header-2_1">Familiarization to Oscilloscope</a></li>
-      </ul>
-	<ul>
-        <li><a href="#header-2_2"> Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</a></li>
-      </ul>	  
-	<ul>
-        <li><a href="#header-2_3"> Experiement 2.2: Measurement of Inductor value & Cutoff frequency from RL Filters</a></li>
-      </ul>
-	<ul>
-        <li><a href="#header-2_4"> Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</a></li>
-      </ul>	
+   <li><a href="#header-2_1">Familiarization to Oscilloscope</a></li>
+   </ul>
+<ul>
+  <li><a href="#header-2_2"> Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</a></li>
+</ul>	  
+<ul>
+ <li><a href="#header-2_3"> Experiement 2.2: Measurement of Inductor value & Cutoff frequency from RL Filters</a></li>
+</ul>
+<ul>
+  <li><a href="#header-2_4"> Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</a></li>
+</ul>	
 	
 </div>	
 	
