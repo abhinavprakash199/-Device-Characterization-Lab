@@ -8,13 +8,21 @@
         <li><a href="#header-1_1">Familiarization the functions of SMU (Source Measuring Unit)</a></li>
       </ul>
       <ul>
-        <li><a href="#header-1_2">Experiement1: Measurement of accuracy in low resistance measurement</a></li>
+        <li><a href="#header-1_2">Experiement 1: Measurement of accuracy in low resistance measurement</a></li>
       </ul>
       <ul>
         <li><a href="#header-1_3">Familiarization to Oscilloscope</a></li>
       </ul>
-	  
-	  Experiemtn2: Measurement of Capacitor value & Cutoff frequency from RC
+	<ul>
+        <li><a href="#header-1_4"> Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</a></li>
+      </ul>	  
+	<ul>
+        <li><a href="#header-1_5"> Experiement 2.2: Measurement of Capacitor value & Cutoff frequency from RL Filters</a></li>
+      </ul>
+	<ul>
+        <li><a href="#header-1_6"> Experiement 2.3: Measurement of Capacitor value & Cutoff frequency from RLC Filters</a></li>
+      </ul>
+	 
 	  
 	
 </div>
@@ -133,8 +141,11 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ![download](https://user-images.githubusercontent.com/120498080/212805807-d82d6927-f737-4bb3-a4c9-ef3883904824.jpeg)
 
 
-## <h1 id="header-1_4">Experiemtn2: Measurement of Capacitor value & Cutoff frequency from RC LPF</h1> 
-
+## <h1 id="header-1_4">Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</h1> 
+	
+## <h1 id="header-1_5">Experiement 2.2: Measurement of Capacitor value & Cutoff frequency from RL Filters</h1>
+	
+## <h1 id="header-1_6">Experiement 2.3: Measurement of Capacitor value & Cutoff frequency from RLC Filters</h1>
 
 # <h1 id="header-6">References</h1>
 - [**SMU** - Keithley SourceMeter 2636B Manuals](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
