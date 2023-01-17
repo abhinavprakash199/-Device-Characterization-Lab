@@ -146,6 +146,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 
 ## <h1 id="header-2_2">Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</h1> 
 ![rc-low-pass-filter](https://user-images.githubusercontent.com/120498080/212807171-e3561edb-00f9-4a5a-b410-7ef7f0c6dc0e.jpg)
+	
 
 ## <h1 id="header-2_3">Experiement 2.2: Measurement of Inductor value & Cutoff frequency from RL Filters</h1>
 ![rl](https://user-images.githubusercontent.com/120498080/212808528-3d8a6bc3-6437-463b-b2f5-a5e74430690d.PNG)
@@ -159,7 +160,8 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 
 
 	
-
+### ERROR FACED:
+- In function generator when we give 1Vpp then in oscilloscope it was giving 1.19Vpp sine wave - but this was fixed when we changed the BNC converter on Oscilloscope.
  
 	
 # <h1 id="header-r">References</h1>
