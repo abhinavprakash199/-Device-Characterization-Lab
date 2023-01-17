@@ -308,7 +308,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 	
 **Step 2:** Establishing Connections
 
-![rlc](https://user-images.githubusercontent.com/120498080/212808368-9d2b9475-ffd2-4ed2-b21e-55e88872f083.PNG)
+![rlc](https://user-images.githubusercontent.com/120498080/212835310-532cd0e4-6ebf-46ce-b613-0ad8b4e9222e.PNG)
 
 - We connect the R, C and L component in series and provide input between L and R and output is taken across R. 
 - Applied peak to peak Voltage (Vpp = 1 V)
