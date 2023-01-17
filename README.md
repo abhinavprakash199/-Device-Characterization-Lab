@@ -157,12 +157,15 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
    - Cut- off frequency = 1/2πRC 
    - Calculated Cut-off frequency = 795 Hz
 *Step 2:* Establishing Connections
+	
 ![rc-low-pass-filter](https://user-images.githubusercontent.com/120498080/212807171-e3561edb-00f9-4a5a-b410-7ef7f0c6dc0e.jpg)
-We connect the R and C component in series and provide input between R and C and take output from C. 
-Applied Voltage (Vpp = 1 V)
+- We connect the R and C component in series and provide input between R and C and take output from C. 
+- Applied peak to peak Voltage (Vpp = 1 V)
+	
 *Step 3:* Calculating the value of Capacitance using the value phase shift in input and output.
- As we know for RC circuit, 
- tan (Φ) = 1/ωRC
+ - As we know for RC circuit, 
+ - tan (Φ) = 1/ωRC
+	
 	C = 1/( ωRtan (Φ) )
 
 	
