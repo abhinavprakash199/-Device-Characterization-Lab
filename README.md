@@ -285,7 +285,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
    ```
 	Lower Cut- off frequency = 1/2πRC
    	Higher Cut- off frequency = R/2πL
-   	Resonance frequency - 1/2π√LC
+   	Resonance frequency - 1/2π√(LC)
    ```
    - Calcualted Lower Cut- off frequency = 795Hz
    - Calcualted Higher Cut- off frequency = 160kHz
@@ -307,6 +307,16 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ![image](https://user-images.githubusercontent.com/120498080/212822697-9c96a3d8-020e-491f-b8d1-89aa81743ee8.png)
 ![image](https://user-images.githubusercontent.com/120498080/212822743-17d3428a-441f-418c-b021-3e80b5650a10.png)
 ![image](https://user-images.githubusercontent.com/120498080/212822768-ceec0141-1a33-4cca-a31b-d2be4558ce91.png)
+
+**Step 4:** Observation of lead and lag in LCR circuit.
+	
+- Before resonant frequency the output voltage across R leads the input voltage. (lower frequency range)
+
+![image](https://user-images.githubusercontent.com/120498080/212824397-ede0cd2d-e6f8-4eb8-b7f5-7db46cd15f4e.png)
+
+- After resonant frequency the output voltage across R lags the input voltage. (higher frequency range)
+	
+![image](https://user-images.githubusercontent.com/120498080/212824539-9a39dc6f-c520-4762-9dc3-c279fe2f13d5.png)
 
 	
 #### Results:
