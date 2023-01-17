@@ -141,10 +141,10 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ![download](https://user-images.githubusercontent.com/120498080/212805807-d82d6927-f737-4bb3-a4c9-ef3883904824.jpeg)
 
 
-## <h1 id="header-2_2">Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</h1> 
+## <h1 id="header-2_2">Experiement 2.1: Measurement of Capacitance value & Cutoff frequency from RC Filters</h1> 
 	
 **Equipments Required:**
-- Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor of 0.2uFarad)
+- Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 Ω and Capacitor of 0.2uFarad)
 - Multimeter
 - BNC(Bayonet Nut Coupling) Cables
 - RMT2054 Oscilloscope
@@ -155,7 +155,9 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 **Step 1:** Hand Calculation and selected components
    - Selected value of capacitance = 200 nF
    - Selected value of resistance = 1 Kohm
-   - Cut- off frequency = 1/2πRC 
+```
+	 Cut- off frequency = 1/2πRC 
+```
    - Calculated Cut-off frequency = 795 Hz
 	
 **Step 2:** Establishing Connections
@@ -189,7 +191,8 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 #### Results:
 - Upon observation and experimental measurements, the cut-off frequency is found out to be 2 KHz.
 - The calculated value of cut-off frequency as per component rating is 795 Hz.
-- The bandwidth of our RC value = ∞
+- The observed bandwidth of our RC value = 2 kHz.
+- The calcuated bandwidth of our RC value = 795 Hz.
 
 #### FFT (fast Fourier transform) at 500 Hz
 
