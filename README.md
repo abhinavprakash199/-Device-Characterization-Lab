@@ -170,8 +170,8 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 **Step 3:** Calculating the value of Capacitance using the value phase shift in input and output.
  - As we know for RC circuit, 
  ```
-	tan (Φ) = 1/ωRC
-	C = 1/( ωRtan (Φ) )
+	tan(Φ) = 1/ωRC
+	C = 1/(ωRtan(Φ))
 ```
 	
 #### The calculated values of capacitance are as follows:
@@ -244,8 +244,8 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 **Step 3:** Calculating the value of Capacitance using the value phase shift in input and output.
  - As we know for RL circuit, 
  ```
-	tan (90 - Φ) = ωL/R
-	L = (R tan (90 - Φ) )/(ω)
+	tan(90°-Φ) = ωL/R
+	L = (R tan(90°-Φ))/(ω)
 ```
 
 #### The calculated values of capacitance are as follows:
@@ -325,12 +325,29 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ![image](https://user-images.githubusercontent.com/120498080/212822768-ceec0141-1a33-4cca-a31b-d2be4558ce91.png)
 
 **Step 4:** Observation of lead and lag in LCR circuit.
-	
-- Before resonant frequency the output voltage across R leads the input voltage. (lower frequency range)
 
+Calculated phase of  RLC circuit(by taking the value of R,C and L in transfer function): 
+```
+	Φ = 90° - tan-1(ω/5025) - tan-1(ω/994974)
+```	
+	
+Before resonant frequency the output voltage across R leads the input voltage. (lower frequency range)
+	
+At frequency of 800 Hz: 
+	- Angle per division = 11.61°
+	- Change in division in input and output = 6°(lead)
+	- Observed Phase = 69.67°(lead)
+	- Calculated Phase = 44.70°(lead)
+	
+	
 ![image](https://user-images.githubusercontent.com/120498080/212824397-ede0cd2d-e6f8-4eb8-b7f5-7db46cd15f4e.png)
 
-- After resonant frequency the output voltage across R lags the input voltage. (higher frequency range)
+After resonant frequency the output voltage across R lags the input voltage. (higher frequency range)
+At frequency of 160 kHz: 
+	- Angle per division = 23.22°
+	- Change in division in input and output = 2°(lagg)
+	- Observed Phase = 46.45°(lagg)
+	- Calculated Phase = 45°(lagg)
 	
 ![image](https://user-images.githubusercontent.com/120498080/212824539-9a39dc6f-c520-4762-9dc3-c279fe2f13d5.png)
 	
