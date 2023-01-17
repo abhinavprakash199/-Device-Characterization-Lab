@@ -166,18 +166,22 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 	
 **Step 3:** Calculating the value of Capacitance using the value phase shift in input and output.
  - As we know for RC circuit, 
- - tan (Φ) = 1/ωRC
-	
+ ```
+	tan (Φ) = 1/ωRC
 	C = 1/( ωRtan (Φ) )
+```
 	
 - The calculated values of capacitance are as follows:
+	
 ![image](https://user-images.githubusercontent.com/120498080/212817564-990f61b8-3fae-4c72-bed7-ed23bbdc2f68.png)
  
 ### Output of our RC low pass filter:
 - At 500 Hz. (yellow – output, green – input)
+	
 ![image](https://user-images.githubusercontent.com/120498080/212817642-0f1f11d4-3101-471a-9c80-467486ad63cb.png)
 ![image](https://user-images.githubusercontent.com/120498080/212817664-ddfa4e46-1673-4f26-a2f8-27ddd97bfe56.png)
 ![image](https://user-images.githubusercontent.com/120498080/212817696-142f70d9-a3a4-46e9-a408-9dd9c28b7199.png)
+	
 - Result: The cut-off frequency of RC filter is 2kHz
 	
 ### Output at cut-off frequency
@@ -205,8 +209,47 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 - 33600A Waveform Generator
 
 **Procedure:**
+**Step 1:** Hand Calculation and selected components
+   - Selected value of inductor = 1 mH
+   - Selected value of resistance = 1 Kohm
+   - Cut- off frequency = R/2πL 
+   - Calculated Cut – off frequency = 160 KHz
 
-![rl](https://user-images.githubusercontent.com/120498080/212808528-3d8a6bc3-6437-463b-b2f5-a5e74430690d.PNG)
+**Step 2:** Establishing Connections
+	
+![rl](https://user-images.githubusercontent.com/120498080/212818590-a8eac2d6-9733-479f-a095-9bac3a74208a.PNG)
+
+- We connect the R and L component in series and provide input between R and L and output is taken across L. 
+- Applied peak to peak Voltage (Vpp = 1 V)
+
+	
+**Step 3:** Calculating the value of Capacitance using the value phase shift in input and output.
+ - As we know for RL circuit, 
+ ```
+	tan (90 - Φ) = ωL/R
+	L = (R tan (90 - Φ) )/( ω)
+```
+
+- The calculated values of capacitance are as follows:
+	
+![image](https://user-images.githubusercontent.com/120498080/212818915-175ce19d-ce7d-4c23-a119-fec0ec122f60.png)
+	
+### Output of our RL high pass filter:
+- At 100kHz. (yellow – output, green – input)
+	
+![image](https://user-images.githubusercontent.com/120498080/212818999-c4519109-b2c5-4444-a84b-2c0a0d706d3d.png)
+![image](https://user-images.githubusercontent.com/120498080/212819016-49a8aee4-7ce5-4df4-8bff-634ee62cdf1a.png)
+![image](https://user-images.githubusercontent.com/120498080/212819031-3033e30b-e594-4bac-814d-c91a19c16006.png)
+
+- Result: The cut-off frequency of RL filter is 160kHz
+	
+### Output at cut-off frequency
+![image](https://user-images.githubusercontent.com/120498080/212819067-0a3e333b-405a-4ab3-b323-28816441e058.png)
+![image](https://user-images.githubusercontent.com/120498080/212819083-8d8244f9-b0be-42ff-b9c7-1cde1ce44ccc.png)
+
+	
+	
+
 	
 ## <h1 id="header-2_4">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>
 **Equipments Required:**
