@@ -142,13 +142,22 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 
 
 ## <h1 id="header-1_4">Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</h1> 
-	
 ![rc-low-pass-filter](https://user-images.githubusercontent.com/120498080/212807171-e3561edb-00f9-4a5a-b410-7ef7f0c6dc0e.jpg)
 
-## <h1 id="header-1_5">Experiement 2.2: Measurement of Capacitor value & Cutoff frequency from RL Filters</h1>
-	
-## <h1 id="header-1_6">Experiement 2.3: Measurement of Capacitor value & Cutoff frequency from RLC Filters</h1>
+## <h1 id="header-1_5">Experiement 2.2: Measurement of Inductor value & Cutoff frequency from RL Filters</h1>
+![image](https://user-images.githubusercontent.com/120498080/212808064-941b390e-859e-4268-b4e8-df740eef54a7.png)
 
+	
+## <h1 id="header-1_6">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>
+![image](https://user-images.githubusercontent.com/120498080/212807920-0b1958aa-c882-4443-aa5b-4c134c8535b9.png)
+	
+	
+
+
+	
+
+ 
+	
 # <h1 id="header-6">References</h1>
 - [**SMU** - Keithley SourceMeter 2636B Manuals](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
 - 
