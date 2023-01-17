@@ -167,7 +167,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 **Step 3:** Calculating the value of Capacitance using the value phase shift in input and output.
  - As we know for RC circuit, 
  ```
-	$$ tan (Φ) = {1 \over ωRC $$
+	$$ tan (Φ) = {1 \over ωRC} $$
 	tan (Φ) = 1/ωRC
 	C = 1/( ωRtan (Φ) )
 ```
