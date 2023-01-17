@@ -13,7 +13,8 @@
       <ul>
         <li><a href="#header-1_3">Familiarization to Oscilloscope</a></li>
       </ul>
-	  </ul>
+	  
+	  Experiemtn2: Measurement of Capacitor value & Cutoff frequency from RC
 	  
 	
 </div>
@@ -127,8 +128,12 @@ end
 
 ## <h1 id="header-1_3">Familiarization to Oscilloscope</h1> 
 ### Oscilloscope
+An oscilloscope is a test & measurement instrument that rapidly measures voltage over time. It records the voltage across certain points in a circuit and displays voltage (Y-axis) as a function of time (X-axis) on a screen. It is essentially a very fast voltmeter with the capability of data-logging and plotting.
+- We are using RMT2054 Oscilloscope
+![download](https://user-images.githubusercontent.com/120498080/212805807-d82d6927-f737-4bb3-a4c9-ef3883904824.jpeg)
 
 
+## <h1 id="header-1_4">Experiemtn2: Measurement of Capacitor value & Cutoff frequency from RC LPF</h1> 
 
 
 # <h1 id="header-6">References</h1>
