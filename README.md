@@ -17,10 +17,10 @@
         <li><a href="#header-1_4"> Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</a></li>
       </ul>	  
 	<ul>
-        <li><a href="#header-1_5"> Experiement 2.2: Measurement of Capacitor value & Cutoff frequency from RL Filters</a></li>
+        <li><a href="#header-1_5"> Experiement 2.2: Measurement of Inductor value & Cutoff frequency from RL Filters</a></li>
       </ul>
 	<ul>
-        <li><a href="#header-1_6"> Experiement 2.3: Measurement of Capacitor value & Cutoff frequency from RLC Filters</a></li>
+        <li><a href="#header-1_6"> Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</a></li>
       </ul>
 	 
 	  
@@ -145,14 +145,13 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ![rc-low-pass-filter](https://user-images.githubusercontent.com/120498080/212807171-e3561edb-00f9-4a5a-b410-7ef7f0c6dc0e.jpg)
 
 ## <h1 id="header-1_5">Experiement 2.2: Measurement of Inductor value & Cutoff frequency from RL Filters</h1>
-![image](https://user-images.githubusercontent.com/120498080/212808064-941b390e-859e-4268-b4e8-df740eef54a7.png)
+![rl](https://user-images.githubusercontent.com/120498080/212808528-3d8a6bc3-6437-463b-b2f5-a5e74430690d.PNG)
+
 
 	
 ## <h1 id="header-1_6">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>
 ![rlc](https://user-images.githubusercontent.com/120498080/212808368-9d2b9475-ffd2-4ed2-b21e-55e88872f083.PNG)
 
-![image](https://user-images.githubusercontent.com/120498080/212807920-0b1958aa-c882-4443-aa5b-4c134c8535b9.png)
-	
 	
 
 
