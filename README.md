@@ -11,6 +11,18 @@
         <li><a href="#header-1_2">Experiement 1: Measurement of accuracy in low resistance measurement</a></li>
       </ul>
 </div>
+
+<div class="toc">
+  <ul>
+    <li><a href="#header-2">Week 2. Familiarization with Instrumentation</a></li>
+	<ul>
+        <li><a href="#header-2_1">Familiarization to Oscilloscope</a></li>
+      </ul>
+      <ul>
+        <li><a href="#header-2_2">Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</a></li>
+      </ul>
+</div>
+	
 	
 <div class="toc">
   <ul>
