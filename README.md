@@ -374,8 +374,7 @@ There are some deviation in the measured value and actual values of capacitance 
 
 - The components have some errors in measured and acurate value.
 - Due to wire resistance.
-- Wire Capacitance can change at differenet frequency
-- The internal resistance of capacitors will chance at different frequency.
+- Wire properties can change at differenet frequency
 	
 
 
