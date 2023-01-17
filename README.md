@@ -203,7 +203,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
    - Selected value of resistance = 1 Kohm
    - Selected value of inductor = 1 mHenry
    - Lower Cut- off frequency = 1/2πRC
-   - Higher Cut- off frequency = R/2πL
+   - Higher Cut- off frequency = $$R/2πL
 - Resonance frequency - 1/2π√LC
 	
 	
