@@ -370,11 +370,12 @@ At frequency of 160 kHz:
 
 ### Conclusion
 	
-There are some deviation is the measured value and actual values of capacitance and inductance, which can be due to following reasons
-	- The components have some errors in measured and acurate value.
-	- Due to wire resistance.
-	- Wire Capacitance can change at differenet frequency
-	- The internal resistance of capacitors will chance at different frequency.
+There are some deviation in the measured value and actual values of capacitance and inductance, which can be due to following reasons
+
+- The components have some errors in measured and acurate value.
+- Due to wire resistance.
+- Wire Capacitance can change at differenet frequency
+- The internal resistance of capacitors will chance at different frequency.
 	
 
 
