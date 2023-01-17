@@ -191,7 +191,10 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 - The calculated value of cut-off frequency as per component rating is 795 Hz.
 - The bandwidth of our RC value = ∞
 
-	
+#### FFT (fast Fourier transform) at 500 Hz
+
+![RC 500Hz FFT](https://user-images.githubusercontent.com/120498080/212823872-837333bb-99e1-40f9-9fb6-cb58cfab7068.PNG)
+
 	
 	
 	
@@ -246,8 +249,6 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ![image](https://user-images.githubusercontent.com/120498080/212819016-49a8aee4-7ce5-4df4-8bff-634ee62cdf1a.png)
 ![image](https://user-images.githubusercontent.com/120498080/212819031-3033e30b-e594-4bac-814d-c91a19c16006.png)
 
-- Result: The cut-off frequency of RL filter is 160kHz
-	
 #### Output at cut-off frequency
 ![image](https://user-images.githubusercontent.com/120498080/212819067-0a3e333b-405a-4ab3-b323-28816441e058.png)
 ![image](https://user-images.githubusercontent.com/120498080/212819083-8d8244f9-b0be-42ff-b9c7-1cde1ce44ccc.png)
@@ -256,6 +257,11 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 - Upon observation and experimental measurements, the cut-off frequency is found out to be 155 kHz.
 - The calculated value of cut-off frequency as per component rating is 160 kHz.
 - The bandwidth of our RC value = ∞
+	
+#### FFT (fast Fourier transform) at 200 kHz
+	
+![LR 200KHz FFT](https://user-images.githubusercontent.com/120498080/212823983-fcc4ccb0-39e5-4003-a94d-052c7d0f1ba0.PNG)
+
 
 
 	
@@ -290,14 +296,35 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 
 - We connect the R, C and L component in series and provide input between L and R and output is taken across R. 
 - Applied peak to peak Voltage (Vpp = 1 V)
-
 	
+**Step 3:** Observing output at different frequencies to get resonant frequency 
+- Vin (pp) = 1 V
+	
+![image](https://user-images.githubusercontent.com/120498080/212822631-a99cb75c-221f-4729-b988-77f25dfd5f04.png)
+
+#### Output of our LCR band pass filter:
+
+![image](https://user-images.githubusercontent.com/120498080/212822697-9c96a3d8-020e-491f-b8d1-89aa81743ee8.png)
+![image](https://user-images.githubusercontent.com/120498080/212822743-17d3428a-441f-418c-b021-3e80b5650a10.png)
+![image](https://user-images.githubusercontent.com/120498080/212822768-ceec0141-1a33-4cca-a31b-d2be4558ce91.png)
 
 	
 #### Results:
 - Upon observation and experimental measurements, the resonant frequency is found out to be 18 KHz.
 - The calculated value of resonant frequency as per component rating is 11.25 KHz.
-- The bandwidth of our LCR value = (160 – 2) KHz = 158 KHz.
+
+- Upon observation and experimental measurements, the lower cut-off frequency is found out to be 795 Hz.
+- Upon observation and experimental measurements, the higher cut-off frequency is found out to be 160 kHz.
+- The calculated value of lower cut-off frequency as per component rating is 2 kHz.
+- The calculated value of lower cut-off frequency as per component rating is 180 kHz.
+- The observed bandwidth of our LCR value = (160 – 0.795) kHz = 159.205 kHz.
+- The calcuated bandwidth of our LCR value = (180 – 2) kHz = 178 kHz.
+	
+#### FFT (fast Fourier transform) at 18 kHz
+	
+![RLC 18KHz FFT](https://user-images.githubusercontent.com/120498080/212823662-47e5f3bb-a245-42c2-bb82-a57d107b1030.PNG)
+
+	
 	
 
 
