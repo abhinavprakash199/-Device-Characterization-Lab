@@ -151,11 +151,13 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 - 33600A Waveform Generator
 
 **Procedure:**
+	
 **Step 1:** Hand Calculation and selected components
    - Selected value of capacitance = 200 nF
    - Selected value of resistance = 1 Kohm
    - Cut- off frequency = 1/2πRC 
    - Calculated Cut-off frequency = 795 Hz
+	
 **Step 2:** Establishing Connections
 	
 ![rc-low-pass-filter](https://user-images.githubusercontent.com/120498080/212807171-e3561edb-00f9-4a5a-b410-7ef7f0c6dc0e.jpg)
@@ -195,6 +197,30 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 - 33600A Waveform Generator
 
 **Procedure:**
+
+**Step 1:** Hand Calculation and selected components
+   - Selected value of capacitance = 200 nF
+   - Selected value of resistance = 1 Kohm
+   - Selected value of inductor = 1 mHenry
+   - Lower Cut- off frequency = 1/2πRC
+   - Higher Cut- off frequency = R/2πL
+- Resonance frequency - 1/2π√LC
+	
+	
+	
+   - Calculated Cut-off frequency = 795 Hz
+	
+**Step 2:** Establishing Connections
+	
+![rc-low-pass-filter](https://user-images.githubusercontent.com/120498080/212807171-e3561edb-00f9-4a5a-b410-7ef7f0c6dc0e.jpg)
+- We connect the R and C component in series and provide input between R and C and take output from C. 
+- Applied peak to peak Voltage (Vpp = 1 V)
+	
+**Step 3:** Calculating the value of Capacitance using the value phase shift in input and output.
+ - As we know for RC circuit, 
+ - tan (Φ) = 1/ωRC
+	
+	C = 1/( ωRtan (Φ) )
 	
 ![rlc](https://user-images.githubusercontent.com/120498080/212808368-9d2b9475-ffd2-4ed2-b21e-55e88872f083.PNG)
 
