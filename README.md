@@ -171,11 +171,11 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 	C = 1/( ωRtan (Φ) )
 ```
 	
-- The calculated values of capacitance are as follows:
+#### The calculated values of capacitance are as follows:
 	
 ![image](https://user-images.githubusercontent.com/120498080/212817564-990f61b8-3fae-4c72-bed7-ed23bbdc2f68.png)
  
-### Output of our RC low pass filter:
+#### Output of our RC low pass filter:
 - At 500 Hz. (yellow – output, green – input)
 	
 ![image](https://user-images.githubusercontent.com/120498080/212817642-0f1f11d4-3101-471a-9c80-467486ad63cb.png)
@@ -184,7 +184,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 	
 - Result: The cut-off frequency of RC filter is 2kHz
 	
-### Output at cut-off frequency
+#### Output at cut-off frequency:
 ![image](https://user-images.githubusercontent.com/120498080/212818022-63b1c7b0-2792-4870-910f-bd788328b445.png)
 ![image](https://user-images.githubusercontent.com/120498080/212818055-a746f4ff-4e74-43a7-9243-3dba9933d31f.png)
 
@@ -212,7 +212,9 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 **Step 1:** Hand Calculation and selected components
    - Selected value of inductor = 1 mH
    - Selected value of resistance = 1 Kohm
-   - Cut- off frequency = R/2πL 
+```
+	Cut- off frequency = R/2πL 
+```
    - Calculated Cut – off frequency = 160 KHz
 
 **Step 2:** Establishing Connections
@@ -227,14 +229,14 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
  - As we know for RL circuit, 
  ```
 	tan (90 - Φ) = ωL/R
-	L = (R tan (90 - Φ) )/( ω)
+	L = (R tan (90 - Φ) )/(ω)
 ```
 
-- The calculated values of capacitance are as follows:
+#### The calculated values of capacitance are as follows:
 	
 ![image](https://user-images.githubusercontent.com/120498080/212818915-175ce19d-ce7d-4c23-a119-fec0ec122f60.png)
 	
-### Output of our RL high pass filter:
+#### Output of our RL high pass filter:
 - At 100kHz. (yellow – output, green – input)
 	
 ![image](https://user-images.githubusercontent.com/120498080/212818999-c4519109-b2c5-4444-a84b-2c0a0d706d3d.png)
@@ -243,7 +245,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 
 - Result: The cut-off frequency of RL filter is 160kHz
 	
-### Output at cut-off frequency
+#### Output at cut-off frequency
 ![image](https://user-images.githubusercontent.com/120498080/212819067-0a3e333b-405a-4ab3-b323-28816441e058.png)
 ![image](https://user-images.githubusercontent.com/120498080/212819083-8d8244f9-b0be-42ff-b9c7-1cde1ce44ccc.png)
 
@@ -265,25 +267,15 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
    - Selected value of capacitance = 200 nF
    - Selected value of resistance = 1 Kohm
    - Selected value of inductor = 1 mHenry
-   - Lower Cut- off frequency = 1/2πRC
-   - Higher Cut- off frequency = R/2πL
-   - Resonance frequency - 1/2π√LC
-	
-	
-	
-   - Calculated Cut-off frequency = 795 Hz
-	
+   ```
+	Lower Cut- off frequency = 1/2πRC
+   	Higher Cut- off frequency = R/2πL
+   	Resonance frequency - 1/2π√LC
+   ```
+   - Calcualted Lower Cut- off frequency = 795Hz
+   - Calcualted Higher Cut- off frequency = 160kHz
+   - Calcualted Resonance frequency - 11.25kHz
 **Step 2:** Establishing Connections
-	
-![rc-low-pass-filter](https://user-images.githubusercontent.com/120498080/212807171-e3561edb-00f9-4a5a-b410-7ef7f0c6dc0e.jpg)
-- We connect the R and C component in series and provide input between R and C and take output from C. 
-- Applied peak to peak Voltage (Vpp = 1 V)
-	
-**Step 3:** Calculating the value of Capacitance using the value phase shift in input and output.
- - As we know for RC circuit, 
- - tan (Φ) = 1/ωRC
-	
-	C = 1/( ωRtan (Φ) )
 	
 ![rlc](https://user-images.githubusercontent.com/120498080/212808368-9d2b9475-ffd2-4ed2-b21e-55e88872f083.PNG)
 
