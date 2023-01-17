@@ -189,15 +189,19 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ![image](https://user-images.githubusercontent.com/120498080/212818022-63b1c7b0-2792-4870-910f-bd788328b445.png)
 ![image](https://user-images.githubusercontent.com/120498080/212818055-a746f4ff-4e74-43a7-9243-3dba9933d31f.png)
 
-#### Results:
+**Step 4:** Plotting FFT of the output.	
+	
+#### FFT (Fast Fourier transform) at 500 Hz
+
+![RC 500Hz FFT](https://user-images.githubusercontent.com/120498080/212823872-837333bb-99e1-40f9-9fb6-cb58cfab7068.PNG)
+	
+### Results:
 - Upon observation and experimental measurements, the cut-off frequency is found out to be 2 KHz.
 - The calculated value of cut-off frequency as per component rating is 795 Hz.
 - The observed bandwidth of our RC value = 2 kHz.
 - The calculated bandwidth of our RC value = 795 Hz.
 
-#### FFT (Fast Fourier transform) at 500 Hz
 
-![RC 500Hz FFT](https://user-images.githubusercontent.com/120498080/212823872-837333bb-99e1-40f9-9fb6-cb58cfab7068.PNG)
 
 	
 	
@@ -217,8 +221,10 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 - BNC(Bayonet Nut Coupling) Cables
 - RMT2054 Oscilloscope
 - 33600A Waveform Generator
+- Bread-board
 
 **Procedure:**
+	
 **Step 1:** Hand Calculation and selected components
    - Selected value of inductor = 1 mH
    - Selected value of resistance = 1 kΩ
@@ -246,7 +252,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 	
 ![image](https://user-images.githubusercontent.com/120498080/212822152-4f1bc9a3-1b79-44c4-bbaf-0954f231cf8f.png)
 	
-#### Output of our RL high pass filter:
+#### Output of RL high pass filter:
 - At 100kHz. (yellow – output, green – input)
 	
 ![image](https://user-images.githubusercontent.com/120498080/212818999-c4519109-b2c5-4444-a84b-2c0a0d706d3d.png)
@@ -256,15 +262,19 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 #### Output at cut-off frequency
 ![image](https://user-images.githubusercontent.com/120498080/212819067-0a3e333b-405a-4ab3-b323-28816441e058.png)
 ![image](https://user-images.githubusercontent.com/120498080/212819083-8d8244f9-b0be-42ff-b9c7-1cde1ce44ccc.png)
+
+**Step 4:** Plotting FFT of the output.	
 	
-#### Results:
+#### FFT (Fast Fourier transform) at 200 kHz.
+	
+![LR 200KHz FFT](https://user-images.githubusercontent.com/120498080/212823983-fcc4ccb0-39e5-4003-a94d-052c7d0f1ba0.PNG)
+	
+### Results:
 - Upon observation and experimental measurements, the cut-off frequency is found out to be 155 kHz.
 - The calculated value of cut-off frequency as per component rating is 160 kHz.
 - The bandwidth of our RC value = ∞
 	
-#### FFT (fast Fourier transform) at 200 kHz
-	
-![LR 200KHz FFT](https://user-images.githubusercontent.com/120498080/212823983-fcc4ccb0-39e5-4003-a94d-052c7d0f1ba0.PNG)
+
 
 
 
@@ -274,26 +284,28 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 	
 ## <h1 id="header-2_4">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>
 **Equipments Required:**
-- Resistance , Capacitor and Inductor (Resistance =  1kohms with precision of ±0.1 ohm , Capacitor of 0.2uFarad and Inductor of 1mHenry with precision of ±0.1 ohm )
+- Resistance , Capacitor and Inductor (Resistance =  1 kΩ with precision of ±0.1 Ω , Capacitor of 0.2 uF and Inductor of 1 mH)
 - Multimeter
 - BNC(Bayonet Nut Coupling) Cables
 - RMT2054 Oscilloscope
 - 33600A Waveform Generator
+- Bread-board
 
 **Procedure:**
 
 **Step 1:** Hand Calculation and selected components
    - Selected value of capacitance = 200 nF
-   - Selected value of resistance = 1 Kohm
-   - Selected value of inductor = 1 mHenry
+   - Selected value of resistance = 1 KΩ
+   - Selected value of inductor = 1 mH
    ```
 	Lower Cut- off frequency = 1/2πRC
    	Higher Cut- off frequency = R/2πL
    	Resonance frequency - 1/2π√(LC)
    ```
-   - Calcualted Lower Cut- off frequency = 795Hz
-   - Calcualted Higher Cut- off frequency = 160kHz
-   - Calcualted Resonance frequency - 11.25kHz
+   - Calcualted Lower Cut- off frequency = 795 Hz
+   - Calcualted Higher Cut- off frequency = 160 kHz
+   - Calcualted Resonance frequency - 11.25 kHz
+	
 **Step 2:** Establishing Connections
 
 ![rlc](https://user-images.githubusercontent.com/120498080/212808368-9d2b9475-ffd2-4ed2-b21e-55e88872f083.PNG)
@@ -321,30 +333,38 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 - After resonant frequency the output voltage across R lags the input voltage. (higher frequency range)
 	
 ![image](https://user-images.githubusercontent.com/120498080/212824539-9a39dc6f-c520-4762-9dc3-c279fe2f13d5.png)
-
+	
+**Step 5:** Plotting FFT of the output.	
+	
+#### FFT (Fast Fourier transform) at 18 kHz
+	
+![RLC 18KHz FFT](https://user-images.githubusercontent.com/120498080/212823662-47e5f3bb-a245-42c2-bb82-a57d107b1030.PNG)
 	
 #### Results:
-- Upon observation and experimental measurements, the resonant frequency is found out to be 18 KHz.
-- The calculated value of resonant frequency as per component rating is 11.25 KHz.
-
+- Upon observation and experimental measurements, the resonant frequency is found out to be 18 kHz.
+- The calculated value of resonant frequency as per component rating is 11.25 kHz.
 - Upon observation and experimental measurements, the lower cut-off frequency is found out to be 795 Hz.
 - Upon observation and experimental measurements, the higher cut-off frequency is found out to be 160 kHz.
 - The calculated value of lower cut-off frequency as per component rating is 2 kHz.
 - The calculated value of lower cut-off frequency as per component rating is 180 kHz.
 - The observed bandwidth of our LCR value = (160 – 0.795) kHz = 159.205 kHz.
-- The calcuated bandwidth of our LCR value = (180 – 2) kHz = 178 kHz.
-	
-#### FFT (fast Fourier transform) at 18 kHz
-	
-![RLC 18KHz FFT](https://user-images.githubusercontent.com/120498080/212823662-47e5f3bb-a245-42c2-bb82-a57d107b1030.PNG)
-
-	
+- The calculated bandwidth of our LCR value = (180 – 2) kHz = 178 kHz.
 	
 
+### Conclusion
+	
+There are some deviation is the measured value and actual values of capacitance and inductance, which can be due to following reasons
+	- The components have some errors in measured and acurate value.
+	- Due to wire resistance.
+	- Wire Capacitance can change at differenet frequency
+	- The internal resistance of capacitors will chance at different frequency.
+	
+
 
 	
-### ERROR FACED:
+### Discussion Points :
 - In function generator when we give 1Vpp then in oscilloscope it was giving 1.19Vpp sine wave - but this was fixed when we changed the BNC converter on Oscilloscope.
+- The resistance accross inductor in RLC circuit was 10 Ω 
  
 	
 # <h1 id="header-r">References</h1>
