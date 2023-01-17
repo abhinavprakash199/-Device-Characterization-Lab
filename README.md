@@ -169,6 +169,26 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
  - tan (Φ) = 1/ωRC
 	
 	C = 1/( ωRtan (Φ) )
+	
+- The calculated values of capacitance are as follows:
+![image](https://user-images.githubusercontent.com/120498080/212817564-990f61b8-3fae-4c72-bed7-ed23bbdc2f68.png)
+ 
+### Output of our RC low pass filter:
+- At 500 Hz. (yellow – output, green – input)
+![image](https://user-images.githubusercontent.com/120498080/212817642-0f1f11d4-3101-471a-9c80-467486ad63cb.png)
+![image](https://user-images.githubusercontent.com/120498080/212817664-ddfa4e46-1673-4f26-a2f8-27ddd97bfe56.png)
+![image](https://user-images.githubusercontent.com/120498080/212817696-142f70d9-a3a4-46e9-a408-9dd9c28b7199.png)
+- Result: The cut-off frequency of RC filter is 2kHz
+	
+### Output at cut-off frequency
+![image](https://user-images.githubusercontent.com/120498080/212818022-63b1c7b0-2792-4870-910f-bd788328b445.png)
+![image](https://user-images.githubusercontent.com/120498080/212818055-a746f4ff-4e74-43a7-9243-3dba9933d31f.png)
+
+	
+	
+	
+	
+
 
 	
 	
