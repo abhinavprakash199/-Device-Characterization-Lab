@@ -385,7 +385,7 @@ There are some deviation is the measured value and actual values of capacitance 
  
 	
 # <h1 id="header-r">References</h1>
-- [**SMU** - Keithley SourceMeter 2636B Manuals](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
-- 
+- [**SMU** - Keithley SourceMeter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
+- [RMT2054 Oscilloscope Manual](https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_common_library/dl_manuals/gb_1/r/rtm_1/rtm1000_2000/rtm1000_1/RTM_UserManual_en.pdf)
 # <h1 id="header-a">Acknowledgement</h1>
 - [Dr. Naresh Kumar Emani](https://www.iith.ac.in/ee/naresh/)
