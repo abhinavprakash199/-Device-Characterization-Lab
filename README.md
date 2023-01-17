@@ -62,13 +62,10 @@ NPLC is number of power line cycles.  DC Voltage, DC Current, and Resistance mea
 
 **Equipments Required:**
 
-1.	Low Resistance (selected resistance = 0 ohms with precision of ±0.1 ohm)
-
-2.	Multimeter
-
-3.	Banana Cables
-
-4.	SMU (Keithley 2450)
+- Low Resistance (selected resistance = 0 ohms with precision of ±0.1 ohm)
+- Multimeter
+- Banana Cables
+- SMU (Keithley 2450)
 
 **Procedure:**
 
@@ -147,16 +144,11 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ## <h1 id="header-2_2">Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</h1> 
 	
 **Equipments Required:**
-
-1.	Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor)
-
-2.	Multimeter
-
-3.	BNC(Bayonet Nut Coupling) Cables
-
-4.	RMT2054 Oscilloscope
-	
-5. 	33600A Waveform Generator
+- Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor)
+- Multimeter
+- BNC(Bayonet Nut Coupling) Cables
+- RMT2054 Oscilloscope
+- 33600A Waveform Generator
 
 **Procedure:**
 	
@@ -165,25 +157,28 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 	
 
 ## <h1 id="header-2_3">Experiement 2.2: Measurement of Inductor value & Cutoff frequency from RL Filters</h1>
-![rl](https://user-images.githubusercontent.com/120498080/212808528-3d8a6bc3-6437-463b-b2f5-a5e74430690d.PNG)
+
 **Equipments Required:**
-
-1.	Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor)
-
-2.	Multimeter
-
-3.	BNC(Bayonet Nut Coupling) Cables
-
-4.	RMT2054 Oscilloscope
-	
-5. 	33600A Waveform Generator
+- Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor)
+- Multimeter
+- BNC(Bayonet Nut Coupling) Cables
+- RMT2054 Oscilloscope
+- 33600A Waveform Generator
 
 **Procedure:**
 
-
+![rl](https://user-images.githubusercontent.com/120498080/212808528-3d8a6bc3-6437-463b-b2f5-a5e74430690d.PNG)
 	
 ## <h1 id="header-2_4">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>
+**Equipments Required:**
+- Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor)
+- Multimeter
+- BNC(Bayonet Nut Coupling) Cables
+- RMT2054 Oscilloscope
+- 33600A Waveform Generator
 
+**Procedure:**
+	
 ![rlc](https://user-images.githubusercontent.com/120498080/212808368-9d2b9475-ffd2-4ed2-b21e-55e88872f083.PNG)
 
 	
