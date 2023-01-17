@@ -144,7 +144,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ## <h1 id="header-2_2">Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</h1> 
 	
 **Equipments Required:**
-- Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor)
+- Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor of 0.2uFarad)
 - Multimeter
 - BNC(Bayonet Nut Coupling) Cables
 - RMT2054 Oscilloscope
@@ -159,7 +159,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ## <h1 id="header-2_3">Experiement 2.2: Measurement of Inductor value & Cutoff frequency from RL Filters</h1>
 
 **Equipments Required:**
-- Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor)
+- Resistance and Inductor (Resistance =  1kohms with precision of ±0.1 ohm and Inductor of 1mHenry)
 - Multimeter
 - BNC(Bayonet Nut Coupling) Cables
 - RMT2054 Oscilloscope
@@ -171,7 +171,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 	
 ## <h1 id="header-2_4">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>
 **Equipments Required:**
-- Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor)
+- Resistance , Capacitor and Inductor (Resistance =  1kohms with precision of ±0.1 ohm , Capacitor of 0.2uFarad and Inductor of 1mHenry with precision of ±0.1 ohm )
 - Multimeter
 - BNC(Bayonet Nut Coupling) Cables
 - RMT2054 Oscilloscope
