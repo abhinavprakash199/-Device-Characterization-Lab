@@ -149,6 +149,8 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 
 	
 ## <h1 id="header-1_6">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>
+![rlc](https://user-images.githubusercontent.com/120498080/212808368-9d2b9475-ffd2-4ed2-b21e-55e88872f083.PNG)
+
 ![image](https://user-images.githubusercontent.com/120498080/212807920-0b1958aa-c882-4443-aa5b-4c134c8535b9.png)
 	
 	
