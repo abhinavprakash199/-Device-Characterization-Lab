@@ -60,7 +60,7 @@ NPLC is number of power line cycles.  DC Voltage, DC Current, and Resistance mea
 <h1 id="header-1_2">Experiement 1 - Measurement of accuracy in low resistance measurement</h1>
 
 
-**EquipmentsRequired:**
+**Equipments Required:**
 
 1.	Low Resistance (selected resistance = 0 ohms with precision of ±0.1 ohm)
 
@@ -136,7 +136,7 @@ end
 
 ### Experiment when we use triax and BNC coverter.
 
-# <h1 id="header-2">Week 1. Familiarization with Instrumentation</h1>
+# <h1 id="header-2">Week 2. Familiarization with Instrumentation</h1>
 ## <h1 id="header-2_1">Familiarization to Oscilloscope</h1> 
 ### Oscilloscope
 An oscilloscope is a test & measurement instrument that rapidly measures voltage over time. It records the voltage across certain points in a circuit and displays voltage (Y-axis) as a function of time (X-axis) on a screen. It is essentially a very fast voltmeter with the capability of data-logging and plotting.
@@ -145,15 +145,45 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 
 
 ## <h1 id="header-2_2">Experiement 2.1: Measurement of Capacitor value & Cutoff frequency from RC Filters</h1> 
+	
+**Equipments Required:**
+
+1.	Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor)
+
+2.	Multimeter
+
+3.	BNC(Bayonet Nut Coupling) Cables
+
+4.	RMT2054 Oscilloscope
+	
+5. 	33600A Waveform Generator
+
+**Procedure:**
+	
+	
 ![rc-low-pass-filter](https://user-images.githubusercontent.com/120498080/212807171-e3561edb-00f9-4a5a-b410-7ef7f0c6dc0e.jpg)
 	
 
 ## <h1 id="header-2_3">Experiement 2.2: Measurement of Inductor value & Cutoff frequency from RL Filters</h1>
 ![rl](https://user-images.githubusercontent.com/120498080/212808528-3d8a6bc3-6437-463b-b2f5-a5e74430690d.PNG)
+**Equipments Required:**
+
+1.	Resistance and Capacitor (Resistance =  1kohms with precision of ±0.1 ohm and Capacitor)
+
+2.	Multimeter
+
+3.	BNC(Bayonet Nut Coupling) Cables
+
+4.	RMT2054 Oscilloscope
+	
+5. 	33600A Waveform Generator
+
+**Procedure:**
 
 
 	
 ## <h1 id="header-2_4">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>
+
 ![rlc](https://user-images.githubusercontent.com/120498080/212808368-9d2b9475-ffd2-4ed2-b21e-55e88872f083.PNG)
 
 	
