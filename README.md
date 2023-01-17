@@ -167,7 +167,6 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 **Step 3:** Calculating the value of Capacitance using the value phase shift in input and output.
  - As we know for RC circuit, 
  ```
-	$$ tan (Φ) = {1 \pm \over ωRC} $$
 	tan (Φ) = 1/ωRC
 	C = 1/( ωRtan (Φ) )
 ```
@@ -183,11 +182,14 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 ![image](https://user-images.githubusercontent.com/120498080/212817664-ddfa4e46-1673-4f26-a2f8-27ddd97bfe56.png)
 ![image](https://user-images.githubusercontent.com/120498080/212817696-142f70d9-a3a4-46e9-a408-9dd9c28b7199.png)
 	
-- Result: The cut-off frequency of RC filter is 2kHz
-	
 #### Output at cut-off frequency:
 ![image](https://user-images.githubusercontent.com/120498080/212818022-63b1c7b0-2792-4870-910f-bd788328b445.png)
 ![image](https://user-images.githubusercontent.com/120498080/212818055-a746f4ff-4e74-43a7-9243-3dba9933d31f.png)
+
+#### Results:
+- Upon observation and experimental measurements, the cut-off frequency is found out to be 2 KHz.
+- The calculated value of cut-off frequency as per component rating is 795 Hz.
+- The bandwidth of our RC value = ∞
 
 	
 	
@@ -235,7 +237,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 
 #### The calculated values of capacitance are as follows:
 	
-![image](https://user-images.githubusercontent.com/120498080/212818915-175ce19d-ce7d-4c23-a119-fec0ec122f60.png)
+![image](https://user-images.githubusercontent.com/120498080/212822152-4f1bc9a3-1b79-44c4-bbaf-0954f231cf8f.png)
 	
 #### Output of our RL high pass filter:
 - At 100kHz. (yellow – output, green – input)
@@ -249,6 +251,12 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 #### Output at cut-off frequency
 ![image](https://user-images.githubusercontent.com/120498080/212819067-0a3e333b-405a-4ab3-b323-28816441e058.png)
 ![image](https://user-images.githubusercontent.com/120498080/212819083-8d8244f9-b0be-42ff-b9c7-1cde1ce44ccc.png)
+	
+#### Results:
+- Upon observation and experimental measurements, the cut-off frequency is found out to be 155 kHz.
+- The calculated value of cut-off frequency as per component rating is 160 kHz.
+- The bandwidth of our RC value = ∞
+
 
 	
 	
@@ -277,9 +285,19 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
    - Calcualted Higher Cut- off frequency = 160kHz
    - Calcualted Resonance frequency - 11.25kHz
 **Step 2:** Establishing Connections
-	
+
 ![rlc](https://user-images.githubusercontent.com/120498080/212808368-9d2b9475-ffd2-4ed2-b21e-55e88872f083.PNG)
 
+- We connect the R, C and L component in series and provide input between L and R and output is taken across R. 
+- Applied peak to peak Voltage (Vpp = 1 V)
+
+	
+
+	
+#### Results:
+- Upon observation and experimental measurements, the resonant frequency is found out to be 18 KHz.
+- The calculated value of resonant frequency as per component rating is 11.25 KHz.
+- The bandwidth of our LCR value = (160 – 2) KHz = 158 KHz.
 	
 
 
