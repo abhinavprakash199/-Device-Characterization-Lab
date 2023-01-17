@@ -170,8 +170,8 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 **Step 3:** Calculating the value of Capacitance using the value phase shift in input and output.
  - As we know for RC circuit, 
  ```
-	tan(Φ) = 1/ωRC
-	C = 1/(ωRtan(Φ))
+	tan(Φ) = ωRC
+	C = tan(Φ)/(ωR)
 ```
 	
 #### The calculated values of capacitance are as follows:
@@ -344,10 +344,10 @@ At frequency of 800 Hz:
 
 After resonant frequency the output voltage across R lags the input voltage. (higher frequency range)
 At frequency of 160 kHz: 
-	- Angle per division = 23.22°
-	- Change in division in input and output = 2°(lagg)
-	- Observed Phase = 46.45°(lagg)
-	- Calculated Phase = 45°(lagg)
+- Angle per division = 23.22°
+- Change in division in input and output = 2°(lagg)
+- Observed Phase = 46.45°(lagg)
+- Calculated Phase = 45°(lagg)
 	
 ![image](https://user-images.githubusercontent.com/120498080/212824539-9a39dc6f-c520-4762-9dc3-c279fe2f13d5.png)
 	
