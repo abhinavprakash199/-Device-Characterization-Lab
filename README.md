@@ -222,18 +222,6 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 - The observed bandwidth of our RC value = 2 kHz.
 - The calculated bandwidth of our RC value = 795 Hz.
 
-
-
-	
-	
-	
-
-
-	
-	
-
-	
-
 ## <h1 id="header-2_3">Experiement 2.2: Measurement of Inductance value & Cutoff frequency from RL Filters</h1>
 
 **Equipments Required:**
@@ -294,14 +282,6 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 - Upon observation and experimental measurements, the cut-off frequency is found out to be 155 kHz.
 - The calculated value of cut-off frequency as per component rating is 160 kHz.
 - The bandwidth of our RC value = ∞
-	
-
-
-
-
-	
-	
-
 	
 ## <h1 id="header-2_4">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>
 **Equipments Required:**
@@ -388,7 +368,6 @@ At frequency of 160 kHz:
 - The observed bandwidth of our LCR value = (160 – 0.795) kHz = 159.205 kHz.
 - The calculated bandwidth of our LCR value = (180 – 2) kHz = 178 kHz.
 	
-
 ### Conclusion
 	
 There are some deviation in the measured value and actual values of capacitance and inductance, which can be due to following reasons
@@ -397,13 +376,18 @@ There are some deviation in the measured value and actual values of capacitance 
 - Due to wire resistance.
 - Wire properties can change at differenet frequency
 	
-
-
-	
 ### Discussion Points :
 - In function generator when we give 1Vpp then in oscilloscope it was giving 1.19Vpp sine wave - but this was fixed when we changed the BNC converter on Oscilloscope.
 - The resistance accross inductor in RLC circuit was 10 Ω 
  
+	
+# <h1 id="header-3">1. Familiarization with Instrumentation</h1> 
+## <h1 id="header-3_1">Familiarization the functions of SMU (Source Measuring Unit)</h1> 	
+## <h1 id="header-3_2">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>	
+	
+
+	
+	
 	
 # <h1 id="header-r">References</h1>
 - [**SMU** - Keithley SourceMeter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
