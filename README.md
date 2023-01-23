@@ -28,6 +28,27 @@
         <li><a href="#header-2_3">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</a></li>
       </ul>
 </div>	
+
+<div class="toc">
+  <ul>
+    <li><a href="#header-3">Week 3. Familiarization with Instrumentation</a></li>
+	<ul>
+        <li><a href="#header-3_1">Comparing values of capacitance(in RC circuit) from oscilloscope(by phase) and LCR meter</a></li>
+      </ul>
+      <ul>
+        <li><a href="#header-3_2">Comparing values of inductance(in RL circuit) from oscilloscope(by phase) and LCR meter</a></li>
+      </ul>
+	<ul>
+        <li><a href="#header-3_3">Comparing values of 0 ohm using triax and banana cables</a></li>
+      </ul>
+      <ul>
+        <li><a href="#header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic capacitor using LCR meter</a></li>
+      </ul>
+	<ul>
+        <li><a href="#header-3_5">Solving error of week1</a></li>
+      </ul>
+</div>	
+	
 	
 <div class="toc">
   <ul>
