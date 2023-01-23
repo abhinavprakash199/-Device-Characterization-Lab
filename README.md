@@ -148,10 +148,11 @@ end
 ### SMU Output:
 ![image](https://user-images.githubusercontent.com/120498080/211484239-3c1c6fb9-89ae-43d3-94f7-c75eaee280bf.png)
 ### ERROR FACED:
-1.We tried to remotely control the SMU using TSB software and faced issues in auto run.
+- We tried to remotely control the SMU using TSB software and faced issues in auto run.
 
 ![image](https://user-images.githubusercontent.com/120498080/211484356-38fd3c98-b60e-4bbb-81bc-8bb161a292a2.png)
-2.Faced error in measuring resistance using TRIAX cable to measure resistance.
+	
+- Faced error in measuring resistance using TRIAX cable to measure resistance.
 
 
 ### Experiment when we use triax and BNC coverter.
@@ -380,7 +381,7 @@ There are some deviation in the measured value and actual values of capacitance 
 	
 ### Discussion Points :
 - In function generator when we give 1Vpp then in oscilloscope it was giving 1.19Vpp sine wave - but this was fixed when we changed the BNC converter on Oscilloscope.
-- The resistance accross inductor in RLC circuit was 10 Ω 
+
  
 	
 # <h1 id="header-3">Week 3. Familiarization with Instrumentation</h1> 
@@ -423,7 +424,8 @@ There are some deviation in the measured value and actual values of capacitance 
 ![image](https://user-images.githubusercontent.com/120498080/214087418-829ade53-94a3-4ecf-a530-abc91ef531b1.png)
 
 #### Obsevation 
-- By using triax cable we found that resistance increases and accuracy decreases
+- By using triax cable we found that resistance increases and accuracy decreases.
+	
 ## <h1 id="header-3_5">Solving error of week1</h1>
 
 	
