@@ -103,11 +103,13 @@ Step 1: Identify the color codes and find out the resistance value.
 
 **Step3:** Use 2 probe and 4probe methods and measure the resistance value using Keithley 2450 Source meter (Manually)
 
-1.Sourcing Voltage (Source = 50 mv), Limit to Current = 200 mA
-![image](https://user-images.githubusercontent.com/120498080/211482799-d4c8e27f-1887-404a-9fd0-16ccfba93c29.png)
+1.Sourcing Voltage (Source = 50 mV), Limit to Current = 200 mA
+	
+![image](https://user-images.githubusercontent.com/120498080/214098275-613b1a64-d9eb-401e-b2de-bb770662a8dc.png)
 
 2. Sourcing Current (Source = 200 mA), Limit to Voltage = 50 mV
-![image](https://user-images.githubusercontent.com/120498080/211482972-cffd614c-41ea-4548-93b6-f76243942d19.png)
+	
+![image](https://user-images.githubusercontent.com/120498080/214098496-cb7b1de0-824c-45cb-9595-905b078ce3e5.png)
 
 ### Programme and SMU
 **Step 4:** Using 4probe method and measure the resistance value using Keithley 2450 
