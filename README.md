@@ -32,6 +32,9 @@
 <div class="toc">
   <ul>
     <li><a href="#header-3">Week 3. Familiarization with Instrumentation</a></li>
+	  <ul>
+        <li><a href="#header-3_7">Familiarization to LCR meter</a></li>
+      </ul>
 	<ul>
         <li><a href="#header-3_1">Comparing values of capacitance(in RC circuit) from oscilloscope(by phase) and LCR meter</a></li>
       </ul>
@@ -431,14 +434,13 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 - 4 wire measurment
 	
 ![image](https://user-images.githubusercontent.com/120498080/214107656-ef09a23c-4ad8-4376-9e20-49d689da36dd.png)
-
+#### Obsevation 
+- By using triax cable we found that resistance increases and accuracy decreases.
+	
 ## <h1 id="header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic Capacitor using LCR meter</h1>
 
 ![image](https://user-images.githubusercontent.com/120498080/214087418-829ade53-94a3-4ecf-a530-abc91ef531b1.png)
 
-#### Obsevation 
-- By using triax cable we found that resistance increases and accuracy decreases.
-	
 ## <h1 id="header-3_5">Solving error of week1</h1>
 - We program SMU using USB cable in Keithley Test Script Builder.
 	
