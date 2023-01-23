@@ -385,6 +385,19 @@ There are some deviation in the measured value and actual values of capacitance 
  
 	
 # <h1 id="header-3">Week 3. Familiarization with Instrumentation</h1> 
+## <h1 id="header-3_7">Familiarization to LCR meter</h1>
+
+An LCR meter is a type of electronic test equipment used to measure the inductance (L), capacitance (C), and resistance (R) of an electronic component.In the simpler versions of this instrument the impedance was measured internally and converted for display to the corresponding capacitance or inductance value. Readings should be reasonably accurate if the capacitor or inductor device under test does not have a significant resistive component of impedance. More advanced designs measure true inductance or capacitance, as well as the equivalent series resistance of capacitors and the Q factor of inductive components.
+
+- We are using Wayne Kerr LCR meter
+	
+#### Wayne Kerr LCR meter
+![download (91)](https://user-images.githubusercontent.com/120498080/214114552-4bac1457-f163-41ea-8020-0d49784e530b.jpeg)
+
+- A Wayne Kerr LCR meters measures accurate and fast measurements of frequency range from 20Hz to 1MHz.
+- Two test mode enables consecutive measurements to be made with two different instrument parameters set.
+	
+	
 ## <h1 id="header-3_1">Comparing values of capacitance(in RC circuit) from oscilloscope(by phase) and LCR meter</h1> 	
 - Selected value of capacitance = 100 nF
 - Selected value of resistance = 1 kΩ
