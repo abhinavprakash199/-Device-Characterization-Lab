@@ -400,7 +400,7 @@ There are some deviation in the measured value and actual values of capacitance 
 
 ## <h1 id="header-3_3">Comparing values of 0 ohm in SMU using triax and banana cables</h1>
 	
-1.Sourcing Voltage (Source = 50 mV), Limit to Current = 200 mA
+1.**Sourcing Voltage** (Source = 50 mV), Limit to Current = 200 mA
 - 2 wire measurment
 
 ![image](https://user-images.githubusercontent.com/120498080/214107375-e489451b-e1de-4801-bd60-db9f18bd7b63.png)
@@ -409,7 +409,7 @@ There are some deviation in the measured value and actual values of capacitance 
 	
 ![image](https://user-images.githubusercontent.com/120498080/214106778-0cbfebaa-40cc-4473-b891-961913d29cf6.png)
 
-2. Sourcing Current (Source = 200 mA), Limit to Voltage = 50 mV
+2. **Sourcing Current** (Source = 200 mA), Limit to Voltage = 50 mV
 - 2 wire measurment
 	
 ![image](https://user-images.githubusercontent.com/120498080/214107026-2ea4217a-eeb6-4c9a-99ad-18cd2bb53b41.png)
@@ -422,6 +422,8 @@ There are some deviation in the measured value and actual values of capacitance 
 
 ![image](https://user-images.githubusercontent.com/120498080/214087418-829ade53-94a3-4ecf-a530-abc91ef531b1.png)
 
+#### Obsevation 
+- By using triax cable we found that resistance increases and accuracy decreases
 ## <h1 id="header-3_5">Solving error of week1</h1>
 
 	
