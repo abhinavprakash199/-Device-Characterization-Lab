@@ -383,9 +383,26 @@ There are some deviation in the measured value and actual values of capacitance 
 	
 # <h1 id="header-3">Week 3. Familiarization with Instrumentation</h1> 
 ## <h1 id="header-3_1">Comparing values of capacitance(in RC circuit) from oscilloscope(by phase) and LCR meter</h1> 	
+- Selected value of capacitance = 100 nF
+- Selected value of resistance = 1 kΩ
+- Calculated cut off frequency = 1.6 kHz
+	
+![image](https://user-images.githubusercontent.com/120498080/214089786-4ab670c6-2b00-40ce-9aea-ebdda685f116.png)
+
 ## <h1 id="header-3_2">Comparing values of inductance(in RL circuit) from oscilloscope(by phase) and LCR meter</h1>
+- Selected value of inductance = 1 mH
+- Selected value of resistance = 1 kΩ
+- Calculated cut off frequency = 160 kHz
+	
+![image](https://user-images.githubusercontent.com/120498080/214082338-690abdcb-8f5d-461e-bb5e-5c85fe0af8f2.png)
+
 ## <h1 id="header-3_3">Comparing values of 0 ohm in SMU using triax and banana cables</h1>
-## <h1 id="header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic capacitor using LCR meter</h1>	
+	
+	
+## <h1 id="header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic Capacitor using LCR meter</h1>
+
+![image](https://user-images.githubusercontent.com/120498080/214087418-829ade53-94a3-4ecf-a530-abc91ef531b1.png)
+
 ## <h1 id="header-3_5">Solving error of week1</h1>
 
 	
