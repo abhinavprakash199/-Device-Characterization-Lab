@@ -427,7 +427,11 @@ There are some deviation in the measured value and actual values of capacitance 
 - By using triax cable we found that resistance increases and accuracy decreases.
 	
 ## <h1 id="header-3_5">Solving error of week1</h1>
-
+- We program SMU using USB cable in Keithley Test Script Builder.
+	
+![Screenshot (2202)](https://user-images.githubusercontent.com/120498080/214111557-2773fd3a-b701-4854-b051-b1027aae91c1.png)
+#### Output Graph
+![image](https://user-images.githubusercontent.com/120498080/214111775-1ac28edd-09b0-46e7-9fd6-4ead60d1173e.png)
 	
 	
 	
