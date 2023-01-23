@@ -402,8 +402,9 @@ There are some deviation in the measured value and actual values of capacitance 
 	
 1.Sourcing Voltage (Source = 50 mV), Limit to Current = 200 mA
 - 2 wire measurment
-	
-![image](https://user-images.githubusercontent.com/120498080/214106528-a64ce83c-eece-44e1-bc18-033d098976d6.png)
+
+![image](https://user-images.githubusercontent.com/120498080/214107375-e489451b-e1de-4801-bd60-db9f18bd7b63.png)
+
 - 4 wire measurment
 	
 ![image](https://user-images.githubusercontent.com/120498080/214106778-0cbfebaa-40cc-4473-b891-961913d29cf6.png)
@@ -415,7 +416,7 @@ There are some deviation in the measured value and actual values of capacitance 
 
 - 4 wire measurment
 	
-![image](https://user-images.githubusercontent.com/120498080/214107126-c0aee049-340c-472a-b300-c70ae2a754d5.png)
+![image](https://user-images.githubusercontent.com/120498080/214107656-ef09a23c-4ad8-4376-9e20-49d689da36dd.png)
 
 ## <h1 id="header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic Capacitor using LCR meter</h1>
 
