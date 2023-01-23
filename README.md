@@ -257,10 +257,10 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 	L = (R tan(90°-Φ))/(ω)
 ```
 
-#### The calculated values of capacitance are as follows:
+#### The calculated values of inductance are as follows:
 	
-![image](https://user-images.githubusercontent.com/120498080/212822152-4f1bc9a3-1b79-44c4-bbaf-0954f231cf8f.png)
-	
+![image](https://user-images.githubusercontent.com/120498080/214080694-34b54c97-6bf0-4b68-81c9-d0b21a480b1c.png)
+
 #### Output of RL high pass filter:
 - At 100kHz. (yellow – output, green – input)
 	
