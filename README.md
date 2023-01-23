@@ -197,7 +197,7 @@ An oscilloscope is a test & measurement instrument that rapidly measures voltage
 	
 #### The calculated values of capacitance are as follows:
 	
-![image](https://user-images.githubusercontent.com/120498080/212817564-990f61b8-3fae-4c72-bed7-ed23bbdc2f68.png)
+![image](https://user-images.githubusercontent.com/120498080/214079635-5943a5ba-7cba-4d05-ab62-dc6176ddfffe.png)
  
 #### Output of our RC low pass filter:
 - At 500 Hz. (yellow – output, green – input)
