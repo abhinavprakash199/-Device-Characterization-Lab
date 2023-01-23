@@ -39,7 +39,7 @@
         <li><a href="#header-3_2">Comparing values of inductance(in RL circuit) from oscilloscope(by phase) and LCR meter</a></li>
       </ul>
 	<ul>
-        <li><a href="#header-3_3">Comparing values of 0 ohm using triax and banana cables</a></li>
+        <li><a href="#header-3_3">Comparing values of 0 ohm in SMU using triax and banana cables</a></li>
       </ul>
       <ul>
         <li><a href="#header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic capacitor using LCR meter</a></li>
@@ -62,7 +62,7 @@
   </ul>
 </div>
 
-# <h1 id="header-1">1. Familiarization with Instrumentation</h1> 
+# <h1 id="header-1">Week 1. Familiarization with Instrumentation</h1> 
 ## <h1 id="header-1_1">Familiarization the functions of SMU (Source Measuring Unit)</h1> 
 ### SMU (Source Measuring Unit)
 Source Measurement Unit (SMU) instrument integrates the capabilities of a precision power supply (PPS) with those of a high-performance digital multimeter (DMM) in a single instrument.
@@ -381,10 +381,12 @@ There are some deviation in the measured value and actual values of capacitance 
 - The resistance accross inductor in RLC circuit was 10 Ω 
  
 	
-# <h1 id="header-3">1. Familiarization with Instrumentation</h1> 
-## <h1 id="header-3_1">Familiarization the functions of SMU (Source Measuring Unit)</h1> 	
-## <h1 id="header-3_2">Experiement 2.3: Measurement of Resonance & Cutoff frequency from RLC Filters</h1>	
-	
+# <h1 id="header-3">Week 3. Familiarization with Instrumentation</h1> 
+## <h1 id="header-3_1">Comparing values of capacitance(in RC circuit) from oscilloscope(by phase) and LCR meter</h1> 	
+## <h1 id="header-3_2">Comparing values of inductance(in RL circuit) from oscilloscope(by phase) and LCR meter</h1>
+## <h1 id="header-3_3">Comparing values of 0 ohm in SMU using triax and banana cables</h1>
+## <h1 id="header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic capacitor using LCR meter</h1>	
+## <h1 id="header-3_5">Solving error of week1</h1>
 
 	
 	
