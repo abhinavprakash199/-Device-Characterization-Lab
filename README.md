@@ -400,7 +400,23 @@ There are some deviation in the measured value and actual values of capacitance 
 
 ## <h1 id="header-3_3">Comparing values of 0 ohm in SMU using triax and banana cables</h1>
 	
+1.Sourcing Voltage (Source = 50 mV), Limit to Current = 200 mA
+- 2 wire measurment
 	
+![image](https://user-images.githubusercontent.com/120498080/214106528-a64ce83c-eece-44e1-bc18-033d098976d6.png)
+- 4 wire measurment
+	
+![image](https://user-images.githubusercontent.com/120498080/214106778-0cbfebaa-40cc-4473-b891-961913d29cf6.png)
+
+2. Sourcing Current (Source = 200 mA), Limit to Voltage = 50 mV
+- 2 wire measurment
+	
+![image](https://user-images.githubusercontent.com/120498080/214107026-2ea4217a-eeb6-4c9a-99ad-18cd2bb53b41.png)
+
+- 4 wire measurment
+	
+![image](https://user-images.githubusercontent.com/120498080/214107126-c0aee049-340c-472a-b300-c70ae2a754d5.png)
+
 ## <h1 id="header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic Capacitor using LCR meter</h1>
 
 ![image](https://user-images.githubusercontent.com/120498080/214087418-829ade53-94a3-4ecf-a530-abc91ef531b1.png)
