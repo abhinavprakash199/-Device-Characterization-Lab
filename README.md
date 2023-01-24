@@ -443,7 +443,7 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 #### Table 
 ![image](https://user-images.githubusercontent.com/120498080/214087418-829ade53-94a3-4ecf-a530-abc91ef531b1.png)
 #### Graph
-![image](https://user-images.githubusercontent.com/120498080/214243814-4b0555e1-08f4-4640-9682-55eefb062892.png)
+![image](https://user-images.githubusercontent.com/120498080/214244643-bcd4944e-ac54-4d4b-80ce-8e34c3519f1b.png)
 
 ## <h1 id="header-3_5">Solving error of week1</h1>
 - We program SMU using USB cable in Keithley Test Script Builder.
