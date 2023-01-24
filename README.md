@@ -438,8 +438,12 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 - By using triax cable we found that resistance increases and accuracy decreases.
 	
 ## <h1 id="header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic Capacitor using LCR meter</h1>
+- We measured the value of Ceramic Capacitor of 100nF and Electrolytic Capacitor of 10uF using LCR meter and we found that it is varrying with respect to frequency.
 
+#### Table 
 ![image](https://user-images.githubusercontent.com/120498080/214087418-829ade53-94a3-4ecf-a530-abc91ef531b1.png)
+#### Graph
+![image](https://user-images.githubusercontent.com/120498080/214243814-4b0555e1-08f4-4640-9682-55eefb062892.png)
 
 ## <h1 id="header-3_5">Solving error of week1</h1>
 - We program SMU using USB cable in Keithley Test Script Builder.
