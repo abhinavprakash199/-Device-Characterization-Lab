@@ -456,7 +456,9 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 ![Screenshot (2202)](https://user-images.githubusercontent.com/120498080/214111557-2773fd3a-b701-4854-b051-b1027aae91c1.png)
 #### Output Graph
 ![image](https://user-images.githubusercontent.com/120498080/214111775-1ac28edd-09b0-46e7-9fd6-4ead60d1173e.png)
-	
+
+# Week 3
+
 	
 	
 # <h1 id="header-r">References</h1>
@@ -465,3 +467,4 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 - [Wayne Kerr LCR meter 4300 Series Manual](https://www.waynekerrtest.com/datasheet/instruments/wk4300.pdf)
 # <h1 id="header-a">Acknowledgement</h1>
 - [Dr. Naresh Kumar Emani](https://www.iith.ac.in/ee/naresh/)
+
