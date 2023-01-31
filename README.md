@@ -1,7 +1,7 @@
-$ git commit -m "Refactor" usability tests.
+<!--- $ git commit -m "Refactor" usability tests.
 >
 >
-Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com>
+Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 
 # Device-Characterization-Lab
 
