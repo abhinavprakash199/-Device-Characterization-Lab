@@ -480,6 +480,47 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 	
 	* We used kickstart software to plot the I-V Characterstics of Power Mosfet
 	
+	
+	#### TSP Codes
+```verilog
+	function measRdsOn(startv, stopv, step, idrain) 
+	if not (startv and stopv and step and idrain) then 
+		print('Specify parameters!')
+		return
+	end
+	-- Configure SMUs
+	smua.source.func = smua.OUTPUT_DCAMPS
+	display.smua.measure.func = display.MEASURE_OHMS
+	smua.source.leveli = idrain
+	smua.nvbuffer1.clear()
+	
+	smub.source.func = smub.OUTPUT_DCVOLTS
+	display.smub.measure.func = display.MEASURE_DCVOLTS
+	smub.source.levelv = startv
+	smub.nvbuffer1.clear()
+	
+	--Begin test
+	TogOutput()
+	for vbias = startv, stopv, step do
+		smub.source.levelv = vbias
+		smub.measure.v(smub.nvbufferl)
+		smua.measure.r(smua.nvbufferl)
+	end
+	TogOutput()
+	return
+end
+
+function TogOutput()
+	if smua.source.output == 1 then
+		smua.source.output = 0
+		smub.source.output = 0
+	else
+		smua.source.output = 1
+		smub.source.output = 1
+	end
+end
+	```
+	
 # <h1 id="header-r">References</h1>
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
 - [RMT2054 Oscilloscope Manual](https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_common_library/dl_manuals/gb_1/r/rtm_1/rtm1000_2000/rtm1000_1/RTM_UserManual_en.pdf)
