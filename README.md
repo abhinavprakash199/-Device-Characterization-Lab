@@ -479,7 +479,7 @@ The circuit of the power mosfet is shown below. As we can see these MOSFETs have
 	
 ![image](https://user-images.githubusercontent.com/120498080/215676491-adcb9325-a928-401f-ac49-b41bf9cd3152.png)
 
-- [IRF640N Data Sheet](https://pdf1.alldatasheet.com/datasheet-pdf/download/68219/IRF/IRF640N.html)
+- [IRF640N Data Sheet](https://drive.google.com/file/d/15YuPCNSOz5lKfFQQqb9ehjZzHD9DQ96F/view?usp=sharing)
 
 ## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
 
