@@ -483,6 +483,19 @@ The circuit of the power mosfet is shown below. As we can see these MOSFETs have
 ## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
 
 -  We used kickstart software to plot the I-V Characterstics of Power Mosfet
+- As per the datasheet the gate threshold voltage is: VGS(th) Gate Threshold Voltage 2.0 (Minimum)  4.0 V (Maximum) For,  VDS = VGS, ID = 250µA
+- Using kickstart software we got the following plots for IRF 640N MOSFET. Using step size of two we got the following plots:
+
+![image](https://user-images.githubusercontent.com/120498080/215682249-103eb7fb-6c6c-4098-afe3-01fee00dc0d4.png)
+#### Inference from the above plots:
+1. We observe that for 3 V at gate, we do not have any significant amount of current. Hence it can be inferred that the threshold value is greater than 3.
+2. For gate voltage of 4 V we get significant amount of current. Hence, it can be inferred that threshold voltage is approximately between 3 to 4 V.
+
+- Now we tweaked the gate voltage and the following plot was observed.
+![image](https://user-images.githubusercontent.com/120498080/215682411-bcab2bd1-dc63-4bf7-ba59-1841a3b4a24f.png)
+#### Inference from the above plots:
+1. So, we tried to plot Vgs vs Id curve but we weren’t getting the expected plots. Hence, we need to figure this out.
+2. We also observe that for more than 5 V (approximately 4.6 V) and we observed that current was significantly high.
 
 
 	
