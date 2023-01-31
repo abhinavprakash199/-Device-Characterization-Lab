@@ -57,8 +57,8 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
       </ul>
 </div>	
 	
-* [Week 4: MOSFET Characterisation](#Week-4:-MOSFET-Characterisation)
-	+ [MOS I-V Characterstics](#MOS-I-V-Characterstics)
+* [Week 4: MOSFET Characterisation](#week-4-mosfet-characterisation)
+	- [MOS I-V Characterstics](#mos-i-v-characterstics)
 
 <div class="toc">
   <ul>
