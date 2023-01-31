@@ -497,8 +497,13 @@ The circuit of the power mosfet is shown below. As we can see these MOSFETs have
 1. So, we tried to plot Vgs vs Id curve but we weren’t getting the expected plots. Hence, we need to figure this out.
 2. We also observe that for more than 5 V (approximately 4.6 V) and we observed that current was significantly high.
 
+- The setting which we kept in the kickstart software.
+![image](https://user-images.githubusercontent.com/120498080/215683668-3d26211c-5187-4c01-af50-ee61b4feec10.png)
 
-	
+- Setting for DRAIN Terminal:
+![image](https://user-images.githubusercontent.com/120498080/215683801-744bc0fd-4cab-4421-9a4b-11304eb7c95e.png)
+
+
 # <h1 id="header-r">References</h1>
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
 - [RMT2054 Oscilloscope Manual](https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_common_library/dl_manuals/gb_1/r/rtm_1/rtm1000_2000/rtm1000_1/RTM_UserManual_en.pdf)
