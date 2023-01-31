@@ -458,70 +458,27 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 ![image](https://user-images.githubusercontent.com/120498080/214111775-1ac28edd-09b0-46e7-9fd6-4ead60d1173e.png)
 
 # Week 3: MOSFET Characterisation
-
-In this week we tried to characterise Power mosfet.
+	In this week we tried to characterise Power mosfet.
 	
-## Required component:
+	## Required component:
 	
-1. Keithley 2636B SMU
-2. Triax Cables
-3. Power Mosfets (IRF 640 N, IRF 630 N)
-4. Breadboard and connectors
+	1. Keithley 2636B SMU
+	2. Triax Cables
+	3. Power Mosfets (IRF 640 N, IRF 630 N)
+	4. Breadboard and connectors
 	
-## IRF 640N
+	## IRF 640N
 	
-![image](https://user-images.githubusercontent.com/120498080/215673908-eee9da0c-64bb-4495-88f5-36d2b4d9d1f4.png)
-
+	![image](https://user-images.githubusercontent.com/120498080/215673908-eee9da0c-64bb-4495-88f5-36d2b4d9d1f4.png)
+        
+	The circuit of the power mosfet is shown below. As we can see these MOSFETs have body diodes. Body diode of the MOSFET provides us with a path for inductive load current to by-pass the MOSFET during its “OFF” state, Which is an important feature used in many applications such as synchronous rectification (AC-DC and DC-DC) and motor control (full-bridge & half-bridge). Body diode conduction occurs during the ‘dead-time’ between one MOSFET switching off and the second MOSFET turning on. Although dead-time is typically brief (approximately 80 to 100 nanoseconds) the losses associated with this part of the switching cycle can be significant. There are energy loss mechanisms associated with the body-diode conduction phase.
 	
-![image](https://user-images.githubusercontent.com/120498080/215673604-b29148f7-3adc-483a-ae4a-9e1ddb2af319.png)
-       
-The circuit of the power mosfet is shown below. As we can see these MOSFETs have body diodes. 
-	
-## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
-	
-- We used kickstart software to plot the I-V Characterstics of Power Mosfet
+	![image](https://user-images.githubusercontent.com/120498080/215673604-b29148f7-3adc-483a-ae4a-9e1ddb2af319.png)
 	
 	
+	## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
 	
-#### TSP Codes
-```verilog
-	function measRdsOn(startv, stopv, step, idrain) 
-	if not (startv and stopv and step and idrain) then 
-		print('Specify parameters!')
-		return
-	end
-	-- Configure SMUs
-	smua.source.func = smua.OUTPUT_DCAMPS
-	display.smua.measure.func = display.MEASURE_OHMS
-	smua.source.leveli = idrain
-	smua.nvbuffer1.clear()
-	
-	smub.source.func = smub.OUTPUT_DCVOLTS
-	display.smub.measure.func = display.MEASURE_DCVOLTS
-	smub.source.levelv = startv
-	smub.nvbuffer1.clear()
-	
-	--Begin test
-	TogOutput()
-	for vbias = startv, stopv, step do
-		smub.source.levelv = vbias
-		smub.measure.v(smub.nvbufferl)
-		smua.measure.r(smua.nvbufferl)
-	end
-	TogOutput()
-	return
-end
-
-function TogOutput()
-	if smua.source.output == 1 then
-		smua.source.output = 0
-		smub.source.output = 0
-	else
-		smua.source.output = 1
-		smub.source.output = 1
-	end
-end
-```
+	* We used kickstart software to plot the I-V Characterstics of Power Mosfet
 	
 # <h1 id="header-r">References</h1>
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
