@@ -470,14 +470,16 @@ In this week we tried to characterise Power mosfet.
 3. Power Mosfets (IRF 640 N, IRF 630 N)
 4. Breadboard and connectors
 	
-## IRF 640N
+## IRF640N
 	
 ![image](https://user-images.githubusercontent.com/120498080/215676283-25939412-2494-4709-a966-4552c28c537e.png)
         
 The circuit of the power mosfet is shown below. As we can see these MOSFETs have body diodes. Body diode of the MOSFET provides us with a path for inductive load current to by-pass the MOSFET during its “OFF” state, Which is an important feature used in many applications such as synchronous rectification (AC-DC and DC-DC) and motor control (full-bridge & half-bridge). Body diode conduction occurs during the ‘dead-time’ between one MOSFET switching off and the second MOSFET turning on. Although dead-time is typically brief (approximately 80 to 100 nanoseconds) the losses associated with this part of the switching cycle can be significant. There are energy loss mechanisms associated with the body-diode conduction phase.
 	
 ![image](https://user-images.githubusercontent.com/120498080/215676491-adcb9325-a928-401f-ac49-b41bf9cd3152.png)
-	
+
+- [IRF640N Data Sheet](https://pdf1.alldatasheet.com/datasheet-pdf/download/68219/IRF/IRF640N.html)
+
 ## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
 
 -  We used kickstart software to plot the I-V Characterstics of Power Mosfet
