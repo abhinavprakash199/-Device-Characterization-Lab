@@ -483,7 +483,17 @@ The circuit of the power mosfet is shown below. As we can see these MOSFETs have
 
 ## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
 
--  We used kickstart software to plot the I-V Characterstics of Power Mosfet
+-  We used kickstart software to plot the I-V Characterstics of Power Mosfet.
+
+The setting which we kept in the kickstart software.
+![image](https://user-images.githubusercontent.com/120498080/215683668-3d26211c-5187-4c01-af50-ee61b4feec10.png)
+
+- Setting for DRAIN Terminal:
+![image](https://user-images.githubusercontent.com/120498080/215716547-4445a0a9-6ab3-4942-a53e-d2c1df588156.png)
+
+- Settings for GATE terminal: 
+![image](https://user-images.githubusercontent.com/120498080/215683801-744bc0fd-4cab-4421-9a4b-11304eb7c95e.png)
+
 - As per the datasheet the gate threshold voltage is: VGS(th) Gate Threshold Voltage 2.0 (Minimum)  4.0 V (Maximum) For,  VDS = VGS, ID = 250µA
 - Using kickstart software we got the following plots for IRF 640N MOSFET. Using step size of two we got the following plots:
 
@@ -500,17 +510,12 @@ The circuit of the power mosfet is shown below. As we can see these MOSFETs have
 1. So, we tried to plot Vgs vs Id curve but we weren’t getting the expected plots. Hence, we need to figure this out.
 2. We also observe that for more than 5 V (approximately 4.6 V) and we observed that current was significantly high.
 
-- The setting which we kept in the kickstart software.
-![image](https://user-images.githubusercontent.com/120498080/215683668-3d26211c-5187-4c01-af50-ee61b4feec10.png)
 
-- Setting for DRAIN Terminal:
-![image](https://user-images.githubusercontent.com/120498080/215683801-744bc0fd-4cab-4421-9a4b-11304eb7c95e.png)
-
-	## ERROR:
+## ERROR:
 	
-	* While sweeping V<sub> GS </sub> vs I<sub> D </sub> we faced following error i.e., TSP link cable are required for pulse mode operation.
+- While sweeping V<sub> GS </sub> vs I<sub> D </sub> we faced following error i.e., TSP link cable are required for pulse mode operation.
 	
-	![image](https://user-images.githubusercontent.com/120498080/215686506-87769fc9-f906-450e-97af-b42cfbb41b6c.png)	
+![image](https://user-images.githubusercontent.com/120498080/215686506-87769fc9-f906-450e-97af-b42cfbb41b6c.png)	
 
 # <h1 id="header-r">References</h1>
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
