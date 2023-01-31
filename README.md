@@ -57,7 +57,7 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
       </ul>
 </div>	
 	
-* [Week 3: MOSFET Characterisation](#Week-3:-MOSFET-Characterisation)
+* [Week 4: MOSFET Characterisation](#Week-4:-MOSFET-Characterisation)
 	+ [MOS I-V Characterstics](#MOS-I-V-Characterstics)
 
 <div class="toc">
@@ -459,7 +459,7 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 #### Output Graph
 ![image](https://user-images.githubusercontent.com/120498080/214111775-1ac28edd-09b0-46e7-9fd6-4ead60d1173e.png)
 
-# Week 3: MOSFET Characterisation
+# Week 4: MOSFET Characterisation
 
 In this week we tried to characterise Power mosfet.
 	
@@ -505,6 +505,11 @@ The circuit of the power mosfet is shown below. As we can see these MOSFETs have
 - Setting for DRAIN Terminal:
 ![image](https://user-images.githubusercontent.com/120498080/215683801-744bc0fd-4cab-4421-9a4b-11304eb7c95e.png)
 
+	## ERROR:
+	
+	* While sweeping V<sub> GS </sub> vs I<sub> D </sub> we faced following error i.e., TSP link cable are required for pulse mode operation.
+	
+	![image](https://user-images.githubusercontent.com/120498080/215686506-87769fc9-f906-450e-97af-b42cfbb41b6c.png)	
 
 # <h1 id="header-r">References</h1>
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
