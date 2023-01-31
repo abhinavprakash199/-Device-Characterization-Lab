@@ -57,7 +57,9 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
       </ul>
 </div>	
 	
-	
+* [Week 3: MOSFET Characterisation](#Week-3:-MOSFET-Characterisation)
+	+ [MOS I-V Characterstics](#MOS-I-V-Characterstics)
+
 <div class="toc">
   <ul>
     <li><a href="#header-r">References</a></li>
@@ -458,27 +460,29 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 ![image](https://user-images.githubusercontent.com/120498080/214111775-1ac28edd-09b0-46e7-9fd6-4ead60d1173e.png)
 
 # Week 3: MOSFET Characterisation
-	In this week we tried to characterise Power mosfet.
+
+In this week we tried to characterise Power mosfet.
 	
-	## Required component:
+## Required component:
 	
-	1. Keithley 2636B SMU
-	2. Triax Cables
-	3. Power Mosfets (IRF 640 N, IRF 630 N)
-	4. Breadboard and connectors
+1. Keithley 2636B SMU
+2. Triax Cables
+3. Power Mosfets (IRF 640 N, IRF 630 N)
+4. Breadboard and connectors
 	
-	## IRF 640N
+## IRF 640N
 	
-	![image](https://user-images.githubusercontent.com/120498080/215676283-25939412-2494-4709-a966-4552c28c537e.png)
+![image](https://user-images.githubusercontent.com/120498080/215676283-25939412-2494-4709-a966-4552c28c537e.png)
         
 The circuit of the power mosfet is shown below. As we can see these MOSFETs have body diodes. Body diode of the MOSFET provides us with a path for inductive load current to by-pass the MOSFET during its “OFF” state, Which is an important feature used in many applications such as synchronous rectification (AC-DC and DC-DC) and motor control (full-bridge & half-bridge). Body diode conduction occurs during the ‘dead-time’ between one MOSFET switching off and the second MOSFET turning on. Although dead-time is typically brief (approximately 80 to 100 nanoseconds) the losses associated with this part of the switching cycle can be significant. There are energy loss mechanisms associated with the body-diode conduction phase.
 	
-	
 ![image](https://user-images.githubusercontent.com/120498080/215676491-adcb9325-a928-401f-ac49-b41bf9cd3152.png)
 	
-	## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
-	
-	* We used kickstart software to plot the I-V Characterstics of Power Mosfet
+## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
+
+-  We used kickstart software to plot the I-V Characterstics of Power Mosfet
+
+
 	
 # <h1 id="header-r">References</h1>
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
