@@ -457,8 +457,17 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 #### Output Graph
 ![image](https://user-images.githubusercontent.com/120498080/214111775-1ac28edd-09b0-46e7-9fd6-4ead60d1173e.png)
 
-# Week 3
-
+# Week 3: MOSFET Characterisation
+	In this week we tried to characterise Power mosfet.
+	
+	## Required component:
+	
+	1. Keithley 2636B SMU
+	2. Triax Cables
+	3. Power Mosfets (IRF 640 N, IRF 630 N)
+	4. Breadboard and connectors
+	
+	## Theory: MOS IV Characterstics (V </sub> DS <sub> vs I </sub> D <sub>)
 	
 	
 # <h1 id="header-r">References</h1>
