@@ -467,8 +467,18 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 	3. Power Mosfets (IRF 640 N, IRF 630 N)
 	4. Breadboard and connectors
 	
-	## Theory: MOS IV Characterstics (V </sub> DS <sub> vs I </sub> D <sub>)
+	## IRF 640N
 	
+	![image](https://user-images.githubusercontent.com/120498080/215673908-eee9da0c-64bb-4495-88f5-36d2b4d9d1f4.png)
+
+	
+	![image](https://user-images.githubusercontent.com/120498080/215673604-b29148f7-3adc-483a-ae4a-9e1ddb2af319.png)
+        
+	The circuit of the power mosfet is shown below. As we can see these MOSFETs have body diodes. 
+	
+	## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
+	
+	* We used kickstart software to plot the I-V Characterstics of Power Mosfet
 	
 # <h1 id="header-r">References</h1>
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
