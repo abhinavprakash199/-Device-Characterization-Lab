@@ -458,27 +458,28 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 ![image](https://user-images.githubusercontent.com/120498080/214111775-1ac28edd-09b0-46e7-9fd6-4ead60d1173e.png)
 
 # Week 3: MOSFET Characterisation
-	In this week we tried to characterise Power mosfet.
+
+In this week we tried to characterise Power mosfet.
 	
-	## Required component:
+## Required component:
 	
-	1. Keithley 2636B SMU
-	2. Triax Cables
-	3. Power Mosfets (IRF 640 N, IRF 630 N)
-	4. Breadboard and connectors
+1. Keithley 2636B SMU
+2. Triax Cables
+3. Power Mosfets (IRF 640 N, IRF 630 N)
+4. Breadboard and connectors
 	
-	## IRF 640N
+## IRF 640N
 	
-	![image](https://user-images.githubusercontent.com/120498080/215673908-eee9da0c-64bb-4495-88f5-36d2b4d9d1f4.png)
+![image](https://user-images.githubusercontent.com/120498080/215673908-eee9da0c-64bb-4495-88f5-36d2b4d9d1f4.png)
 
 	
-	![image](https://user-images.githubusercontent.com/120498080/215673604-b29148f7-3adc-483a-ae4a-9e1ddb2af319.png)
-        
-	The circuit of the power mosfet is shown below. As we can see these MOSFETs have body diodes. 
+![image](https://user-images.githubusercontent.com/120498080/215673604-b29148f7-3adc-483a-ae4a-9e1ddb2af319.png)
+       
+The circuit of the power mosfet is shown below. As we can see these MOSFETs have body diodes. 
 	
-	## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
+## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
 	
-	* We used kickstart software to plot the I-V Characterstics of Power Mosfet
+- We used kickstart software to plot the I-V Characterstics of Power Mosfet
 	
 	
 	
