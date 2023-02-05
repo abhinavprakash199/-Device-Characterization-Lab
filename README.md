@@ -60,6 +60,7 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 * [Week 4: MOSFET Characterisation](#week-4-mosfet-characterisation)
 	- [MOS I-V Characterstics](#mos-i-v-characterstics)
 	- [ERROR:](error)
+* [Week 5: MOSFET Characterisation](#week-4-mosfet-characterisation)
 
 <div class="toc">
   <ul>
@@ -461,7 +462,7 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 ![image](https://user-images.githubusercontent.com/120498080/214111775-1ac28edd-09b0-46e7-9fd6-4ead60d1173e.png)
 
 # Week 4: MOSFET Characterisation
-
+---
 In this week we tried to characterise Power mosfet.
 	
 ## Required component:
@@ -516,6 +517,51 @@ The setting which we kept in the kickstart software.
 - While sweeping V<sub> GS </sub> vs I<sub> D </sub> we faced following error i.e., TSP link cable are required for pulse mode operation.
 	
 ![image](https://user-images.githubusercontent.com/120498080/215686506-87769fc9-f906-450e-97af-b42cfbb41b6c.png)	
+
+# Week 5: MOSFET Characterisation
+---
+- This wee we characterize 2N7000 N- Channel Depletion type MOSFET.
+- This MOSFET is the second generation of STMicroelectronics unique “Single Feature Size” strip-based process. The resulting transistor shows extremely high packing density for low on-resistance, rugged avalanche characteristics and less critical alignment steps therefore a remarkable manufacturing reproducibility.
+
+## Required component:
+	
+1. Device Analyzer B1500
+2. Triax Cables
+3. N- Channel Depletion FET(2N7000).
+4. Breadboard and connectors.
+
+## Device Analyzer B1500
+
+## 2N7000 FET
+
+## MOS I-Vd Characterstics 
+
+![2N7000 Id vs Vd](https://user-images.githubusercontent.com/120498080/216812381-eab6cfcb-825f-4fbf-871d-59233828a28e.png)
+
+## MOS I-Vg Characterstics 
+
+![id vs vg](https://user-images.githubusercontent.com/120498080/216812596-aa9cd1a8-0ae8-4d46-b527-19a834e7e4e4.jpg)
+
+## MOS log(I)-Vg Characterstics 
+
+![log idvsvg](https://user-images.githubusercontent.com/120498080/216812650-3f5999d4-4e1d-4e11-96ca-14dcb6b78d00.jpg)
+
+## MOS gm-Vg Characterstics 
+
+![gmvsvg](https://user-images.githubusercontent.com/120498080/216812705-583b637a-a43b-40eb-bc8e-52acbeb20483.jpg)
+
+## MOS HFCV Characterstics 
+
+![hfcv](https://user-images.githubusercontent.com/120498080/216813202-5515ffb2-71c7-47fa-a907-e9a676b95e7f.jpg)
+
+### Inference from the above plots:
+
+
+
+
+
+
+
 
 # <h1 id="header-r">References</h1>
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
