@@ -525,14 +525,14 @@ The setting which we kept in the kickstart software.
 
 # Week 5: MOSFET Characterisation
 ---
-- This wee we characterize 2N7000 N- Channel Enhancement type MOSFET.
+- This week we characterise 2N7000 N - Channel Enhancement type MOSFET.
 - This MOSFET is the second generation of STMicroelectronics unique “Single Feature Size” strip-based process. The resulting transistor shows extremely high packing density for low on-resistance, rugged avalanche characteristics and less critical alignment steps therefore a remarkable manufacturing reproducibility.
 
 ## Required component:
 	
 1. Device Analyzer B1500
 2. Triax Cables
-3. N- Channel Enhancement FET(2N7000).
+3. N - Channel Enhancement MOSFET(2N7000).
 4. Breadboard and connectors.
 
 ## Device Analyzer B1500
@@ -543,23 +543,18 @@ The Keysight B1500A semiconductor parameter analyzer is an all-in-one device cha
 ![B1500_FL_TRANS_SHAD_2016April13](https://user-images.githubusercontent.com/120498080/217153264-21332b77-ab89-4d45-afc1-3dc17cd4f7cc.png)
 
 	
-## 2N7000 FET
+## 2N7000 MOSFET
 	
 2N7000 is a small signal N-channel MOSFET. MOSFET's are power electronic switches just like transistors, but with a higher current and voltage rating. The 2N7000 MOSFET can be used to switch loads which operates on less than 60V (VDS) and 200mA (ID).2N7000 is a small signal N-channel MOSFET. MOSFET's are power electronic switches just like transistors, but with a higher current and voltage rating. The 2N7000 MOSFET can be used to switch loads which operates on less than 60V (VDS) and 200mA (ID).
 
 This mosfet has a threshold voltage of 3V, hence if you looking for a small mosfet to switch a load then this IC could suit your purpose.
 	
-![Pinout-of-2N7000-N-channel-MOSFET](https://user-images.githubusercontent.com/120498080/217152678-2bff1462-b71f-4959-a62a-e7e7c0214844.png)
+![Pinout-of-2N7000-N-channel-Enhancement-MOSFET](https://user-images.githubusercontent.com/120498080/217152678-2bff1462-b71f-4959-a62a-e7e7c0214844.png)
 	
-- [2N7000 FET Data Sheet](https://www.st.com/resource/en/datasheet/cd00005134.pdf)
+- [2N7000 MOSFET Data Sheet](https://www.st.com/resource/en/datasheet/cd00005134.pdf)
 	
-## MOS I-Vd Characterstics 
 
-![2N7000 Id vs Vd](https://user-images.githubusercontent.com/120498080/216812381-eab6cfcb-825f-4fbf-871d-59233828a28e.png)
-
-- In our Device Analyzer we where limited with corrent of 100mA so we not get a graph after 100nA of current.
-
-## MOS I-Vg Characterstics 
+## MOSFET Id - Vg Characterstics 
 
 ![id vs vg](https://user-images.githubusercontent.com/120498080/216812596-aa9cd1a8-0ae8-4d46-b527-19a834e7e4e4.jpg)
 
@@ -567,10 +562,19 @@ This mosfet has a threshold voltage of 3V, hence if you looking for a small mosf
 	
 ![image](https://user-images.githubusercontent.com/120498080/217154007-9f4c297b-f015-4b44-bfbd-b15ab70476dd.png)
 
+	
+## MOSFET Id - Vd Characterstics 
 
-## MOS log(I)-Vg Characterstics 
+- We have plotted drain current while sweeping the drain voltage from 0 to 10 V for different values of Vgs. From the plot we can infer that our plot is mainly restricted by the current limitations of the the device analyser i.e., 100 mA. 
+![2N7000 Id vs Vd](https://user-images.githubusercontent.com/120498080/216812381-eab6cfcb-825f-4fbf-871d-59233828a28e.png)
+
+
+## MOS log(Id) - Vg Characterstics 
 
 ![log idvsvg](https://user-images.githubusercontent.com/120498080/216812650-3f5999d4-4e1d-4e11-96ca-14dcb6b78d00.jpg)
+
+	From the above we can calculate the I <sub> off </sub> (off current) and subthreshold swing.
+	**I <sub> off </sub> (off current) = 10 pA**
 
 ## MOS gm-Vg Characterstics 
 
