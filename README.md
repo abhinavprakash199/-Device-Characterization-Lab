@@ -540,7 +540,7 @@ The Keysight B1500A semiconductor parameter analyzer is an all-in-one device cha
 
  It provides a wide range of measurement capabilities to cover the electrical characterization and evaluation of devices, materials, semiconductors, active/passive components, or virtually any other type of electronic device with uncompromised measurement reliability and efficiency. The B1500A modular architecture gives you the flexibility to upgrade when needed.
 
-![B1500_FL_TRANS_SHAD_2016April13](https://user-images.githubusercontent.com/120498080/217153054-346bc5ae-fcc2-4be0-a34b-c320837c62a9.png)
+![B1500_FL_TRANS_SHAD_2016April13](https://user-images.githubusercontent.com/120498080/217153264-21332b77-ab89-4d45-afc1-3dc17cd4f7cc.png)
 
 	
 ## 2N7000 FET
