@@ -61,9 +61,11 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 	- [MOS I-V Characterstics](#mos-i-v-characterstics)
 	- [ERROR:](error)
 * [Week 5: MOSFET Characterisation](#week-5-mosfet-characterisation)
-	- [MOS I-V Characterstics](#mos-i-v-characterstics)
+	- [MOS I-Vd Characterstics](#MOS I-Vd Characterstics)
 	- [MOS I-Vg Characterstics](#MOS-I-Vg-Characterstics)
-	- 
+	- [MOS log(I)-Vg Characterstics](#MOS-log(I)-Vg-Characterstics)
+	- [MOS gm-Vg Characterstics](#MOS-gm-Vg-Characterstics)
+	- [MOS HFCV Characterstics](#MOS-HFCV-Characterstics)
 
 <div class="toc">
   <ul>
@@ -534,9 +536,18 @@ The setting which we kept in the kickstart software.
 4. Breadboard and connectors.
 
 ## Device Analyzer B1500
+The Keysight B1500A semiconductor parameter analyzer is an all-in-one device characterization analyzer supporting IV, CV, pulse/dynamic IV and more. The mainframe and plug-in modules enable the characterization of most electronic devices, as well as materials, semiconductors, and active/passive components.
 
+ It provides a wide range of measurement capabilities to cover the electrical characterization and evaluation of devices, materials, semiconductors, active/passive components, or virtually any other type of electronic device with uncompromised measurement reliability and efficiency. The B1500A modular architecture gives you the flexibility to upgrade when needed.
+	
 ## 2N7000 FET
+	
+2N7000 is a small signal N-channel MOSFET. MOSFET's are power electronic switches just like transistors, but with a higher current and voltage rating. The 2N7000 MOSFET can be used to switch loads which operates on less than 60V (VDS) and 200mA (ID).2N7000 is a small signal N-channel MOSFET. MOSFET's are power electronic switches just like transistors, but with a higher current and voltage rating. The 2N7000 MOSFET can be used to switch loads which operates on less than 60V (VDS) and 200mA (ID).
 
+This mosfet has a threshold voltage of 3V, hence if you looking for a small mosfet to switch a load then this IC could suit your purpose.
+	
+- [2N7000 FET Data Sheet](https://www.st.com/resource/en/datasheet/cd00005134.pdf)
+	
 ## MOS I-Vd Characterstics 
 
 ![2N7000 Id vs Vd](https://user-images.githubusercontent.com/120498080/216812381-eab6cfcb-825f-4fbf-871d-59233828a28e.png)
@@ -570,6 +581,7 @@ The setting which we kept in the kickstart software.
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
 - [RMT2054 Oscilloscope Manual](https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_common_library/dl_manuals/gb_1/r/rtm_1/rtm1000_2000/rtm1000_1/RTM_UserManual_en.pdf)
 - [Wayne Kerr LCR meter 4300 Series Manual](https://www.waynekerrtest.com/datasheet/instruments/wk4300.pdf)
+- [Device Analyzer B1500 Manual](https://www.keysight.com/us/en/assets/9018-01850/user-manuals/9018-01850.pdf)
 # <h1 id="header-a">Acknowledgement</h1>
 - [Dr. Naresh Kumar Emani](https://www.iith.ac.in/ee/naresh/)
 
