@@ -558,34 +558,41 @@ This mosfet has a threshold voltage of 3V, hence if you looking for a small mosf
 
 ![id vs vg](https://user-images.githubusercontent.com/120498080/216812596-aa9cd1a8-0ae8-4d46-b527-19a834e7e4e4.jpg)
 
-- We got a Vt of 1.8V 
+- By the above plot we can conclude that the threshold voltage **V<sub>th</sub> = 1.8V.**
 	
+According to the Datasheet.
+
 ![image](https://user-images.githubusercontent.com/120498080/217154007-9f4c297b-f015-4b44-bfbd-b15ab70476dd.png)
 
 	
 ## MOSFET Id - Vd Characterstics 
 
 - We have plotted drain current while sweeping the drain voltage from 0 to 10 V for different values of Vgs. From the plot we can infer that our plot is mainly restricted by the current limitations of the the device analyser i.e., 100 mA. 
+	
 ![2N7000 Id vs Vd](https://user-images.githubusercontent.com/120498080/216812381-eab6cfcb-825f-4fbf-871d-59233828a28e.png)
 
 
-## MOS log(Id) - Vg Characterstics 
+## MOSFET log(Id) - Vg Characterstics 
 
 ![log idvsvg](https://user-images.githubusercontent.com/120498080/216812650-3f5999d4-4e1d-4e11-96ca-14dcb6b78d00.jpg)
 
-From the above we can calculate the I <sub>off</sub> (off current) and subthreshold swing.
-**I <sub>off</sub> (off current) = 10 pA**
+- From the above plot we can calculate the I <sub>off</sub> (off current) and subthreshold swing.
 
-## MOS gm-Vg Characterstics 
+          * **I <sub>off</sub> (off current) = 10 pA**
+
+          * **Subthreshold Swing = 166 mV/dec**
+
+## MOS gm - Vg Characterstics 
+	
+Again we got restricted by the current limit of the Device Analyzer.
 
 ![gmvsvg](https://user-images.githubusercontent.com/120498080/216812705-583b637a-a43b-40eb-bc8e-52acbeb20483.jpg)
 
-## MOS HFCV Characterstics 
+## MOS Hf - CV Characterstics 
 
 ![hfcv](https://user-images.githubusercontent.com/120498080/216813202-5515ffb2-71c7-47fa-a907-e9a676b95e7f.jpg)
 
 ### Inference from the above plots:
-
 
 
 
