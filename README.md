@@ -61,6 +61,9 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 	- [MOS I-V Characterstics](#mos-i-v-characterstics)
 	- [ERROR:](error)
 * [Week 5: MOSFET Characterisation](#week-4-mosfet-characterisation)
+	- [MOS I-V Characterstics](#mos-i-v-characterstics)
+	- [MOS I-Vg Characterstics](#MOS-I-Vg-Characterstics)
+	- 
 
 <div class="toc">
   <ul>
@@ -520,14 +523,14 @@ The setting which we kept in the kickstart software.
 
 # Week 5: MOSFET Characterisation
 ---
-- This wee we characterize 2N7000 N- Channel Depletion type MOSFET.
+- This wee we characterize 2N7000 N- Channel Enhancement type MOSFET.
 - This MOSFET is the second generation of STMicroelectronics unique “Single Feature Size” strip-based process. The resulting transistor shows extremely high packing density for low on-resistance, rugged avalanche characteristics and less critical alignment steps therefore a remarkable manufacturing reproducibility.
 
 ## Required component:
 	
 1. Device Analyzer B1500
 2. Triax Cables
-3. N- Channel Depletion FET(2N7000).
+3. N- Channel Enhancement FET(2N7000).
 4. Breadboard and connectors.
 
 ## Device Analyzer B1500
