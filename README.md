@@ -557,9 +557,16 @@ This mosfet has a threshold voltage of 3V, hence if you looking for a small mosf
 
 ![2N7000 Id vs Vd](https://user-images.githubusercontent.com/120498080/216812381-eab6cfcb-825f-4fbf-871d-59233828a28e.png)
 
+- In our Device Analyzer we where limited with corrent of 100mA so we not get a graph after 100nA of current.
+
 ## MOS I-Vg Characterstics 
 
 ![id vs vg](https://user-images.githubusercontent.com/120498080/216812596-aa9cd1a8-0ae8-4d46-b527-19a834e7e4e4.jpg)
+
+- We got a Vt of 1.8V 
+	
+![image](https://user-images.githubusercontent.com/120498080/217154007-9f4c297b-f015-4b44-bfbd-b15ab70476dd.png)
+
 
 ## MOS log(I)-Vg Characterstics 
 
