@@ -573,8 +573,8 @@ This mosfet has a threshold voltage of 3V, hence if you looking for a small mosf
 
 ![log idvsvg](https://user-images.githubusercontent.com/120498080/216812650-3f5999d4-4e1d-4e11-96ca-14dcb6b78d00.jpg)
 
-	From the above we can calculate the I <sub> off </sub> (off current) and subthreshold swing.
-	**I <sub> off </sub> (off current) = 10 pA**
+	From the above we can calculate the I <sub>off</sub> (off current) and subthreshold swing.
+	**I <sub>off</sub> (off current) = 10 pA**
 
 ## MOS gm-Vg Characterstics 
 
