@@ -582,18 +582,27 @@ According to the Datasheet.
 
 **Subthreshold Swing = 166 mV/dec**
 
-## MOS gm - Vg Characterstics 
+## MOSFET gm - Vg Characterstics 
 	
 Again we got restricted by the current limit of the Device Analyzer.
 
 ![gmvsvg](https://user-images.githubusercontent.com/120498080/216812705-583b637a-a43b-40eb-bc8e-52acbeb20483.jpg)
 
-## MOS Hf - CV Characterstics 
+## MOSFET Hf - CV Characterstics 
+	
+- Theoretically
+
+At high frequency our Gate voltage varries rapidly, in response the this the inversion charge does not respond. This is due to the fact that minority charge carrier require some time for being generated in the bluk. Hence there is no generation and recombination at high frequency in inversion region.  
 
 ![hfcv](https://user-images.githubusercontent.com/120498080/216813202-5515ffb2-71c7-47fa-a907-e9a676b95e7f.jpg)
 
 ### Inference from the above plots:
 
+- We don't get the desired CV plot as per theory at high frequency. This can be due to the fact that drain and source are large reservior of minority carrier and during high frequency switching of the GATE voltage these reservior assist in the formation of genration and recombination (in the sense that these provide the MOSFET with minority carrier which according to theory are deficient in the device), hence we get the above curve. 
+	
+- The above curve is shifted from the orgin this can be due to the presence of fixed charges present in Si - SiO<sub>2</sub> interface  or the work function difference between metal and semiconductor.
+	
+- We can also calculate the value of Cox, Cdmin, Wdmax, etc. (if the material properties and dimensions are given).
 
 
 
