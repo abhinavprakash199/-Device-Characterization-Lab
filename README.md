@@ -578,9 +578,9 @@ According to the Datasheet.
 
 - From the above plot we can calculate the I <sub>off</sub> (off current) and subthreshold swing.
 
-          * **I <sub>off</sub> (off current) = 10 pA**
+**I <sub>off</sub> (off current) = 10 pA**
 
-          * **Subthreshold Swing = 166 mV/dec**
+**Subthreshold Swing = 166 mV/dec**
 
 ## MOS gm - Vg Characterstics 
 	
