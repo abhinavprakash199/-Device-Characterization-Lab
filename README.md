@@ -643,12 +643,9 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 - By the above plot we can conclude that the threshold voltage **V<sub>th</sub> = 1.2V.**
 	
-![id vg -5to5](https://user-images.githubusercontent.com/120498080/218644299-37fc2f29-bfea-421a-a908-5c76b2b649dd.jpg)
+### MOSFET Id - Vg Characterstics from -5 to +5V
 	
-### MOSFET Id - Vd Characterstics from -5 to +5V
-
-- We have plotted drain current while sweeping the drain voltage from 0 to 5 V for different values of Vgs. 
-
+![id vg -5to5](https://user-images.githubusercontent.com/120498080/218644299-37fc2f29-bfea-421a-a908-5c76b2b649dd.jpg)
 
 ## MOSFET log(Id) - Vg Characterstics 
 
@@ -669,27 +666,29 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 - We got a theshold voltage of 0.9V
 
+## MOSFET Id - Vg for varing Vb Characterstics 	
+	
+- We plotted Id - Vg by changing the value of body voltage.
+	
+	
+## MOSFET Id - Vd Characterstics 
 
+- We have plotted drain current while sweeping the drain voltage from 0 to 5 V for different values of Vgs. 
+	
+![IDVD](https://user-images.githubusercontent.com/120498080/218650265-a8389e64-ef2d-41fa-b5cd-034bdfda974f.jpg)
 
+	
 
 
 
 
 ## MOSFET Hf - CV Characterstics 
 	
-- Theoretically
+![cv lcr cable](https://user-images.githubusercontent.com/120498080/218648905-736fb0d2-f7a6-4d8a-8db8-8cb1ba2e673f.jpg)
+ 
+- We tried to plot CV curve but we where unsuccessful and we where getting plot from -2 to +5V insted of -5 to +5V. Also we where fetting negative value of capacitance.
+- So next week we will try to figure it out.
 
-At high frequency our Gate voltage varries rapidly, in response the this the inversion charge does not respond. This is due to the fact that minority charge carrier require some time for being generated in the bluk. Hence there is no generation and recombination at high frequency in inversion region.  
-
-![hfcv](https://user-images.githubusercontent.com/120498080/216813202-5515ffb2-71c7-47fa-a907-e9a676b95e7f.jpg)
-
-### Inference from the above plots:
-
-- We don't get the desired CV plot as per theory at high frequency. This can be due to the fact that drain and source are large reservior of minority carrier and during high frequency switching of the GATE voltage these reservior assist in the formation of genration and recombination (in the sense that these provide the MOSFET with minority carrier which according to theory are deficient in the device), hence we get the above curve. 
-	
-- The above curve is shifted from the orgin this can be due to the presence of fixed charges present in Si - SiO<sub>2</sub> interface  or the work function difference between metal and semiconductor.
-	
-- We can also calculate the value of Cox, Cdmin, Wdmax, etc. (if the material properties and dimensions are given).
 
 
 
