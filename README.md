@@ -61,9 +61,10 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 	- [MOS I-V Characterstics](#mos-i-v-characterstics)
 	- [ERROR:](error)
 * [Week 5: IRF640N MOSFET Characterisation](#week-5-mosfet-characterisation)
-	- [MOSFET I-Vd Characterstics](#MOSFET-I-Vd-Characterstics)
-	- [MOSFET I-Vg Characterstics](#MOSFET-I-Vg-Characterstics)
-	- [MOSFET log(I)-Vg Characterstics](#MOSFET-log(I)-Vg-Characterstics)
+	- [Device Analyzer B1500](#Device-Analyzer-B1500)
+	- [MOSFET Id-Vg Characterstics ](#MOSFET-Id-Vg-Characterstics )
+	- [MOSFET I-Vd Characterstics](#MOSFET-Id-Vg-Characterstics )
+	- [MOSFET log(Id)-Vg Characterstics](#MOSFET-log(Id)-Vg-Characterstics)
 	- [MOSFET gm-Vg Characterstics](#MOSFET-gm-Vg-Characterstics)
 	- [MOSFET HFCV Characterstics](#MOSFET-HFCV-Characterstics)
 * [Week 6: CD4007 MOSFET Characterisation](#week-6-mosfet-characterisation)
@@ -493,7 +494,8 @@ The circuit of the power mosfet is shown below. As we can see these MOSFETs have
 
 - [IRF640N Data Sheet](https://drive.google.com/file/d/15YuPCNSOz5lKfFQQqb9ehjZzHD9DQ96F/view?usp=sharing)
 
-## MOS I-V Characterstics (V <sub> DS </sub> vs I <sub> D </sub>)
+## MOS I-V Characterstics 
+### (V <sub> DS </sub> vs I <sub> D </sub>)
 
 -  We used kickstart software to plot the I-V Characterstics of Power Mosfet.
 
@@ -560,7 +562,7 @@ This mosfet has a threshold voltage of 3V, hence if you looking for a small mosf
 - [2N7000 MOSFET Data Sheet](https://www.st.com/resource/en/datasheet/cd00005134.pdf)
 	
 
-## MOSFET Id - Vg Characterstics 
+## MOSFET Id-Vg Characterstics 
 
 ![id vs vg](https://user-images.githubusercontent.com/120498080/216812596-aa9cd1a8-0ae8-4d46-b527-19a834e7e4e4.jpg)
 
@@ -571,7 +573,7 @@ According to the Datasheet.
 ![image](https://user-images.githubusercontent.com/120498080/217154007-9f4c297b-f015-4b44-bfbd-b15ab70476dd.png)
 
 	
-## MOSFET Id - Vd Characterstics 
+## MOSFET Id-Vd Characterstics 
 
 - We have plotted drain current while sweeping the drain voltage from 0 to 10 V for different values of Vgs. From the plot we can infer that our plot is mainly restricted by the current limitations of the the device analyser i.e., 100 mA. 
 	
