@@ -678,8 +678,9 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 ## nMOS Id-Vd Characterstics 
 
 - We have plotted drain current while sweeping the drain voltage from 0 to 5 V for different values of Vgs. 
-	
-![IDVD](https://user-images.githubusercontent.com/120498080/218650265-a8389e64-ef2d-41fa-b5cd-034bdfda974f.jpg)
+
+![id vd multiple](https://user-images.githubusercontent.com/120498080/218687902-72b12352-a56b-421c-9e02-2d6ed516cc53.jpg)
+
 
 	
 
