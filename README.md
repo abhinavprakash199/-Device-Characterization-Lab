@@ -580,7 +580,7 @@ According to the Datasheet.
 ![2N7000 Id vs Vd](https://user-images.githubusercontent.com/120498080/216812381-eab6cfcb-825f-4fbf-871d-59233828a28e.png)
 
 
-## MOSFET log(Id) - Vg Characterstics 
+## MOSFET log(Id)-Vg Characterstics 
 
 ![log idvsvg](https://user-images.githubusercontent.com/120498080/216812650-3f5999d4-4e1d-4e11-96ca-14dcb6b78d00.jpg)
 
@@ -590,13 +590,13 @@ According to the Datasheet.
 
 **Subthreshold Swing = 166 mV/dec**
 
-## MOSFET gm - Vg Characterstics 
+## MOSFET gm-Vg Characterstics 
 	
 Again we got restricted by the current limit of the Device Analyzer.
 
 ![gmvsvg](https://user-images.githubusercontent.com/120498080/216812705-583b637a-a43b-40eb-bc8e-52acbeb20483.jpg)
 
-## MOSFET Hf - CV Characterstics 
+## MOSFET Hf-CV Characterstics 
 	
 - Theoretically
 
