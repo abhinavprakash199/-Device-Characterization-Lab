@@ -62,17 +62,19 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 	- [ERROR:](error)
 * [Week 5: IRF640N MOSFET Characterisation](#week-5-mosfet-characterisation)
 	- [Device Analyzer B1500](#Device-Analyzer-B1500)
-	- [MOSFET Id-Vg Characterstics ](#MOSFET-Id-Vg-Characterstics )
-	- [MOSFET I-Vd Characterstics](#MOSFET-Id-Vd-Characterstics )
-	- [MOSFET log(Id)-Vg Characterstics](#MOSFET-log(Id)-Vg-Characterstics )
+	- [MOSFET Id-Vg Characterstics ](#MOSFET-Id-Vg-Characterstics)
+	- [MOSFET I-Vd Characterstics](#MOSFET-Id-Vd-Characterstics)
+	- [MOSFET log(Id)-Vg Characterstics](#MOSFET-log(Id)-Vg-Characterstics)
 	- [MOSFET gm-Vg Characterstics](#MOSFET-gm-Vg-Characterstics)
-	- [MOSFET Hf-CV Characterstics](#MOSFET-Hf-CV-Characterstics )
+	- [MOSFET Hf-CV Characterstics](#MOSFET-Hf-CV-Characterstics)
 * [Week 6: CD4007 MOSFET Characterisation](#week-6-mosfet-characterisation)
-	- [MOS I-Vg Characterstics](#MOS-I-Vg-Characterstics)
-	- [MOS log(I)-Vg Characterstics](#MOS-log(I)-Vg-Characterstics)
-	- [MOS gm-Vg Characterstics](#MOS-gm-Vg-Characterstics)
-	- [MOS I-Vd Characterstics](#MOS-I-Vd-Characterstics)
-	- [MOS HFCV Characterstics](#MOS-HFCV-Characterstics)
+	- [MOSFET Id-Vg Characterstics ](#MOSFET-Id-Vg-Characterstics)
+	- [MOSFET log(Id)-Vg Characterstics](#MOSFET-log(Id)-Vg-Characterstics)
+	- [MOSFET gm-Vg Characterstics](#MOSFET-gm-Vg-Characterstics)
+	- [Calculation of threshold voltage](#Calculation-of-threshold-voltage)
+	- [MOSFET Id-Vg for varing Vb Characterstics](#MOSFET-Id-Vg-for-varing-Vb-Characterstics)
+	- [MOSFET I-Vd Characterstics](#MOSFET-Id-Vd-Characterstics)
+	- [MOSFET Hf-CV Characterstics](#MOSFET-Hf-CV-Characterstics)
 
 <div class="toc">
   <ul>
@@ -580,7 +582,7 @@ According to the Datasheet.
 ![2N7000 Id vs Vd](https://user-images.githubusercontent.com/120498080/216812381-eab6cfcb-825f-4fbf-871d-59233828a28e.png)
 
 
-## MOSFET log(Id)-Vg Characterstics 
+## MOSFET log(Id) - Vg Characterstics 
 
 ![log idvsvg](https://user-images.githubusercontent.com/120498080/216812650-3f5999d4-4e1d-4e11-96ca-14dcb6b78d00.jpg)
 
@@ -590,13 +592,13 @@ According to the Datasheet.
 
 **Subthreshold Swing = 166 mV/dec**
 
-## MOSFET gm-Vg Characterstics 
+## MOSFET gm - Vg Characterstics 
 	
 Again we got restricted by the current limit of the Device Analyzer.
 
 ![gmvsvg](https://user-images.githubusercontent.com/120498080/216812705-583b637a-a43b-40eb-bc8e-52acbeb20483.jpg)
 
-## MOSFET Hf-CV Characterstics 
+## MOSFET Hf - CV Characterstics 
 	
 - Theoretically
 
@@ -640,16 +642,16 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 - [CD4007 Dual Complementary Pair Plus Inverter Data Sheet](https://datasheet.octopart.com/CD4007UBE-Harris-datasheet-115824.pdf)
 	
 
-## MOSFET Id-Vg Characterstics 
+## MOSFET Id - Vg Characterstics 
 ![idvg vd](https://user-images.githubusercontent.com/120498080/218643433-eaba8762-7d3a-4d4a-99c2-f52e5996beba.jpg)
 
 - By the above plot we can conclude that the threshold voltage **V<sub>th</sub> = 1.2V.**
 	
-### MOSFET Id-Vg Characterstics from -5 to +5V
+### MOSFET Id - Vg Characterstics from -5 to +5V
 	
 ![id vg -5to5](https://user-images.githubusercontent.com/120498080/218644299-37fc2f29-bfea-421a-a908-5c76b2b649dd.jpg)
 
-## MOSFET log(Id)-Vg Characterstics 
+## MOSFET log(Id) - Vg Characterstics 
 
 ![logid vg vd](https://user-images.githubusercontent.com/120498080/218645437-918f0089-abe8-41c9-8be8-868895e6a5e6.jpg)
 
@@ -659,7 +661,7 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 **Subthreshold Swing = 166 mV/dec**
 
-## MOSFET gm-Vg Characterstics 
+## MOSFET gm - Vg Characterstics 
 	
 ![gm vg vd](https://user-images.githubusercontent.com/120498080/218646138-d08a4f92-be5e-4580-a111-51c2200db020.jpg)
 
@@ -668,12 +670,12 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 - We got a theshold voltage of 0.9V
 
-## MOSFET Id-Vg for varing Vb Characterstics 	
+## MOSFET Id - Vg for varing Vb Characterstics 	
 	
 - We plotted Id - Vg by changing the value of body voltage.
 ![IDVG-VB](https://user-images.githubusercontent.com/120498080/218660315-b265c5f7-9334-430f-905a-f344e580b4ff.jpg)
 	
-## MOSFET Id-Vd Characterstics 
+## MOSFET Id - Vd Characterstics 
 
 - We have plotted drain current while sweeping the drain voltage from 0 to 5 V for different values of Vgs. 
 	
@@ -684,7 +686,7 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 
 
-## MOSFET Hf-CV Characterstics 
+## MOSFET Hf - CV Characterstics 
 	
 ![cv lcr cable](https://user-images.githubusercontent.com/120498080/218648905-736fb0d2-f7a6-4d8a-8db8-8cb1ba2e673f.jpg)
  
