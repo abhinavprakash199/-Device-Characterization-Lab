@@ -657,9 +657,9 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 - From the above plot we can calculate the I <sub>off</sub> (off current) and subthreshold swing.
 
-**I <sub>off</sub> (off current) = 1 pA**
+**I <sub>off</sub> (off current) = 8 pA**
 
-**Subthreshold Swing = 166 mV/dec**
+**Subthreshold Swing = 151 mV/dec**
 
 ## nMOS gm-Vg Characterstics 
 	
@@ -669,6 +669,12 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 ![vt cal](https://user-images.githubusercontent.com/120498080/218646285-ef5e11df-1975-4fae-8353-e3e69ae88dec.jpg)
 
 - We got a theshold voltage of 0.9V
+
+![id vg 100mV](https://user-images.githubusercontent.com/120498080/218691046-45ad7a76-8f4b-4e0e-8329-eac209704ab4.jpg)
+- We took Vds=100mV(linear region) and we got a Vth=1.17V
+
+![id vg 2V](https://user-images.githubusercontent.com/120498080/218691079-eae1ae55-e758-435f-8c6c-1bb75f181e4f.jpg)
+- We took Vds=2V(saturation region) and we got a Vth=2.05V
 
 ## nMOS Id-Vg for varing Vb Characterstics 	
 	
