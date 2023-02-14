@@ -61,16 +61,16 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 	- [MOS I-V Characterstics](#mos-i-v-characterstics)
 	- [ERROR:](error)
 * [Week 5: IRF640N MOSFET Characterisation](#week-5-mosfet-characterisation)
-	- [MOS I-Vd Characterstics](#MOS-I-Vd-Characterstics)
-	- [MOS I-Vg Characterstics](#MOS-I-Vg-Characterstics)
-	- [MOS log(I)-Vg Characterstics](#MOS-log(I)-Vg-Characterstics)
-	- [MOS gm-Vg Characterstics](#MOS-gm-Vg-Characterstics)
-	- [MOS HFCV Characterstics](#MOS-HFCV-Characterstics)
+	- [MOSFET I-Vd Characterstics](#MOSFET-I-Vd-Characterstics)
+	- [MOSFET I-Vg Characterstics](#MOSFET-I-Vg-Characterstics)
+	- [MOSFET log(I)-Vg Characterstics](#MOSFET-log(I)-Vg-Characterstics)
+	- [MOSFET gm-Vg Characterstics](#MOSFET-gm-Vg-Characterstics)
+	- [MOSFET HFCV Characterstics](#MOSFET-HFCV-Characterstics)
 * [Week 6: CD4007 MOSFET Characterisation](#week-6-mosfet-characterisation)
-	- [MOS I-Vd Characterstics](#MOS-I-Vd-Characterstics)
 	- [MOS I-Vg Characterstics](#MOS-I-Vg-Characterstics)
 	- [MOS log(I)-Vg Characterstics](#MOS-log(I)-Vg-Characterstics)
 	- [MOS gm-Vg Characterstics](#MOS-gm-Vg-Characterstics)
+	- [MOS I-Vd Characterstics](#MOS-I-Vd-Characterstics)
 	- [MOS HFCV Characterstics](#MOS-HFCV-Characterstics)
 
 <div class="toc">
@@ -669,7 +669,7 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 ## MOSFET Id - Vg for varing Vb Characterstics 	
 	
 - We plotted Id - Vg by changing the value of body voltage.
-	
+![IDVG-VB](https://user-images.githubusercontent.com/120498080/218660315-b265c5f7-9334-430f-905a-f344e580b4ff.jpg)
 	
 ## MOSFET Id - Vd Characterstics 
 
