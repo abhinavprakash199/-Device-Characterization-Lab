@@ -60,7 +60,13 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 * [Week 4: MOSFET Characterisation](#week-4-mosfet-characterisation)
 	- [MOS I-V Characterstics](#mos-i-v-characterstics)
 	- [ERROR:](error)
-* [Week 5: MOSFET Characterisation](#week-5-mosfet-characterisation)
+* [Week 5: IRF640N MOSFET Characterisation](#week-5-mosfet-characterisation)
+	- [MOS I-Vd Characterstics](#MOS-I-Vd-Characterstics)
+	- [MOS I-Vg Characterstics](#MOS-I-Vg-Characterstics)
+	- [MOS log(I)-Vg Characterstics](#MOS-log(I)-Vg-Characterstics)
+	- [MOS gm-Vg Characterstics](#MOS-gm-Vg-Characterstics)
+	- [MOS HFCV Characterstics](#MOS-HFCV-Characterstics)
+* [Week 6: CD4007 MOSFET Characterisation](#week-6-mosfet-characterisation)
 	- [MOS I-Vd Characterstics](#MOS-I-Vd-Characterstics)
 	- [MOS I-Vg Characterstics](#MOS-I-Vg-Characterstics)
 	- [MOS log(I)-Vg Characterstics](#MOS-log(I)-Vg-Characterstics)
@@ -605,6 +611,85 @@ At high frequency our Gate voltage varries rapidly, in response the this the inv
 - We can also calculate the value of Cox, Cdmin, Wdmax, etc. (if the material properties and dimensions are given).
 
 
+
+
+# Week 6: MOSFET Characterisation
+---
+- This week we characterise N- Channel Enhancement type MOSFET in CD4007 Dual Complementary Pair Plus Inverter which has low current limitations.
+
+## Required component:
+	
+1. Device Analyzer B1500
+2. Triax Cables
+3. CD4007 Dual Complementary Pair Plus Inverter
+4. Breadboard and connectors.
+
+
+## CD4007 Dual Complementary Pair Plus Inverter
+
+![download](https://user-images.githubusercontent.com/120498080/218643129-2cd1afae-4f02-4716-b595-8fa9a5c8a75e.jpg)
+	
+CD4007UB types are comprised of three n-channel and three p-channel enhancement type MOS transistors. The transistor elements are accessible through the package terminals to provide a convenient means for constructing the various typical circuits as shown below
+
+![image](https://user-images.githubusercontent.com/120498080/218642785-271a17ff-ba61-4d90-9cdc-8955196ef12f.png)
+
+This mosfet has approximate values for the threshold voltage of the NMOS in the three cases, which are: 1.6 V, 2.6 V, 3.3 V for V DD = 5 V, 10 V, 15 V respectively. 
+	
+- [CD4007 Dual Complementary Pair Plus Inverter Data Sheet](https://datasheet.octopart.com/CD4007UBE-Harris-datasheet-115824.pdf)
+	
+
+## MOSFET Id - Vg Characterstics 
+![idvg vd](https://user-images.githubusercontent.com/120498080/218643433-eaba8762-7d3a-4d4a-99c2-f52e5996beba.jpg)
+
+- By the above plot we can conclude that the threshold voltage **V<sub>th</sub> = 1.2V.**
+	
+![id vg -5to5](https://user-images.githubusercontent.com/120498080/218644299-37fc2f29-bfea-421a-a908-5c76b2b649dd.jpg)
+	
+### MOSFET Id - Vd Characterstics from -5 to +5V
+
+- We have plotted drain current while sweeping the drain voltage from 0 to 5 V for different values of Vgs. 
+
+
+## MOSFET log(Id) - Vg Characterstics 
+
+![logid vg vd](https://user-images.githubusercontent.com/120498080/218645437-918f0089-abe8-41c9-8be8-868895e6a5e6.jpg)
+
+- From the above plot we can calculate the I <sub>off</sub> (off current) and subthreshold swing.
+
+**I <sub>off</sub> (off current) = 1 pA**
+
+**Subthreshold Swing = 166 mV/dec**
+
+## MOSFET gm - Vg Characterstics 
+	
+![gm vg vd](https://user-images.githubusercontent.com/120498080/218646138-d08a4f92-be5e-4580-a111-51c2200db020.jpg)
+
+## Calculation of threshold voltage
+![vt cal](https://user-images.githubusercontent.com/120498080/218646285-ef5e11df-1975-4fae-8353-e3e69ae88dec.jpg)
+
+- We got a theshold voltage of 0.9V
+
+
+
+
+
+
+
+## MOSFET Hf - CV Characterstics 
+	
+- Theoretically
+
+At high frequency our Gate voltage varries rapidly, in response the this the inversion charge does not respond. This is due to the fact that minority charge carrier require some time for being generated in the bluk. Hence there is no generation and recombination at high frequency in inversion region.  
+
+![hfcv](https://user-images.githubusercontent.com/120498080/216813202-5515ffb2-71c7-47fa-a907-e9a676b95e7f.jpg)
+
+### Inference from the above plots:
+
+- We don't get the desired CV plot as per theory at high frequency. This can be due to the fact that drain and source are large reservior of minority carrier and during high frequency switching of the GATE voltage these reservior assist in the formation of genration and recombination (in the sense that these provide the MOSFET with minority carrier which according to theory are deficient in the device), hence we get the above curve. 
+	
+- The above curve is shifted from the orgin this can be due to the presence of fixed charges present in Si - SiO<sub>2</sub> interface  or the work function difference between metal and semiconductor.
+	
+- We can also calculate the value of Cox, Cdmin, Wdmax, etc. (if the material properties and dimensions are given).
 
 
 
