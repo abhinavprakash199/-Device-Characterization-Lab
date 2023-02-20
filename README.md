@@ -75,6 +75,9 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 	- [nMOS Id-Vg for varing Vb Characterstics](#nMOS-Id-Vg-for-varing-Vb-Characterstics)
 	- [nMOS I-Vd Characterstics](#nMOS-Id-Vd-Characterstics)
 	- [nMOS Hf-CV Characterstics](#nMOS-Hf-CV-Characterstics)
+* [Week 7: CD4007 MOSFET Characterisation](#week-7-mosfet-characterisation)
+	- [pMOS Id-Vg Characterstics ](#pMOS-Id-Vg-Characterstics)
+	- [pMOS log(Id)-Vg Characterstics](#pMOS-log(Id)-Vg-Characterstics)
 
 <div class="toc">
   <ul>
@@ -687,18 +690,57 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 ![id vd multiple](https://user-images.githubusercontent.com/120498080/218687902-72b12352-a56b-421c-9e02-2d6ed516cc53.jpg)
 
-
-	
-
-
-
-
 ## nMOS Hf-CV Characterstics 
 	
 ![cv lcr cable](https://user-images.githubusercontent.com/120498080/218648905-736fb0d2-f7a6-4d8a-8db8-8cb1ba2e673f.jpg)
  
 - We tried to plot CV curve but we where unsuccessful and we where getting plot from -2 to +5V insted of -5 to +5V. Also we where fetting negative value of capacitance.
 - So next week we will try to figure it out.
+
+
+
+# Week 7: MOSFET Characterisation
+---
+- This week we characterise P- Channel Enhancement type MOSFET in CD4007 Dual Complementary Pair Plus Inverter which has low current limitations.
+
+## Required component:
+	
+1. Device Analyzer B1500
+2. Triax Cables
+3. CD4007 Dual Complementary Pair Plus Inverter
+4. Breadboard and connectors.
+
+
+## CD4007 Dual Complementary Pair Plus Inverter
+
+![download](https://user-images.githubusercontent.com/120498080/218643129-2cd1afae-4f02-4716-b595-8fa9a5c8a75e.jpg)
+	
+CD4007UB types are comprised of three n-channel and three p-channel enhancement type MOS transistors. The transistor elements are accessible through the package terminals to provide a convenient means for constructing the various typical circuits as shown below
+
+![image](https://user-images.githubusercontent.com/120498080/218642785-271a17ff-ba61-4d90-9cdc-8955196ef12f.png)
+
+This mosfet has approximate values for the threshold voltage of the NMOS in the three cases, which are: 1.6 V, 2.6 V, 3.3 V for V DD = 5 V, 10 V, 15 V respectively. 
+	
+- [CD4007 Dual Complementary Pair Plus Inverter Data Sheet](https://datasheet.octopart.com/CD4007UBE-Harris-datasheet-115824.pdf)
+	
+
+## pMOS Id-Vg Characterstics 
+![pmos id-vg](https://user-images.githubusercontent.com/120498080/220154041-adf368c7-9c2f-44c1-89b7-52bdcd714583.png)
+
+
+- By the above plot we can conclude that the threshold voltage **V<sub>th</sub> = 1.6V.**
+	
+## pMOS log(Id)-Vg Characterstics 
+
+![log id-vg](https://user-images.githubusercontent.com/120498080/220154336-cff6f3d1-1c3c-462d-9c95-cffe67821d52.png)
+
+
+- From the above plot we can calculate the I <sub>off</sub> (off current) and subthreshold swing.
+
+**I <sub>off</sub> (off current) = 8 pA**
+
+**Subthreshold Swing = 151 mV/dec**
+
 
 
 
