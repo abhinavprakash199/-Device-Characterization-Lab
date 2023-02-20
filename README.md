@@ -728,7 +728,7 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 ![pmos id-vg](https://user-images.githubusercontent.com/120498080/220154041-adf368c7-9c2f-44c1-89b7-52bdcd714583.png)
 
 
-- By the above plot we can conclude that the threshold voltage **V<sub>th</sub> = 1.6V.**
+- By the above plot we can conclude that the threshold voltage **|V<sub>th</sub>| = 1.8V.**
 	
 ## pMOS log(Id)-Vg Characterstics 
 
@@ -737,9 +737,9 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 - From the above plot we can calculate the I <sub>off</sub> (off current) and subthreshold swing.
 
-**I <sub>off</sub> (off current) = 8 pA**
+**I <sub>off</sub> (off current) = 5 pA**
 
-**Subthreshold Swing = 151 mV/dec**
+**|Subthreshold Swing| = 83.34 mV/dec**
 
 
 
