@@ -723,6 +723,10 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 	
 - [CD4007 Dual Complementary Pair Plus Inverter Data Sheet](https://datasheet.octopart.com/CD4007UBE-Harris-datasheet-115824.pdf)
 	
+## Circuit
+
+![IMG_20230219_152156](https://user-images.githubusercontent.com/120498080/220278058-dd80fe56-ed2f-4c08-92b1-22aaea718754.jpg)
+
 
 ## pMOS Id-Vg Characterstics 
 ![pmos id-vg](https://user-images.githubusercontent.com/120498080/220154041-adf368c7-9c2f-44c1-89b7-52bdcd714583.png)
