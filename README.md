@@ -78,7 +78,7 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 * [Week 7: CD4007 MOSFET Characterisation](#week-7-mosfet-characterisation)
 	- [pMOS Id-Vg Characterstics ](#pMOS-Id-Vg-Characterstics)
 	- [pMOS log(Id)-Vg Characterstics](#pMOS-log(Id)-Vg-Characterstics)
-* [Week 8: MOSFET Characterisation](#Week-8:-MOSFET-Characterisation)
+* [Week 8: MOSFET Characterisation](#Week-8-MOSFET-Characterisation)
 	- [In Id-Vg why we got high current at negative voltage of CD4007](#In-Id-Vg-why-we-got-high-current-at-negative-voltage-of-CD4007)
 	- [Designing Inverter of CD4007 IC](#Designing-Inverter-of-CD4007-IC)
 
@@ -762,7 +762,7 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 ![photo_2023-02-28_12-19-57 (2)](https://user-images.githubusercontent.com/120498080/221779761-ba3c303c-f7a5-4e39-9865-4c7510f6a897.jpg)
 - When we give -5V to 5V
 
- ![photo_2023-02-28_12-19-57 (7)](https://user-images.githubusercontent.com/120498080/221779979-d7111ba6-a735-45f4-a320-d83ca23e0ea1.jpg)
+![photo_2023-02-28_12-19-57 (7)](https://user-images.githubusercontent.com/120498080/221779979-d7111ba6-a735-45f4-a320-d83ca23e0ea1.jpg)
 
 
 
