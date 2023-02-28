@@ -745,6 +745,21 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 **|Subthreshold Swing| = 83.34 mV/dec**
 
+# Week 8: MOSFET Characterisation
+---
+## Why we got high current at negative voltage of CD4007
+![Id-Vg -ve NMOS](https://user-images.githubusercontent.com/120498080/221778236-9e99abae-b520-4358-9c81-c4718bc36931.jpg)
+
+## Gate Current
+![photo_2023-02-28_12-19-57](https://user-images.githubusercontent.com/120498080/221778978-6404705b-b100-4ebf-a463-c52193c590c6.jpg)
+
+## Designing Inverter of CD4007 IC
+- When we give 0 to 10V
+
+![photo_2023-02-28_12-19-57 (2)](https://user-images.githubusercontent.com/120498080/221779761-ba3c303c-f7a5-4e39-9865-4c7510f6a897.jpg)
+- When we give -5V to 5V
+
+ ![photo_2023-02-28_12-19-57 (7)](https://user-images.githubusercontent.com/120498080/221779979-d7111ba6-a735-45f4-a320-d83ca23e0ea1.jpg)
 
 
 
