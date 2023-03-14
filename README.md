@@ -81,7 +81,7 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 * [Week 8: MOSFET Characterisation](#Week-8-MOSFET-Characterisation)
 	- [In Id-Vg why we got high current at negative voltage of CD4007](#In-Id-Vg-why-we-got-high-current-at-negative-voltage-of-CD4007)
 	- [Designing Inverter of CD4007 IC](#Designing-Inverter-of-CD4007-IC)
-* [Week 9: MOSFET Characterisation and LDR](#Week-8-MOSFET-Characterisation-and-LDR)
+* [Week 9: MOSFET Characterisation and LDR](#Week-9:-MOSFET-Characterisation-and-LDR)
 	- [Light Dependent Resistor](#Light-Dependent-Resistor)
 	- [STAKING EFFECT](#STAKING-EFFECT)
 
