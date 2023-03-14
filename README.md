@@ -787,7 +787,7 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 ![1 nmos](https://user-images.githubusercontent.com/120498080/224898958-67ef3e49-8f30-4d1a-8c3a-79c09dc1560e.jpg)
 	
 ### Leakage Current in two NMOS in series
-![2 nmos](https://user-images.githubusercontent.com/120498080/224899165-4232f863-bdc5-43dd-a398-1b895eba53b0.jpg
+![2 nmos](https://user-images.githubusercontent.com/120498080/224899849-ebe91950-5abd-494d-adbc-3ca9f42a418d.jpg)
 
 ### Leakage Current in three NMOS in series
 ![3 nmos](https://user-images.githubusercontent.com/120498080/224899280-6eeadc8e-684c-4d4d-b07a-f419e77a2ca9.jpg)
