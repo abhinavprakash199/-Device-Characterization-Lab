@@ -778,8 +778,21 @@ LDR are usually available in 5mm, 8mm, 12mm, and 25mm dimensions.
 
 ### Graph of 12mm LDR
 
-# Week 8: MOSFET Characterisation
+# Week 9: MOSFET Characterisation
 ---
+## STAKING EFFECT	
+Transistor stacking is a technique used in active mode for leakage power reduction. The leakage current decreases when two or more series transistors are turned off, which is known as Stack effect or Self-Reverse bias effect.
+	
+### Leakage Current in one NMOS
+![1 nmos](https://user-images.githubusercontent.com/120498080/224898958-67ef3e49-8f30-4d1a-8c3a-79c09dc1560e.jpg)
+	
+### Leakage Current in two NMOS in series
+![2 nmos](https://user-images.githubusercontent.com/120498080/224899165-4232f863-bdc5-43dd-a398-1b895eba53b0.jpg
+
+### Leakage Current in three NMOS in series
+![3 nmos](https://user-images.githubusercontent.com/120498080/224899280-6eeadc8e-684c-4d4d-b07a-f419e77a2ca9.jpg)
+
+	
 	
 
 
