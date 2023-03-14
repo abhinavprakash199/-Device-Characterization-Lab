@@ -83,7 +83,7 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 	- [Designing Inverter of CD4007 IC](#Designing-Inverter-of-CD4007-IC)
 * [Week 9: MOSFET Characterisation and LDR](#Week-9-MOSFET-Characterisation-and-LDR)
 	- [Light Dependent Resistor](#Light-Dependent-Resistor)
-	- [STAKING EFFECT](#STAKING-EFFECT)
+	- [STAKCING EFFECT](#STAKING-EFFECT)
 
 <div class="toc">
   <ul>
@@ -791,7 +791,7 @@ LDR are usually available in 5mm, 8mm, 12mm, and 25mm dimensions.
 ![image](https://user-images.githubusercontent.com/120498080/224905444-f77d5ac7-8da6-43f7-ad68-ad4e7f90385f.png)
 - Resistance in dark 0.47Mohm 
 
-## STAKING EFFECT	
+## STAKCING EFFECT	
 Transistor stacking is a technique used in active mode for leakage power reduction. The leakage current decreases when two or more series transistors are turned off, which is known as Stack effect or Self-Reverse bias effect.
 	
 ### Leakage Current in one NMOS
