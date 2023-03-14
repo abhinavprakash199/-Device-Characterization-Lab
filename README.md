@@ -795,10 +795,11 @@ LDR are usually available in 3mm and 5mm dimensions.
 Transistor stacking is a technique used in active mode for leakage power reduction. The leakage current decreases when two or more series transistors are turned off, which is known as Stack effect or Self-Reverse bias effect.
 	
 ### Leakage Current in one NMOS
-![1 nmos](https://user-images.githubusercontent.com/120498080/224898958-67ef3e49-8f30-4d1a-8c3a-79c09dc1560e.jpg)
+![1 nmos](https://user-images.githubusercontent.com/120498080/224955865-683c863f-51d9-485c-9126-da265ad62449.jpg)
+
 	
 ### Leakage Current in two NMOS in series
-![2 nmos](https://user-images.githubusercontent.com/120498080/224901301-396754e2-3737-4edd-9ab8-df5fd5be73e1.jpg)
+![2 nmos](https://user-images.githubusercontent.com/120498080/224956050-cdf8ccb7-8ef6-443c-8bc3-ee28b2607191.jpg)
 
 
 	
