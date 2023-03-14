@@ -78,10 +78,12 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 * [Week 7: CD4007 MOSFET Characterisation](#week-7-mosfet-characterisation)
 	- [pMOS Id-Vg Characterstics ](#pMOS-Id-Vg-Characterstics)
 	- [pMOS log(Id)-Vg Characterstics](#pMOS-log(Id)-Vg-Characterstics)
-* [Week 8: MOSFET Characterisation and LDR](#Week-8-MOSFET-Characterisation-and-LDR)
+* [Week 8: MOSFET Characterisation](#Week-8-MOSFET-Characterisation)
 	- [In Id-Vg why we got high current at negative voltage of CD4007](#In-Id-Vg-why-we-got-high-current-at-negative-voltage-of-CD4007)
 	- [Designing Inverter of CD4007 IC](#Designing-Inverter-of-CD4007-IC)
+* [Week 9: MOSFET Characterisation and LDR](#Week-8-MOSFET-Characterisation-and-LDR)
 	- [Light Dependent Resistor](#Light-Dependent-Resistor)
+	- [STAKING EFFECT](#STAKING-EFFECT)
 
 <div class="toc">
   <ul>
@@ -749,7 +751,7 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 **|Subthreshold Swing| = 83.34 mV/dec**
 
-# Week 8: MOSFET Characterisation and LDR
+# Week 8: MOSFET Characterisation
 ---
 ## In Id-Vg why we got high current at negative voltage of CD4007
 ![Id-Vg -ve NMOS](https://user-images.githubusercontent.com/120498080/221778236-9e99abae-b520-4358-9c81-c4718bc36931.jpg)
@@ -765,9 +767,17 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 ![photo_2023-02-28_12-19-57 (7)](https://user-images.githubusercontent.com/120498080/221779979-d7111ba6-a735-45f4-a320-d83ca23e0ea1.jpg)
 
+
+	
+# Week 9: MOSFET Characterisation and LDR
+---
 ## Light Dependent Resistor 
 LDR (Light Dependent Resistor) as the name states is a special type of resistor that works on the photoconductivity principle means that resistance changes according to the intensity of light. Its resistance decreases with an increase in the intensity of light. It is often used as a light sensor, light meter, Automatic street light, and in areas where we need to have light sensitivity. It is also called a Light Sensor.
 
+Light-dependent resistors made with photosensitive semiconductor materials like Cadmium Sulphides (CdS), lead sulfide, lead selenide, indium antimonide, or cadmium selenide and they are placed in a Zig-Zag shape.
+
+CdS is a semiconductor with a band gap of 2.42 eV and a maximum absorption peak of 514 nm wavelength which shows CdS can absorb visible light and UV light within a wavelength of ≤ 514 nm.
+ 
 ![image](https://user-images.githubusercontent.com/120498080/224896560-44818bb4-5268-48d0-ac3d-ec8fb69bb66e.png)
 
 LDR are usually available in 5mm, 8mm, 12mm, and 25mm dimensions.
@@ -780,9 +790,7 @@ LDR are usually available in 5mm, 8mm, 12mm, and 25mm dimensions.
 ### Graph of 12mm LDR
 ![image](https://user-images.githubusercontent.com/120498080/224905444-f77d5ac7-8da6-43f7-ad68-ad4e7f90385f.png)
 - Resistance in dark 0.47Mohm 
-	
-# Week 9: MOSFET Characterisation
----
+
 ## STAKING EFFECT	
 Transistor stacking is a technique used in active mode for leakage power reduction. The leakage current decreases when two or more series transistors are turned off, which is known as Stack effect or Self-Reverse bias effect.
 	
