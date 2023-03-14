@@ -78,7 +78,7 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 * [Week 7: CD4007 MOSFET Characterisation](#week-7-mosfet-characterisation)
 	- [pMOS Id-Vg Characterstics ](#pMOS-Id-Vg-Characterstics)
 	- [pMOS log(Id)-Vg Characterstics](#pMOS-log(Id)-Vg-Characterstics)
-* [Week 8: MOSFET Characterisation](#Week-8-MOSFET-Characterisation)
+* [Week 8: MOSFET Characterisation and LDR](#Week-8-MOSFET-Characterisation-and-LDR)
 	- [In Id-Vg why we got high current at negative voltage of CD4007](#In-Id-Vg-why-we-got-high-current-at-negative-voltage-of-CD4007)
 	- [Designing Inverter of CD4007 IC](#Designing-Inverter-of-CD4007-IC)
 	- [Light Dependent Resistor](#Light-Dependent-Resistor)
@@ -749,7 +749,7 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 
 **|Subthreshold Swing| = 83.34 mV/dec**
 
-# Week 8: MOSFET Characterisation
+# Week 8: MOSFET Characterisation and LDR
 ---
 ## In Id-Vg why we got high current at negative voltage of CD4007
 ![Id-Vg -ve NMOS](https://user-images.githubusercontent.com/120498080/221778236-9e99abae-b520-4358-9c81-c4718bc36931.jpg)
@@ -778,7 +778,9 @@ LDR are usually available in 5mm, 8mm, 12mm, and 25mm dimensions.
 
 ### Graph of 12mm LDR
 
-
+# Week 8: MOSFET Characterisation
+---
+	
 
 
 
