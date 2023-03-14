@@ -780,14 +780,14 @@ CdS is a semiconductor with a band gap of 2.42 eV and a maximum absorption peak 
  
 ![image](https://user-images.githubusercontent.com/120498080/224896560-44818bb4-5268-48d0-ac3d-ec8fb69bb66e.png)
 
-LDR are usually available in 5mm, 8mm, 12mm, and 25mm dimensions.
+LDR are usually available in 3mm and 5mm dimensions.
 
 ![image](https://user-images.githubusercontent.com/120498080/224897517-07ec291b-11ee-45ec-a40b-5c46acba3d91.png)
 
-### Graph of 5mm LDR	
+### Graph of 3mm LDR	
 ![image](https://user-images.githubusercontent.com/120498080/224905198-d36faca9-8866-4d06-8202-2a3b3054a491.png)
 - Resistance in dark 3.33Mohm 
-### Graph of 12mm LDR
+### Graph of 5mm LDR
 ![image](https://user-images.githubusercontent.com/120498080/224905444-f77d5ac7-8da6-43f7-ad68-ad4e7f90385f.png)
 - Resistance in dark 0.47Mohm 
 
