@@ -81,6 +81,7 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 * [Week 8: MOSFET Characterisation](#Week-8-MOSFET-Characterisation)
 	- [In Id-Vg why we got high current at negative voltage of CD4007](#In-Id-Vg-why-we-got-high-current-at-negative-voltage-of-CD4007)
 	- [Designing Inverter of CD4007 IC](#Designing-Inverter-of-CD4007-IC)
+	- [Light Dependent Resistor(LDR)](#Light-Dependent-Resistor(LDR))
 
 <div class="toc">
   <ul>
@@ -763,6 +764,17 @@ This mosfet has approximate values for the threshold voltage of the NMOS in the 
 - When we give -5V to 5V
 
 ![photo_2023-02-28_12-19-57 (7)](https://user-images.githubusercontent.com/120498080/221779979-d7111ba6-a735-45f4-a320-d83ca23e0ea1.jpg)
+
+## Light Dependent Resistor(LDR) 
+LDR (Light Dependent Resistor) as the name states is a special type of resistor that works on the photoconductivity principle means that resistance changes according to the intensity of light. Its resistance decreases with an increase in the intensity of light. It is often used as a light sensor, light meter, Automatic street light, and in areas where we need to have light sensitivity. It is also called a Light Sensor.
+
+![image](https://user-images.githubusercontent.com/120498080/224896560-44818bb4-5268-48d0-ac3d-ec8fb69bb66e.png)
+
+LDR are usually available in 5mm, 8mm, 12mm, and 25mm dimensions.
+
+### Graph of 5mm LDR
+
+### Graph of 12mm LDR
 
 
 
