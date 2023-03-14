@@ -772,6 +772,8 @@ LDR (Light Dependent Resistor) as the name states is a special type of resistor 
 
 LDR are usually available in 5mm, 8mm, 12mm, and 25mm dimensions.
 
+![image](https://user-images.githubusercontent.com/120498080/224897517-07ec291b-11ee-45ec-a40b-5c46acba3d91.png)
+
 ### Graph of 5mm LDR
 
 ### Graph of 12mm LDR
