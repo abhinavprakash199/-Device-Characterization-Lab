@@ -37,7 +37,7 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 * [Week 3: Familiarization with Instrumentation](#[Week-3-Familiarization-with-Instrumentation)
 	- [Familiarization to LCR meter](#Familiarization-to-LCR-meter)  
 	- [Comparing values of capacitance in RC circuit by phase and LCR meter](#Comparing-values-of-capacitance-in-RC-circuit-by-phase-and-LCR-meter)
-        - [Comparing values of inductance in RL circuit by phase and LCR meter](#Comparing-values-of-inductance-in-RL-circuit-by-phase-and-LCR-meter)
+	- [Comparing values of inductance in RL circuit by phase and LCR meter](#Comparing-values-of-inductance-in-RL-circuit-by-phase-and-LCR-meter)
         - [Comparing values of 0 ohm in SMU using triax and banana cables](#Comparing-values-of-0-ohm-in-SMU-using-triax-and-banana-cables)
         - [Measuring the values of Ceramic and Electrolytic capacitor using LCR meter](#Measuring-the-values-of-Ceramic-and-Electrolytic-capacitor-using-LCR-meter)
         - [Solving error of week1](#Solving-error-of-week1)
