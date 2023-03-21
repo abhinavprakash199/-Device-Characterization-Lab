@@ -793,7 +793,7 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 #### Photoresist deposition using spin coater
 ![3](https://user-images.githubusercontent.com/120498080/226536057-6c94380e-303c-4193-b583-1e509e976dbd.jpeg)
 	
-- We use Micritech Laserwriter LW405B FOR making the pattern. We used Lens 3 of wavelength of 450B.
+- We use Micritech Laserwriter LW405B FOR making the pattern. We used Lens 3 of wavelength of 405nm.
 ####  Micritech Laserwriter 
 ![4](https://user-images.githubusercontent.com/120498080/226536269-348b4fef-c1c5-49a6-8f3b-b69d5068629b.jpeg)
 
