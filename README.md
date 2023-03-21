@@ -84,18 +84,12 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 * [Week 9: MOSFET Characterisation and LDR](#Week-9-MOSFET-Characterisation-and-LDR)
 	- [Light Dependent Resistor](#Light-Dependent-Resistor)
 	- [STAKCING EFFECT](#STAKING-EFFECT)
+* [Week 10: MOS Cap Fabrication and SRAM](#Week-10-MOS-Cap-Fabrication-and-SRAM)
+	- [MOS Cap Fabrication Steps](#MOS-Cap-Fabrication-Steps)
+	- [SRAM using CD4007 Dual Complementary Pair Plus Inverter](#SRAM-using-CD4007-Dual-Complementary-Pair-Plus-Inverter)
 
-<div class="toc">
-  <ul>
-    <li><a href="#header-r">References</a></li>
-  </ul>
-</div>
-
-<div class="toc">
-  <ul>
-    <li><a href="#header-r">Acknowledgement</a></li>
-  </ul>
-</div>
+* [References](#References)
+* [Acknowledgement](#Acknowledgement)
 
 # <h1 id="header-1">Week 1. Familiarization with Instrumentation</h1> 
 ## <h1 id="header-1_1">Familiarization the functions of SMU (Source Measuring Unit)</h1> 
@@ -828,13 +822,13 @@ Lambda
 
 
 
-# <h1 id="header-r">References</h1>
+# References
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
 - [RMT2054 Oscilloscope Manual](https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_common_library/dl_manuals/gb_1/r/rtm_1/rtm1000_2000/rtm1000_1/RTM_UserManual_en.pdf)
 - [Wayne Kerr LCR meter 4300 Series Manual](https://www.waynekerrtest.com/datasheet/instruments/wk4300.pdf)
 - [Device Analyzer B1500 Manual](https://www.keysight.com/us/en/assets/9018-01850/user-manuals/9018-01850.pdf)
 	
 	
-# <h1 id="header-a">Acknowledgement</h1>
+# Acknowledgement
 - [Dr. Naresh Kumar Emani](https://www.iith.ac.in/ee/naresh/)
 
