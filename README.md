@@ -805,6 +805,15 @@ Transistor stacking is a technique used in active mode for leakage power reducti
  
 ## SRAM using CD4007 Dual Complementary Pair Plus Inverter
 
+#### Pin Diagram and connections
+	
+- HFE4069UB
+![image](https://user-images.githubusercontent.com/120498080/226538470-777105b5-3306-47d7-969c-80d36fc4e6f8.png)
+	
+- CD4007UB
+![image](https://user-images.githubusercontent.com/120498080/226538784-5d4b9ff5-d9cc-41d7-988a-d7364fb053bc.png)
+
+
 #### SRAM Circuit
 ![SRAM](https://user-images.githubusercontent.com/120498080/226531997-c6166952-f324-4c37-9749-4fa897ea3b7d.png)
 
@@ -813,14 +822,6 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 |:---: |:---:| :---:|:---:|:---:|
 | Hold | 5V | 5V | 2.5V | 1.46V|
 |Write | 10V | 5V | 4.56V | 3.56v |
-
-#### Pin Diagram and connections
--HFE4069UB
-![image](https://user-images.githubusercontent.com/120498080/226538470-777105b5-3306-47d7-969c-80d36fc4e6f8.png)
-	
-- CD4007UB
-![image](https://user-images.githubusercontent.com/120498080/226538784-5d4b9ff5-d9cc-41d7-988a-d7364fb053bc.png)
-
 
 
 # References
