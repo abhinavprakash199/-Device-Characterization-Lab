@@ -820,6 +820,7 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 - First two inverters are cross-coupled of the Inverter IC. Then we used two NMOS of CD4007UB as access transistor (NMOS1 - BL - 6(G),7(S),8(D)) (NMOS2 - BL' - 3(G),4(S),5(D)). Word line is given at pin 6 and pin 3 of NMOS. 
 
 - Observation
+
 |STATE |Bit Line| Word Line| Inv1 | Inv2|
 |:---: |:---:| :---:|:---:|:---:|
 | Hold | 5V | 5V | 2.5V | 1.46V|
