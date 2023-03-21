@@ -811,8 +811,8 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 
 |STATE |Bit Line| Word Line| Inv1 | Inv2|
 |:---: |:---:| :---:|:---:|:---:|
-| Hold | | | 2.5V | 1.46V|
-|Write | | | 4.56V | 3.56v |
+| Hold | 5V | 5V | 2.5V | 1.46V|
+|Write | 10V | 5V | 4.56V | 3.56v |
 
 
 
