@@ -802,8 +802,29 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 ![2 nmos](https://user-images.githubusercontent.com/120498080/224956050-cdf8ccb7-8ef6-443c-8bc3-ee28b2607191.jpg)
 
 
-	
-	
+# Week 10: MOS Cap Fabrication and SRAM
+---
+## MOS Cap Fabrication Steps
+- First we clean the wafer using Acetone then Isopropanol Alcohol and then DI water using Ultra Sonic vapour in each step.
+- Then we deposit Positive photoresist(S1813) 4000rpm for 40 sec and use spin coater for uniform deposition followed by postbaking.
+- We use Micritech Laserwriter LW405B FOR making the pattern. We used Lens 3 of 5 um thickness and 760 mJ/cm^2
+#### Pattern
+![1](https://user-images.githubusercontent.com/120498080/226531426-c1b0fa90-2d2a-4fb5-8ae6-ef16082d4ad6.jpeg)
+
+- After writing we use a developer and verify the pattern using microsope.
+761 um thickness
+450B
+Lambda
+ 
+## SRAM using CD4007 Dual Complementary Pair Plus Inverter
+
+#### SRAM Circuit
+![SRAM](https://user-images.githubusercontent.com/120498080/226531997-c6166952-f324-4c37-9749-4fa897ea3b7d.png)
+
+
+
+
+
 
 
 
