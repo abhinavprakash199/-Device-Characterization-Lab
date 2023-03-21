@@ -34,28 +34,13 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
       </ul>
 </div>	
 
-<div class="toc">
-  <ul>
-    <li><a href="#header-3">Week 3. Familiarization with Instrumentation</a></li>
-	  <ul>
-        <li><a href="#header-3_7">Familiarization to LCR meter</a></li>
-      </ul>
-	<ul>
-        <li><a href="#header-3_1">Comparing values of capacitance(in RC circuit) from oscilloscope(by phase) and LCR meter</a></li>
-      </ul>
-      <ul>
-        <li><a href="#header-3_2">Comparing values of inductance(in RL circuit) from oscilloscope(by phase) and LCR meter</a></li>
-      </ul>
-	<ul>
-        <li><a href="#header-3_3">Comparing values of 0 ohm in SMU using triax and banana cables</a></li>
-      </ul>
-      <ul>
-        <li><a href="#header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic capacitor using LCR meter</a></li>
-      </ul>
-	<ul>
-        <li><a href="#header-3_5">Solving error of week1</a></li>
-      </ul>
-</div>	
+* [Week 3: Familiarization with Instrumentation](#[Week-3-Familiarization-with-Instrumentation)
+	- [Familiarization to LCR meter](#Familiarization-to-LCR-meter)      
+	- [Comparing values of capacitance in RC circuit from oscilloscope by phase and LCR meter](#Comparing-values-of-capacitance-in-RC-circuit-from-oscilloscope-by- phase-and-LCR meter)
+        - [Comparing values of inductance in RL circuit from oscilloscope by phase and LCR meter](#Comparing-values-of-inductance-in-RL-circuit-from-oscilloscope-by-phase-and-LCR-meter)
+        - [Comparing values of 0 ohm in SMU using triax and banana cables](#Comparing-values-of-0-ohm-in-SMU-using-triax-and-banana-cables)
+        - [Measuring the values of Ceramic Capacitor and Electrolytic capacitor using LCR meter](#Measuring-the-values-of-Ceramic-Capacitor-and-Electrolytic-capacitor-using-LCR-meter)
+        - [Solving error of week1](#Solving-error-of-week1)
 	
 * [Week 4: MOSFET Characterisation](#week-4-mosfet-characterisation)
 	- [MOS I-V Characterstics](#mos-i-v-characterstics)
@@ -413,8 +398,9 @@ There are some deviation in the measured value and actual values of capacitance 
 
  
 	
-# <h1 id="header-3">Week 3. Familiarization with Instrumentation</h1> 
-## <h1 id="header-3_7">Familiarization to LCR meter</h1>
+# Week 3: Familiarization with Instrumentation
+---
+## Familiarization to LCR meter
 
 An LCR meter is a type of electronic test equipment used to measure the inductance (L), capacitance (C), and resistance (R) of an electronic component.In the simpler versions of this instrument the impedance was measured internally and converted for display to the corresponding capacitance or inductance value. Readings should be reasonably accurate if the capacitor or inductor device under test does not have a significant resistive component of impedance. More advanced designs measure true inductance or capacitance, as well as the equivalent series resistance of capacitors and the Q factor of inductive components.
 
@@ -427,21 +413,21 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 - Two test mode enables consecutive measurements to be made with two different instrument parameters set.
 	
 	
-## <h1 id="header-3_1">Comparing values of capacitance(in RC circuit) from oscilloscope(by phase) and LCR meter</h1> 	
+## Comparing values of capacitance in RC circuit from oscilloscope by phase and LCR meter
 - Selected value of capacitance = 100 nF
 - Selected value of resistance = 1 kΩ
 - Calculated cut off frequency = 1.6 kHz
 	
 ![image](https://user-images.githubusercontent.com/120498080/214089786-4ab670c6-2b00-40ce-9aea-ebdda685f116.png)
 
-## <h1 id="header-3_2">Comparing values of inductance(in RL circuit) from oscilloscope(by phase) and LCR meter</h1>
+## Comparing values of inductance in RL circuit from oscilloscope by phase and LCR meter
 - Selected value of inductance = 1 mH
 - Selected value of resistance = 1 kΩ
 - Calculated cut off frequency = 160 kHz
 	
 ![image](https://user-images.githubusercontent.com/120498080/214082338-690abdcb-8f5d-461e-bb5e-5c85fe0af8f2.png)
 
-## <h1 id="header-3_3">Comparing values of 0 ohm in SMU using triax and banana cables</h1>
+## Comparing values of 0 ohm in SMU using triax and banana cables
 	
 1.**Sourcing Voltage** (Source = 50 mV), Limit to Current = 200 mA
 - 2 wire measurment
@@ -463,7 +449,7 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 #### Obsevation 
 - By using triax cable we found that resistance increases and accuracy decreases.
 	
-## <h1 id="header-3_4">Measuring the values of Ceramic Capacitor and Electrolytic Capacitor using LCR meter</h1>
+## Measuring the values of Ceramic Capacitor and Electrolytic Capacitor using LCR meter
 - We measured the value of Ceramic Capacitor of 100nF and Electrolytic Capacitor of 10uF using LCR meter and we found that it is varrying with respect to frequency.
 
 #### Table 
@@ -471,7 +457,7 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 #### Graph
 ![image](https://user-images.githubusercontent.com/120498080/214244643-bcd4944e-ac54-4d4b-80ce-8e34c3519f1b.png)
 
-## <h1 id="header-3_5">Solving Errors of week1</h1>
+## Solving Errors of week1
 - We program SMU using USB cable in Keithley Test Script Builder.
 	
 ![Screenshot (2202)](https://user-images.githubusercontent.com/120498080/214111557-2773fd3a-b701-4854-b051-b1027aae91c1.png)
@@ -799,9 +785,18 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 # Week 10: MOS Cap Fabrication and SRAM
 ---
 ## MOS Cap Fabrication Steps
-- First we clean the wafer using Acetone then Isopropanol Alcohol and then DI water using Ultra Sonic vapour in each step.
+- First we clean the wafer using Acetone then Isopropanol Alcohol and then DI water using Ultra Sonic vapouriser in each step.
+#### Ultra Sonic Vapour Cleaning
+![2](https://user-images.githubusercontent.com/120498080/226533864-6f8644ea-9c73-40d8-9a69-853bd00f217f.jpeg)
+	
 - Then we deposit Positive photoresist(S1813) 4000rpm for 40 sec and use spin coater for uniform deposition followed by postbaking.
+#### Photoresist deposition using spin coater
+![3](https://user-images.githubusercontent.com/120498080/226536057-6c94380e-303c-4193-b583-1e509e976dbd.jpeg)
+	
 - We use Micritech Laserwriter LW405B FOR making the pattern. We used Lens 3 of 5 um thickness and 760 mJ/cm^2
+####  Micritech Laserwriter 
+![4](https://user-images.githubusercontent.com/120498080/226536269-348b4fef-c1c5-49a6-8f3b-b69d5068629b.jpeg)
+
 #### Pattern
 ![1](https://user-images.githubusercontent.com/120498080/226531426-c1b0fa90-2d2a-4fb5-8ae6-ef16082d4ad6.jpeg)
 
