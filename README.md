@@ -36,10 +36,10 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 
 * [Week 3: Familiarization with Instrumentation](#[Week-3-Familiarization-with-Instrumentation)
 	- [Familiarization to LCR meter](#Familiarization-to-LCR-meter)      
-	- [Comparing values of capacitance in RC circuit from oscilloscope by phase and LCR meter](#Comparing-values-of-capacitance-in-RC-circuit-from-oscilloscope-by- phase-and-LCR meter)
-        - [Comparing values of inductance in RL circuit from oscilloscope by phase and LCR meter](#Comparing-values-of-inductance-in-RL-circuit-from-oscilloscope-by-phase-and-LCR-meter)
+	- [Comparing values of capacitance in RC circuit by phase and LCR meter](#Comparing-values-of-capacitance-in-RC-circuit-by- phase-and-LCR meter)
+        - [Comparing values of inductance in RL circuit by phase and LCR meter](#Comparing-values-of-inductance-in-RL-circuit-by-phase-and-LCR-meter)
         - [Comparing values of 0 ohm in SMU using triax and banana cables](#Comparing-values-of-0-ohm-in-SMU-using-triax-and-banana-cables)
-        - [Measuring the values of Ceramic Capacitor and Electrolytic capacitor using LCR meter](#Measuring-the-values-of-Ceramic-Capacitor-and-Electrolytic-capacitor-using-LCR-meter)
+        - [Measuring the values of Ceramic and Electrolytic capacitor using LCR meter](#Measuring-the-values-of-Ceramic-and-Electrolytic-capacitor-using-LCR-meter)
         - [Solving error of week1](#Solving-error-of-week1)
 	
 * [Week 4: MOSFET Characterisation](#week-4-mosfet-characterisation)
@@ -413,14 +413,14 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 - Two test mode enables consecutive measurements to be made with two different instrument parameters set.
 	
 	
-## Comparing values of capacitance in RC circuit from oscilloscope by phase and LCR meter
+## Comparing values of capacitance from oscilloscope by phase and LCR meter
 - Selected value of capacitance = 100 nF
 - Selected value of resistance = 1 kΩ
 - Calculated cut off frequency = 1.6 kHz
 	
 ![image](https://user-images.githubusercontent.com/120498080/214089786-4ab670c6-2b00-40ce-9aea-ebdda685f116.png)
 
-## Comparing values of inductance in RL circuit from oscilloscope by phase and LCR meter
+## Comparing values of inductance from oscilloscope by phase and LCR meter
 - Selected value of inductance = 1 mH
 - Selected value of resistance = 1 kΩ
 - Calculated cut off frequency = 160 kHz
@@ -449,7 +449,7 @@ An LCR meter is a type of electronic test equipment used to measure the inductan
 #### Obsevation 
 - By using triax cable we found that resistance increases and accuracy decreases.
 	
-## Measuring the values of Ceramic Capacitor and Electrolytic Capacitor using LCR meter
+## Measuring the values of Ceramic and Electrolytic Capacitor using LCR meter
 - We measured the value of Ceramic Capacitor of 100nF and Electrolytic Capacitor of 10uF using LCR meter and we found that it is varrying with respect to frequency.
 
 #### Table 
