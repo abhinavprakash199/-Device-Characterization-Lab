@@ -35,7 +35,7 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 </div>	
 
 * [Week 3: Familiarization with Instrumentation](#[Week-3-Familiarization-with-Instrumentation)
-	- [Familiarization to LCR meter](#Familiarization-to-LCR-meter)      
+	- [Familiarization to LCR meter](#Familiarization-to-LCR-meter)  
 	- [Comparing values of capacitance in RC circuit by phase and LCR meter](#Comparing-values-of-capacitance-in-RC-circuit-by- phase-and-LCR meter)
         - [Comparing values of inductance in RL circuit by phase and LCR meter](#Comparing-values-of-inductance-in-RL-circuit-by-phase-and-LCR-meter)
         - [Comparing values of 0 ohm in SMU using triax and banana cables](#Comparing-values-of-0-ohm-in-SMU-using-triax-and-banana-cables)
@@ -789,11 +789,11 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 #### Ultra Sonic Vapour Cleaning
 ![2](https://user-images.githubusercontent.com/120498080/226533864-6f8644ea-9c73-40d8-9a69-853bd00f217f.jpeg)
 	
-- Then we deposit Positive photoresist(S1813) 4000rpm for 40 sec and use spin coater for uniform deposition followed by postbaking.
+- Then we deposit Positive photoresist(S1813) of thinkness 5 um thickness with 4000rpm for 40 sec and use spin coater for uniform deposition followed by postbaking.
 #### Photoresist deposition using spin coater
 ![3](https://user-images.githubusercontent.com/120498080/226536057-6c94380e-303c-4193-b583-1e509e976dbd.jpeg)
 	
-- We use Micritech Laserwriter LW405B FOR making the pattern. We used Lens 3 of 5 um thickness and 760 mJ/cm^2
+- We use Micritech Laserwriter LW405B FOR making the pattern. We used Lens 3 of wavelength of 450B.
 ####  Micritech Laserwriter 
 ![4](https://user-images.githubusercontent.com/120498080/226536269-348b4fef-c1c5-49a6-8f3b-b69d5068629b.jpeg)
 
@@ -801,9 +801,7 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 ![1](https://user-images.githubusercontent.com/120498080/226531426-c1b0fa90-2d2a-4fb5-8ae6-ef16082d4ad6.jpeg)
 
 - After writing we use a developer and verify the pattern using microsope.
-761 um thickness
-450B
-Lambda
+
  
 ## SRAM using CD4007 Dual Complementary Pair Plus Inverter
 
