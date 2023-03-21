@@ -817,12 +817,18 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 #### SRAM Circuit
 ![SRAM](https://user-images.githubusercontent.com/120498080/226531997-c6166952-f324-4c37-9749-4fa897ea3b7d.png)
 
+- First two inverters are cross-coupled of the Inverter IC. Then we used two NMOS of CD4007UB as access transistor (NMOS1 - BL - 6(G),7(S),8(D)) (NMOS2 - BL' - 3(G),4(S),5(D)). Word line is given at pin 6 and pin 3 of NMOS. 
 
+- Observation
 |STATE |Bit Line| Word Line| Inv1 | Inv2|
 |:---: |:---:| :---:|:---:|:---:|
 | Hold | 5V | 5V | 2.5V | 1.46V|
 |Write | 10V | 5V | 4.56V | 3.56v |
-
+	
+#### Conclusion
+- The noise margin of our inverters are not appropriate to make reading and writing from rail to rail.
+- As the size of NMOS and PMOS of complete circuit is not known one cannot comment of the fact that the access transistors are appropriate for reading and writing. 
+- Additional wire resistance are present due to wiring issues.
 
 # References
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
