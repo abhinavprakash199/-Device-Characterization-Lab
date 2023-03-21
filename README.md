@@ -809,7 +809,10 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 ![SRAM](https://user-images.githubusercontent.com/120498080/226531997-c6166952-f324-4c37-9749-4fa897ea3b7d.png)
 
 
-
+|STATE |Bit Line| Word Line| Inv1 | Inv2|
+|:---: |:---:| :---:|:---:|:---:|
+| Hold | | | 2.5V | 1.46V|
+|Write | | | 4.56V | 3.56v |
 
 
 
