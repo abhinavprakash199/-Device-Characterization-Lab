@@ -831,10 +831,43 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 
 # Week 11: SRAM-Characterisation
 ---
+## INVERTER (HEF4069UBE)
+
+ - Initially the VTC of the inverters is plotted to check if the inverters are working properly or not.
+ - From that we can calculate the noise margin or the inverters.
+ 
+ Noise margin low = V<sub> IL </sub> - V<sub> OL </sub> = 3.5 V
+ Noise margin high = V<sub> OH </sub> - V<sub> IH </sub> = 4.5 V
+ 
+ ![image](https://user-images.githubusercontent.com/120498080/231083407-2e330822-d833-4871-935c-8fe8b841f373.png)
+
+- So, we conclude that the inverters are working fine.
+
+## CROSS - COUPLED INVERTERS
+
+- The cross coupled invertes of the SRAM are used to plot the butterfly curve. 
+- We observe that the for the second inverter the NMOS is not working as we expect it to work. It can be due to the fact that NMOS is stronger in the cross - coupled case. 
+
+![image](https://user-images.githubusercontent.com/120498080/231086548-5e1535c9-7277-483d-a213-795489c86e42.png)
+
+
+- We provided a pulse at the input of first inverter and then measure the output. Following are the observations:- 
+
+- INPUT
+![image](https://user-images.githubusercontent.com/120498080/231090134-3634d8b9-e38d-41dc-a6e4-76a9ee0ea944.png)
+
+- OUTPUT
+![image](https://user-images.githubusercontent.com/120498080/231090298-f9056700-2344-469f-9d24-8f4f9191803d.png)
+
 ## SRAM
 
+- Then again we tried to do it with our designed SRAM, the following results were obtained.
 
+![image](https://user-images.githubusercontent.com/120498080/231091865-1f62ac60-1d04-4ba3-998b-9da75ec489db.png)
 
+The following curve shows that we get certain delay:
+
+![image](https://user-images.githubusercontent.com/120498080/231092093-d157795d-3e19-45f4-8cb3-e3af9423a72f.png)
 
 
 
