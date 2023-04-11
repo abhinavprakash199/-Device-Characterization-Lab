@@ -72,6 +72,8 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 * [Week 10: MOS Cap Fabrication and SRAM](#Week-10-MOS-Cap-Fabrication-and-SRAM)
 	- [MOS Cap Fabrication Steps](#MOS-Cap-Fabrication-Steps)
 	- [SRAM using CD4007 Dual Complementary Pair Plus Inverter](#SRAM-using-CD4007-Dual-Complementary-Pair-Plus-Inverter)
+* [Week 11: SRAM Characterisation](#Week-11-SRAM-Characterisation)
+	- [SRAM](#SRAM)
 
 * [References](#References)
 * [Acknowledgement](#Acknowledgement)
@@ -825,7 +827,22 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 |:---: |:---:| :---:|:---:|:---:|
 | Hold | 5V | 5V | 2.5V | 1.46V|
 |Write | 10V | 5V | 4.56V | 3.56v |
-	
+
+
+# Week 11: SRAM-Characterisation
+---
+## SRAM
+
+
+
+
+
+
+
+
+
+
+
 #### Conclusion
 - The noise margin of our inverters are not appropriate to make reading and writing from rail to rail.
 - As the size of NMOS and PMOS of complete circuit is not known one cannot comment of the fact that the access transistors are appropriate for reading and writing. 
