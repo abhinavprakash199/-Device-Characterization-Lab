@@ -73,7 +73,10 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 	- [MOS Cap Fabrication Steps](#MOS-Cap-Fabrication-Steps)
 	- [SRAM using CD4007 Dual Complementary Pair Plus Inverter](#SRAM-using-CD4007-Dual-Complementary-Pair-Plus-Inverter)
 * [Week 11: SRAM Characterisation](#Week-11-SRAM-Characterisation)
+	- [INVERTER](#INVERTER)
+	- [CROSS - COUPLED INVERTERS](#cross---coupled-inverters)
 	- [SRAM](#SRAM)
+	
 
 * [References](#References)
 * [Acknowledgement](#Acknowledgement)
@@ -865,7 +868,7 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 
 ![image](https://user-images.githubusercontent.com/120498080/231091865-1f62ac60-1d04-4ba3-998b-9da75ec489db.png)
 
-The following curve shows that we get certain delay:
+The following curve shows that we get certain peaking:
 
 ![image](https://user-images.githubusercontent.com/120498080/231092093-d157795d-3e19-45f4-8cb3-e3af9423a72f.png)
 
