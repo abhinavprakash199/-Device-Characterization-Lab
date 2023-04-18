@@ -911,8 +911,15 @@ The following curve shows that we get certain peaking:
 #### 500um box
 ![c-v sweep 1kHz](https://user-images.githubusercontent.com/120498080/232700030-5b341514-9171-438e-827d-266d3fff4016.png)
 - C(ox) = 28.9pF
-- C(dep)
+- C(dep) = 
 ![cv_10k_100k_1M](https://user-images.githubusercontent.com/120498080/232700062-b37e76ff-5477-466f-b2de-2ef7aa9cfc11.png)
+|freq|C(ox)|C(dep)|Xd(max)|
+|:---:|:---:|:---:|:---:|
+|1kHz| | | |
+|10kHz| | | |
+|100kHz| | | |
+|1MHz|  | | |
+ 
 
 
 #### 400um box
