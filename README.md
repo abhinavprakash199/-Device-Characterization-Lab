@@ -875,12 +875,29 @@ The following curve shows that we get certain peaking:
 ![image](https://user-images.githubusercontent.com/120498080/231092093-d157795d-3e19-45f4-8cb3-e3af9423a72f.png)
 
 
+#### Conclusion
+- The noise margin of our inverters are not appropriate to make reading and writing from rail to rail.
+- As the size of NMOS and PMOS of complete circuit is not known one cannot comment of the fact that the access transistors are appropriate for reading and writing. 
+- Additional wire resistance are present due to wiring issues.
+
 # Week 12: MOS Cap Fabrication and Characterisation
 ---
 ## MOS Cap Fabrication
-- [Continue from](https://github.com/abhinavprakash199/-Device-Characterization-Lab/blob/main/README.md#MOS-Cap-Fabrication-Steps)
+- [Refrence](https://github.com/abhinavprakash199/-Device-Characterization-Lab/blob/main/README.md#MOS-Cap-Fabrication-Steps)
+#### Lithography
+![WhatsApp Image 2023-04-18 at 09 54 22](https://user-images.githubusercontent.com/120498080/232671237-ea2708bd-ef26-436f-a91a-90dc1fe07853.jpeg)
 
+- After successfully writing the patters we deposit the Metal(Chromium) of 100nm thickness using Optical Lithography(Power of 150W for 400sec)
+#### Liftoff 
+![WhatsApp Image 2023-04-18 at 09 54 23](https://user-images.githubusercontent.com/120498080/232671263-e3820d6c-740d-4732-b41a-27a9c16e92d2.jpeg)
+
+- Then we liftoff the extra deposited Metal using Acetone.
+- Finally we wash the sample with Isopropanol Alcohol to remove the present Acetone.
 	
+#### Final Sample
+![WhatsApp Image 2023-04-18 at 10 05 30](https://user-images.githubusercontent.com/120498080/232672487-d99709ce-49b8-4451-894f-5b3084cc1a6d.jpeg)
+	
+- Finally we pasted the wafer in the PCB board using silver paste to get access to the Silicon and characterize it in the Probe Station. 
 	
 ## MOS Cap Characterisation
 	
@@ -889,10 +906,6 @@ The following curve shows that we get certain peaking:
 
 
 
-#### Conclusion
-- The noise margin of our inverters are not appropriate to make reading and writing from rail to rail.
-- As the size of NMOS and PMOS of complete circuit is not known one cannot comment of the fact that the access transistors are appropriate for reading and writing. 
-- Additional wire resistance are present due to wiring issues.
 
 # References
 - [**SMU** - Keithley Source Meter 2636B Manual](https://www.manualslib.com/products/Keithley-Sourcemeter-2636b-8711107.html)
