@@ -910,26 +910,40 @@ The following curve shows that we get certain peaking:
 ### Measured Capacitance 
 #### 500um box
 ![c-v sweep 1kHz](https://user-images.githubusercontent.com/120498080/232700030-5b341514-9171-438e-827d-266d3fff4016.png)
-- C(ox) = 28.9pF
-- C(dep) = 
+
 ![cv_10k_100k_1M](https://user-images.githubusercontent.com/120498080/232700062-b37e76ff-5477-466f-b2de-2ef7aa9cfc11.png)
 
 |freq|C(ox)|C(dep)|Xd(max)|
 |:---:|:---:|:---:|:---:|
-|1kHz| | | |
-|10kHz| | | |
-|100kHz| | | |
-|1MHz|  | | |
+|1kHz|28.8pF| 50.6pF |0.524um |
+|10kHz| 28.2pF|32.04 pF |0.820um |
+|100kHz| 26.7pF|31.73 pF |0.873um |
+|1MHz| 24.2pF|28.08pF |0.945um |
  
 
 
 #### 400um box
 ![cv_400u_1k_10k_100k_1M](https://user-images.githubusercontent.com/120498080/232702908-39ee700b-9e6f-499f-89d5-0fe964b08d53.png)
 
+|freq|C(ox)|C(dep)|Xd(max)|
+|:---:|:---:|:---:|:---:|
+|1kHz|18.6pF| 30.12pF |0.564um |
+|10kHz|18.3pF|2.64pF |0.823um |
+|100kHz|17.8pF|19.91pF |0.853um |
+|1MHz| 14.1pF|16.48pF |1.03um |
+ 
 
 #### 300um box
 ![cv_300u_1k_10k_100k_1M](https://user-images.githubusercontent.com/120498080/232703098-581c425e-c78a-4d52-b9a3-fad4bfbd4dc3.png)
 
+
+|freq|C(ox)|C(dep)|Xd(max)|
+|:---:|:---:|:---:|:---:|
+|1kHz|10.7F|17.92pF |0.533um |
+|10kHz| 10.5pF|12.01pF |0.769um |
+|100kHz| 10.2pF|11.47pF |0.833um |
+|1MHz| 7.6pF|6.48pF |1.475um |
+ 
 
 
 
