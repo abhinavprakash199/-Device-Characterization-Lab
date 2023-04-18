@@ -900,7 +900,28 @@ The following curve shows that we get certain peaking:
 - Finally we pasted the wafer in the PCB board using silver paste to get access to the Silicon and characterize it in the Probe Station. 
 	
 ## MOS Cap Characterisation
-	
+### Calculated Capacitance 
+ - ε(SiO2) = 4 
+ - t(ox) = 300nm
+ - **C(ox) = 29.525pF** (for 500um box)
+ - **C(ox) = 18.896pF** (for 400um box)
+ - **C(ox) = 10.629pF** (for 300um box)
+ 
+### Measured Capacitance 
+#### 500um box
+![c-v sweep 1kHz](https://user-images.githubusercontent.com/120498080/232700030-5b341514-9171-438e-827d-266d3fff4016.png)
+- C(ox) = 28.9pF
+- C(dep)
+![cv_10k_100k_1M](https://user-images.githubusercontent.com/120498080/232700062-b37e76ff-5477-466f-b2de-2ef7aa9cfc11.png)
+
+
+#### 400um box
+![cv_400u_1k_10k_100k_1M](https://user-images.githubusercontent.com/120498080/232702908-39ee700b-9e6f-499f-89d5-0fe964b08d53.png)
+
+
+#### 300um box
+![cv_300u_1k_10k_100k_1M](https://user-images.githubusercontent.com/120498080/232703098-581c425e-c78a-4d52-b9a3-fad4bfbd4dc3.png)
+
 
 
 
