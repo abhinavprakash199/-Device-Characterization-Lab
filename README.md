@@ -913,6 +913,7 @@ The following curve shows that we get certain peaking:
 - C(ox) = 28.9pF
 - C(dep) = 
 ![cv_10k_100k_1M](https://user-images.githubusercontent.com/120498080/232700062-b37e76ff-5477-466f-b2de-2ef7aa9cfc11.png)
+
 |freq|C(ox)|C(dep)|Xd(max)|
 |:---:|:---:|:---:|:---:|
 |1kHz| | | |
