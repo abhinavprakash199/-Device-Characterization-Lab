@@ -944,6 +944,10 @@ The following curve shows that we get certain peaking:
 |100kHz| 10.2pF|11.47pF |0.833um |
 |1MHz| 7.6pF|6.48pF |1.475um |
  
+#### At 5MHz
+![cv_5mhz_300u](https://user-images.githubusercontent.com/120498080/232720646-cee676e2-0be4-4fb7-aa7c-d19be79d4a5a.png)
+
+- This is because other capacitance is dominating the MOS Cap Capacitance.
 
 
 
