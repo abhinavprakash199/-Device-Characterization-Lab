@@ -77,8 +77,8 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 	- [CROSS - COUPLED INVERTERS](#cross---coupled-inverters)
 	- [SRAM](#SRAM)
 * [Week 12: MOS Cap Fabrication and Characterisation](#Week-12-MOS-Cap-Fabrication-and-Characterisation)
-	- [MOS Cap Fabrication Steps](#-MOS-Cap-Fabrication- Steps)
-	- [MOS Cap Characterisation](#-MOS-Cap-Characterisation)
+	- [MOS Cap Fabrication Steps](#MOS-Cap-Fabrication-Steps)
+	- [MOS Cap Characterisation](#MOS-Cap-Characterisation)
 
 * [References](#References)
 * [Acknowledgement](#Acknowledgement)
@@ -875,7 +875,14 @@ The following curve shows that we get certain peaking:
 ![image](https://user-images.githubusercontent.com/120498080/231092093-d157795d-3e19-45f4-8cb3-e3af9423a72f.png)
 
 
+# Week 12: MOS Cap Fabrication and Characterisation
+---
+## MOS Cap Fabrication Steps
 
+	
+	
+## MOS Cap Characterisation
+	
 
 
 
