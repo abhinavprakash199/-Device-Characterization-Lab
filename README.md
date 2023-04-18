@@ -76,7 +76,9 @@ Co-authored-by: Abhishek Ranjan <abhi.ranjan5115@gmail.com> --->
 	- [INVERTER](#INVERTER)
 	- [CROSS - COUPLED INVERTERS](#cross---coupled-inverters)
 	- [SRAM](#SRAM)
-	
+* [Week 12: MOS Cap Fabrication and Characterisation](#Week-12-MOS-Cap-Fabrication-and-Characterisation)
+	- [MOS Cap Fabrication Steps](#-MOS-Cap-Fabrication- Steps)
+	- [MOS Cap Characterisation](#-MOS-Cap-Characterisation)
 
 * [References](#References)
 * [Acknowledgement](#Acknowledgement)
