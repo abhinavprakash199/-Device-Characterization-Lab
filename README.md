@@ -808,7 +808,7 @@ Transistor stacking is a technique used in active mode for leakage power reducti
 ![1](https://user-images.githubusercontent.com/120498080/226531426-c1b0fa90-2d2a-4fb5-8ae6-ef16082d4ad6.jpeg)
 
 - After writing we use a developer and verify the pattern using microsope.
-
+#### [Further steps](https://github.com/abhinavprakash199/-Device-Characterization-Lab/blob/main/README.md#MOS-Cap-Fabrication)
  
 ## SRAM using CD4007 Dual Complementary Pair Plus Inverter
 
